@@ -1,0 +1,525 @@
+{
+  "subject": "english",
+  "grade": 3,
+  "chapters": [
+    {
+      "title_km": "មេរៀនទី១ ពាក្យ to be ប្រយោគបច្ចុប្បន្ន និងពាក្យសួរ",
+      "description_km": "រៀនរចនាសម្ព័ន្ធប្រយោគអង់គ្លេសមូលដ្ឋាន am is are ការណ៍ I like និងពាក្យសួរ What Who Where ព្រមទាំងសួរម៉ោង",
+      "lessons": [
+        {
+          "title_km": "ពាក្យ to be៖ am / is / are",
+          "summary_km": "សិស្សជ្រើសរើស am is are បានត្រឹមត្រូវតាមសព្វនាម និងសរសេរប្រយោគខ្លីអំពីខ្លួនឯង",
+          "content_html": "<h3>១. ពន្យល់</h3><p>នៅភាសាអង់គ្លេស ពាក្យ <strong>to be</strong> មានបីរូបគឺ <strong>am</strong> <strong>is</strong> និង <strong>are</strong>។ យើងប្រើ <em>am</em> ក្រោយពាក្យ I តែប៉ុណ្ណោះ ដូចជា «I am Dara = ខ្ញុំឈ្មោះ ដារ៉ា»។ យើងប្រើ <em>is</em> ក្រោយ he she it និងនាមមួយដង្ហើម ដូចជា «He is my brother = គាត់ជាបងប្រុសរបស់ខ្ញុំ» និង «The cat is black = ឆ្មាខ្មៅ»។ យើងប្រើ <em>are</em> ក្រោយ you we they និងនាមពហុវចនា ដូចជា «We are pupils = យើងជាសិស្ស» និង «You are tall = អ្នកខ្ពស់»។ ចំណុចសំខាន់ដែលត្រូវចាំ គឺពាក្យ to be មិនត្រូវការកិរិយាសព្ទបន្ថែមទេ វាគ្រាន់តែភ្ជាប់អ្នកនិយាយនឹងនាម គុណនាម ឬទីកន្លែងប៉ុណ្ណោះ។ សម្រាប់ប្រយោគបដិសេធ យើងដាក់ <strong>not</strong> នៅក្រោយ to be ភ្លាម ដូចជា «She is not here = នាងមិននៅទីនេះទេ»។ សម្រាប់ប្រយោគសួរ យើងផ្លាស់ប្ដូរ to be មកដាក់ពីមុខសព្វនាមវិញ ដូចជា «Are you eight years old? = អ្នកអាយុប្រាំបីឆ្នាំទេ?»។</p><h3>២. ឧទាហរណ៍</h3><table><thead><tr><td>សព្វនាម</td><td>to be</td><td>ប្រយោគអង់គ្លេស</td><td>អត្ថន័យខ្មែរ</td></tr></thead><tbody><tr><td>I</td><td>am</td><td>I am nine years old.</td><td>ខ្ញុំអាយុ ៩ ឆ្នាំ។</td></tr><tr><td>he / she / it</td><td>is</td><td>She is in the classroom.</td><td>នាងនៅក្នុងថ្នាក់រៀន។</td></tr><tr><td>we / they</td><td>are</td><td>They are my friends.</td><td>ពួកគេជាមិត្តរបស់ខ្ញុំ។</td></tr><tr><td>you</td><td>are</td><td>You are a good student.</td><td>អ្នកជាសិស្សល្អ។</td></tr></tbody></table><h3>៣. អនុវត្ត</h3><p>អានប្រយោគខាងលើចំរៀងបីដង ហើយបន្ទាប់មកបំពេញកន្លែងទទេនៅក្នុងសំណួរ។ ចាំចំណុចសំខាន់៖ I ជាមួយ am តែមួយគត់។ សរសេរប្រយោគខ្លីបីអំពីខ្លួនឯង អំពីម្ដាយ និងអំពីមិត្តភក្តិ ដោយប្រើ am is are។</p><h3>៤. សង្ខេប</h3><p>am ក្រោយ I៖ is ក្រោយ he she it និងនាមមួយដង្ហើម៖ are ក្រោយ you we they និងនាមពហុវចនា។ ដាក់ not ក្រោយ to be សម្រាប់បដិសេធ។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ជ្រើសរើសពាក្យត្រូវ៖ «I ___ a pupil.» (ខ្ញុំជាសិស្ស)",
+              "options": [
+                {"id": "A", "text": "Is"},
+                {"id": "B", "text": "Are"},
+                {"id": "C", "text": "Am"},
+                {"id": "D", "text": "Be"}
+              ],
+              "correct": "C",
+              "explanation_km": "ក្រោយសព្វនាម I យើងប្រើ am តែមួយគត់ ដូច្នេះ «I am a pupil» ត្រឹមត្រូវ។",
+              "hint_km": "ចាំ I ជាមួយ am"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "តើពាក្យណាត្រូវក្នុងប្រយោគ «They ___ football players.» (ពួកគេជាកីឡាករបាល់ទាត់)",
+              "options": [
+                {"id": "A", "text": "are"},
+                {"id": "B", "text": "is"},
+                {"id": "C", "text": "am"},
+                {"id": "D", "text": "be"}
+              ],
+              "correct": "A",
+              "explanation_km": "They ជាសព្វនាមពហុវចនា ដូច្នេះត្រូវប្រើ are។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«She is a teacher.» ជាការប្រើ to be ត្រឹមត្រូវ (នាងជាគ្រូបង្រៀន)",
+              "correct": "true",
+              "explanation_km": "She ជាសព្វនាមទី៣ ឯកវចនា ដូច្នេះប្រើ is ត្រឹមត្រូវហើយ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យ to be៖ «The dog ___ small.» (ឆ្វានោះតូច)",
+              "correct": "is",
+              "explanation_km": "The dog ជាសត្វមួយដង្ហើម ស្មើនឹង it ដូច្នេះប្រើ is។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យ to be៖ «We ___ in grade three.» (យើងនៅថ្នាក់បី)",
+              "correct": "are",
+              "explanation_km": "We តែងតែជាមួយ are ក្នុងប្រយោគបច្ចុប្បន្ន។"
+            }
+          ]
+        },
+        {
+          "title_km": "Present Simple៖ I like apples / He likes milk",
+          "summary_km": "សិស្សប្រើ present simple និយាយអំពីការចូលចិត្ត និងបន្ថែម s សម្រាប់ he she it",
+          "content_html": "<h3>១. ពន្យល់</h3><p><strong>Present simple</strong> គឺរចនាសម្ព័ន្ធដែលយើងប្រើនិយាយអំពីអ្វីដែលធ្វើជាប្រចាំ ឬអ្វីដែលជាការពិតទូទៅ។ រចនាសម្ព័ន្ធគឺ សព្វនាម + ពាក្យកិរិយា។ នៅពេលយើងនិយាយអំពីខ្លួនឯង ឬពហុវចនា យើងប្រើពាក្យកិរិយាដើមដដែល ដូច្នេះ «I like apples = ខ្ញុំចូលចិត្តញ៉ាំអាផ្វ័ល» និង «We like rice = យើងចូលចិត្តអង្ករ»។ ប៉ុន្តែនៅពេលអ្នកនិយាយជា he she it ឬមនុស្សមួយនាក់ យើងត្រូវបន្ថែម <strong>s</strong> នៅក្រោយពាក្យកិរិយា ដូច្នេះ «He likes milk = គាត់ចូលចិត្តទឹកដោះគោ» និង «She likes fish = នាងចូលចិត្តត្រី»។ សម្រាប់ប្រយោគបដិសេធ និងប្រយោគសួរ យើងប្រើ <strong>do not / does not</strong> និង <strong>Do / Does</strong> ដូច្នេះ «I do not like coffee = ខ្ញុំមិនចូលចិត្តកាហ្វេ» និង «Does he like chicken? = តើគាត់ចូលចិត្តសាច់មាន់ទេ?»។ ចំណាំ ពេលប្រើ does ហើយ ពាក្យកិរិយាត្រូវលែងបញ្ចូល s វិញ។</p><h3>២. ឧទាហរណ៍</h3><ul><li>«I like apples.» = ខ្ញុំចូលចិត្តញ៉ាំអាផ្វ័ល។</li><li>«He likes milk.» = គាត់ចូលចិត្តទឹកដោះគោ។</li><li>«She plays football every day.» = នាងលេងបាល់ទាត់រាល់ថ្ងៃ។</li><li>«They do not like meat.» = ពួកគេមិនចូលចិត្តសាច់ទេ។</li><li>«Do you like bananas?» = តើអ្នកចូលចិត្តចេកទេ?</li></ul><h3>៣. អនុវត្ត</h3><p>និយាយប្រយោគពីរអំពីអ្វីដែលខ្លួនឯងចូលចិត្ត ហើយពីរទៀតអំពីម្ដាយ ឬឪពុកដែលចូលចិត្តអ្វី។ អានប្រយោគខាងលើសំឡេងឮ រួចបំពេញ s នៅកន្លែងទទេ។ ប្រសិនបើអ្នកច្រឡំ do និង does ចាំថា he she it តែងតែទាមទារ does។</p><h3>៤. សង្ខេប</h3><p>I we you they ប្រើកិរិយាដើម។ He she it បន្ថែម s នៅក្រោយកិរិយា។ បដិសេធប្រើ do not ឬ does not។</p>",
+          "estimated_minutes": 18,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ជ្រើសរើសប្រយោគត្រឹមត្រូវ (ប្រសិនបើ she ចូលចិត្តត្រី)",
+              "options": [
+                {"id": "A", "text": "She like fish."},
+                {"id": "B", "text": "She likes fish."},
+                {"id": "C", "text": "She is like fish."},
+                {"id": "D", "text": "She likesing fish."}
+              ],
+              "correct": "B",
+              "explanation_km": "ពាក្យកិរិយាបន្ថែម s នៅពេលសព្វនាមជា he she it ដូច្នេះ «She likes fish» ត្រឹមត្រូវ។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "«My father ___ tea in the morning.» (ឪពុកខ្ញុំផឹកតែនៅព្រឹក)",
+              "options": [
+                {"id": "A", "text": "drink"},
+                {"id": "B", "text": "drinks"},
+                {"id": "C", "text": "drinking"},
+                {"id": "D", "text": "is drink"}
+              ],
+              "correct": "B",
+              "explanation_km": "My father ស្មើនឹង he ដូច្នេះកិរិយាត្រូវបន្ថែម s គឺ drinks។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«I does not like snake.» ជារចនាសម្ព័ន្ធត្រឹមត្រូវ",
+              "correct": "false",
+              "explanation_km": "ក្រោយ I ត្រូវប្រើ do not មិនមែន does not ទេ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យកិរិយា៖ «He ___ (like) bananas.» (គាត់ចូលចិត្តចេក)",
+              "correct": "likes",
+              "explanation_km": "He ជាសព្វនាមទី៣ ឯកវចនា ដូច្នេះ like បន្ថែម s ក្លាយជា likes។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យជំនួយ៖ «___ you like chicken?» (តើអ្នកចូលចិត្តសាច់មាន់ទេ?)",
+              "correct": "do",
+              "explanation_km": "សម្រាប់ you ប្រយោគសួរ present simple ប្រើ Do នៅដើមប្រយោគ។"
+            }
+          ]
+        },
+        {
+          "title_km": "ពាក្យសួរ What / Who / Where",
+          "summary_km": "សិស្សសួរអំពីអ្វី នរណា និងនៅឯណា ដោយប្រើ What Who Where បានត្រឹមត្រូវ",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ពាក្យសួរក្នុងភាសាអង់គ្លេសហៅថា <strong>question words</strong>។ <strong>What</strong> សួរអំពីអ្វីមួយ ឬរបស់អ្វី ដូច្នេះ «What is your name? = ឈ្មោះអ្នកអ្វី?»។ <strong>Who</strong> សួរអំពីមនុស្ស គឺនរណា ដូច្នេះ «Who is that man? = បុរសនោះនរណា?»។ <strong>Where</strong> សួរអំពីទីកន្លែង គឺនៅឯណា ដូច្នេះ «Where is my book? = សៀវភៅខ្ញុំនៅឯណា?»។ រចនាសម្ព័ន្ធមានបែបដូច្នេះ ពាក្យសួរ + to be ឬ do + សព្វនាម + ផ្នែកនៅសល់។ ចាំថា នៅពេលប្រើពាក្យសួរទាំងបីនេះ ប្រយោគត្រូវបញ្ចប់ដោយសញ្ញាសួរ ? ហើយឆ្លើយតាមពិត មិនមែនឆ្លើយ yes ឬ no ទេ។</p><h3>២. ឧទាហរណ៍</h3><ul><li>«What is this?» = នេះជាអ្វី? ឆ្លើយ «It is a pen.» = វាជាប៊ិចមួយ។</li><li>«Who is your teacher?» = គ្រូរបស់អ្នកនរណា? ឆ្លើយ «She is Ms Lida.» = នាងជាលោកស្រី លីដា។</li><li>«Where is the cat?» = ឆ្មានៅឯណា? ឆ្លើយ «It is under the table.» = វាក្រោយតុ។</li><li>«What do you like?» = អ្នកចូលចិត្តអ្វី? ឆ្លើយ «I like rice.» = ខ្ញុំចូលចិត្តអង្ករ។</li></ul><h3>៣. អនុវត្ត</h3><p>សួរមិត្តរបស់អ្នកបីប្រយោគ មួយដោយ What មួយដោយ Who និងមួយដោយ Where ហើយសរសេរចម្លើយរបស់គាត់ក្នុងសៀវភៅ។ សង្កេតមើលថា ពាក្យសួរតែងស្ថិតនៅដើមប្រយោគទាំងស្រុង។ បើអ្នកចង់ដឹងឈ្មោះមិត្ត សូមប្រើ What។ បើចង់ដឹងថានរណាជាម្ចាស់សៀវភៅ សូមប្រើ Who។ បើចង់ដឹងកន្លែងដែលឆ្មាស្ថិតនៅ សូមប្រើ Where។</p><h3>៤. សង្ខេប</h3><p>What សួរអំពីរបស់ ឬអ្វី។ Who សួរអំពីមនុស្ស។ Where សួរអំពីទីកន្លែង។ ដាក់ពាក្យសួរនៅដើមប្រយោគ និងបញ្ចប់ដោយសញ្ញាសួរ។ ពេលអាន យើងបញ្ចុះសំឡេងនៅចុងប្រយោគសួរ ព្រោះអ្នកស្ដាប់ដឹងភ្លាមថាវាជាសំណួរ។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យសួរណាសមស្រប៖ «___ is your house?» (ផ្ទះអ្នកនៅឯណា?)",
+              "options": [
+                {"id": "A", "text": "What"},
+                {"id": "B", "text": "Who"},
+                {"id": "C", "text": "Where"},
+                {"id": "D", "text": "When"}
+              ],
+              "correct": "C",
+              "explanation_km": "Where ប្រើសួរអំពីទីកន្លែង ដូច្នេះ «Where is your house?» ត្រឹមត្រូវ។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "«Who is that girl?» មានន័យយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "ទុនោះជាអ្វី?"},
+                {"id": "B", "text": "ទុនោះជានរណា?"},
+                {"id": "C", "text": "ទុនោះនៅឯណា?"},
+                {"id": "D", "text": "ទុនោះអាយុប៉ុន្មាន?"}
+              ],
+              "correct": "B",
+              "explanation_km": "Who សួរអំពីមនុស្ស ដូច្នេះប្រយោគនេះសួរថានាងនោះជានរណា។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«What is your name?» ប្រើសួរអំពីឈ្មោះ",
+              "correct": "true",
+              "explanation_km": "What សួរអំពីរបស់ ឬអ្វី ក្នុងករណីនេះសួររកឈ្មោះ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យសួរ៖ «___ is my bag? It is on the table.» (កាបូបខ្ញុំនៅឯណា? វានៅលើតុ)",
+              "correct": "where",
+              "explanation_km": "ចម្លើយបង្ហាញទីកន្លែង ដូច្នេះសំណួរត្រូវប្រើ Where។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យសួរ៖ «___ is that man? He is my father.» (បុរសនោះជានរណា? គាត់ជាឪពុកខ្ញុំ)",
+              "correct": "who",
+              "explanation_km": "ចម្លើយជាមនុស្ស ដូច្នេះប្រើ Who។"
+            }
+          ]
+        },
+        {
+          "title_km": "ម៉ោង៖ What time is it? It is seven o'clock",
+          "summary_km": "សិស្សសួរ និងឆ្លើយម៉ោងជាអង់គ្លេស រួមមាន o'clock និងពាក់កណ្ដាល",
+          "content_html": "<h3>១. ពន្យល់</h3><p>សម្រាប់សួរម៉ោងជាអង់គ្លេស យើងប្រើប្រយោគថេរមួយគឺ «What time is it? = ពេលនេះម៉ោងប៉ុន្មាន?» ឬក៏ «What is the time?»។ ការឆ្លើយយើងចាប់ផ្ដើមដោយ «It is» ហើយបន្ទាប់មកលេខម៉ោង។ ប្រសិនបើម៉ោងពិតប្រាកដ យើងបន្ថែម <strong>o'clock</strong> នៅក្រោយលេខ ដូច្នេះ «It is seven o'clock = ម៉ោងប្រាំពីរពិតប្រាកដ»។ ចំពោះម៉ោងដែលមាននាទី យើងនិយាយលេខម៉ោងពីមុខ បន្ទាប់មកនាទី ដូច្នេះ «It is eight fifteen = ម៉ោងប្រាំបីនិងដប់ប្រាំនាទី»។ ពាក្យ <strong>half past</strong> សំដៅលើពាក់កណ្ដាលម៉ោង ហើយ <strong>quarter past</strong> សំដៅលើដប់ប្រាំនាទីក្រោយម៉ោង។ សម្រាប់ពេលព្រឹក ឬពេលរសៀល យើងបន្ថែម in the morning ឬ in the afternoon ដូច្នេះ «It is seven o'clock in the morning = ម៉ោងប្រាំពីរព្រឹក»។</p><h3>២. ឧទាហរណ៍</h3><table><thead><tr><td>ម៉ោង</td><td>អង់គ្លេស</td><td>ខ្មែរ</td></tr></thead><tbody><tr><td>7:00</td><td>It is seven o'clock.</td><td>ម៉ោងប្រាំពីរព្រឹក។</td></tr><tr><td>12:00</td><td>It is twelve o'clock.</td><td>ម៉ោងដប់ពីរ។</td></tr><tr><td>6:30</td><td>It is half past six.</td><td>ម៉ោងប្រាំមួយកន្លះ។</td></tr><tr><td>4:15</td><td>It is quarter past four.</td><td>ម៉ោងបួននិងដប់ប្រាំនាទី។</td></tr></tbody></table><h3>៣. អនុវត្ត</h3><p>មើលនាឡិកាក្នុងផ្ទះ ហើយប្រាប់ម្ដាយជាអង់គ្លេសថា «It is ___ o'clock»។ សរសេរម៉ោងចូលរៀន ម៉ោងញ៉ាំបាយថ្ងៃត្រង់ និងម៉ោងគេង ដោយប្រើ It is។ ហាត់សួរគ្រូ «What time is it?» រួចសរសេរចម្លើយរបស់គ្រូចុះក្នុងសៀវភៅ ដើម្បីឲ្យចាំលេខម៉ោងជាអង់គ្លេសបានល្អ។</p><h3>៤. សង្ខេប</h3><p>សួរ «What time is it?» ឆ្លើយ «It is + លេខម៉ោង + o'clock»។ ពាក់កណ្ដាលម៉ោងប្រើ half past។ ចាំលេខម៉ោងពី ១ ដល់ ១២ ជាអង់គ្លេសឲ្យបានច្បាស់ ហើយប្រសិនបើម៉ោងមាននាទី គ្រាន់តែនិយាយលេខម៉ោង បន្ទាប់មកនាទី។</p>",
+          "estimated_minutes": 16,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "«What time is it?» មានន័យខ្មែរយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "នេះជាអ្វី?"},
+                {"id": "B", "text": "ពេលនេះម៉ោងប៉ុន្មាន?"},
+                {"id": "C", "text": "អ្នកទៅឯណា?"},
+                {"id": "D", "text": "អ្នកធ្វើអ្វី?"}
+              ],
+              "correct": "B",
+              "explanation_km": "What time គឺសួររកម៉ោង ដូច្នេះប្រយោគនេះសួរថាម៉ោងប៉ុន្មាន។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ម៉ោង ៩ ពិតប្រាកដនិយាយជាអង់គ្លេសយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "It is nine o'clock."},
+                {"id": "B", "text": "It is nine half."},
+                {"id": "C", "text": "It is oclock nine."},
+                {"id": "D", "text": "It has nine o'clock."}
+              ],
+              "correct": "A",
+              "explanation_km": "ម៉ោងពិតប្រាកដ ប្រើ It is + លេខ + o'clock ដូច្នេះ nine o'clock។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«It is half past six» មានន័យថាម៉ោងប្រាំមួយកន្លះ",
+              "correct": "true",
+              "explanation_km": "half past six គឺ ៦:៣០ ដែលជាម៉ោងប្រាំមួយកន្លះ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យ៖ «It is five ___.» (ម៉ោងប្រាំពិតប្រាកដ)",
+              "correct": "o'clock",
+              "explanation_km": "ចំពោះម៉ោងពិតប្រាកដ យើងដាក់ o'clock តាមក្រោយលេខម៉ោង។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ៖ «___ time is it?» (ម៉ោងប៉ុន្មាន?)",
+              "correct": "what",
+              "explanation_km": "ប្រយោគសួរម៉ោងថេរគឺ What time is it?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_km": "មេរៀនទី២ វាក្យសព្ទចំណូលចិត្ត គុណនាម និងទីតាំង",
+      "description_km": "រៀនពាក្យសព្ទអំពីកីឡា ការលេង គុណនាមពណ៌នា ព្រមទាំង there is there are និងពាក្យទីតាំង",
+      "lessons": [
+        {
+          "title_km": "ព្រឹត្តិការណ៍ និងចំណូលចិត្ត៖ hobbies and sports",
+          "summary_km": "សិស្សនិយាយអំពីចំណូលចិត្ត និងកីឡាដោយប្រើ like + ing និងពាក្យវាក្យសព្ទថ្មី",
+          "content_html": "<h3>១. ពន្យល់</h3><p><strong>Hobbies</strong> មានន័យថា ចំណូលចិត្ត ឬរឿងដែលយើងចូលចិត្តធ្វើនៅពេលទំនេរ។ <strong>Sports</strong> មានន័យថា កីឡា។ ជាអង់គ្លេស ពេលយើងនិយាយអំពីចំណូលចិត្ត យើងប្រើ «like + ពាក្យកិរិយា + ing» ដូច្នេះ «I like reading = ខ្ញុំចូលចិត្តអាន» និង «She likes swimming = នាងចូលចិត្តហែលទឹក»។ ពាក្យសំខាន់ៗសម្រាប់ថ្នាក់បី គឺ play football (លេងបាល់ទាត់) play basketball (លេងបាល់បោះ) ride a bike (ជិះកង់) draw pictures (គូររូប) sing songs (ច្រៀងបទ) read books (អានសៀវភៅ) និង cook rice (ធ្វើអង្ករ)។ យើងក៏អាចសួរមិត្តថា «What is your hobby? = ចំណូលចិត្តអ្នកជាអ្វី?» ដោយឆ្លើយ «My hobby is drawing.»។</p><h3>២. ឧទាហរណ៍</h3><ul><li>«I like playing football with my friends.» = ខ្ញុំចូលចិត្តលេងបាល់ទាត់ជាមួយមិត្ត។</li><li>«Dara likes riding a bike to school.» = ដារ៉ាចូលចិត្តជិះកង់ទៅសាលា។</li><li>«We like singing Khmer songs.» = យើងចូលចិត្តច្រៀងបទខ្មែរ។</li><li>«My hobby is drawing pictures.» = ចំណូលចិត្តរបស់ខ្ញុំគឺគូររូប។</li></ul><h3>៣. អនុវត្ត</h3><p>សរសេរប្រយោគបួនអំពីខ្លួនឯង និងមិត្តភក្តិ ដោយប្រើ like ឬ likes ជាមួយពាក្យ ing។ និយាយសំឡេងឮឲ្យមិត្តស្ដាប់ ហើយឆ្លើយសំណួរ «What is your hobby?» ដោយប្រើពាក្យផ្ទាល់ខ្លួន។</p><h3>៤. សង្ខេប</h3><p>ចំណូលចិត្ត = hobby។ កីឡា = sport។ រចនាសម្ព័ន្ធ «like + verb + ing» សម្រាប់រឿងដែលយើងចូលចិត្តធ្វើ។ ពាក្យ ing បង្ហាញថាយើងធ្វើរឿងនោះជាប្រចាំ មិនមែនកំពុងធ្វើតែម្ដងទេ។ ចាំថា he she it ប្រើ likes ចំណែក I you we they ប្រើ like។</p>",
+          "estimated_minutes": 18,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យ «hobby» មានន័យខ្មែរយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "កំពុងគេង"},
+                {"id": "B", "text": "ចំណូលចិត្ត"},
+                {"id": "C", "text": "ម៉ោង"},
+                {"id": "D", "text": "មុខម្ហូប"}
+              ],
+              "correct": "B",
+              "explanation_km": "hobby មានន័យថាចំណូលចិត្ត ឬរឿងដែលយើងចូលចិត្តធ្វើនៅពេលទំនេរ។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "«ride a bike» មានន័យយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "ជិះកង់"},
+                {"id": "B", "text": "ហែលទឹក"},
+                {"id": "C", "text": "លេងបាល់ទាត់"},
+                {"id": "D", "text": "គូររូប"}
+              ],
+              "correct": "A",
+              "explanation_km": "ride មានន័យថាជិះ ហើយ bike មានន័យថាកង់ ដូច្នេះជិះកង់។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«She likes swimming» ត្រឹមត្រូវតាមរចនាសម្ព័ន្ធ like + ing",
+              "correct": "true",
+              "explanation_km": "She ជាមួយ likes ហើយ swimming ជាពាក្យ ing ត្រឹមត្រូវទាំងស្រុង។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យ ing៖ «I like ___ (read) books.» (ខ្ញុំចូលចិត្តអានសៀវភៅ)",
+              "correct": "reading",
+              "explanation_km": "ក្រោយ like ពាក្យកិរិយាត្រូវបន្ថែម ing ដូច្នេះ read ក្លាយជា reading។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យ៖ «We like playing ___ (បាល់ទាត់)»",
+              "correct": "football",
+              "explanation_km": "បាល់ទាត់ជាអង់គ្លេសគឺ football។"
+            }
+          ]
+        },
+        {
+          "title_km": "គុណនាមពណ៌នា៖ big small long fast",
+          "summary_km": "សិស្សប្រើគុណនាម big small long short fast slow ដើម្បីពណ៌នាវត្ថុ និងចរិត",
+          "content_html": "<h3>១. ពន្យល់</h3><p><strong>Adjective</strong> គឺពាក្យគុណនាមដែលពណ៌នាអំពីនាម។ នៅអង់គ្លេស គុណនាមដាក់នៅ<strong>មុខ</strong>នាម ឬក្រោយពាក្យ to be។ ពាក្យគន្លឹះសម្រាប់ថ្នាក់បី គឺ big (ធំ) small (តូច) long (វែង) short (ខ្លី) fast (លឿន) slow (យឺត) tall (ខ្ពស់) new (ថ្មី) old (ចាស់)។ ឧទាហរណ៍ «a big house = ផ្ទះធំមួយ» និង «The car is fast = ឡាននោះលឿន»។ គុណនាមអង់គ្លេសមិនប្ដូរតាមចំនួនទេ ទោះនាមមួយ ឬច្រើន។ ដូច្នេះយើងនិយាយ «a small cat» និង «two small cats» ដោយ small នៅដដែល។</p><h3>២. ឧទាហរណ៍</h3><table><thead><tr><td>អង់គ្លេស</td><td>ខ្មែរ</td><td>ប្រយោគពេញ</td></tr></thead><tbody><tr><td>big</td><td>ធំ</td><td>an elephant is big.</td></tr><tr><td>small</td><td>តូច</td><td>a mouse is small.</td></tr><tr><td>long</td><td>វែង</td><td>The river is long.</td></tr><tr><td>fast</td><td>លឿន</td><td>My brother runs fast.</td></tr></tbody></table><h3>៣. អនុវត្ត</h3><p>ជ្រើសរើសវត្ថុប្រាំក្នុងថ្នាក់ ហើយពណ៌នាវាដោយគុណនាម។ សរសេរប្រយោគបួន ដូច្នេះ «The desk is big» ឬ «I have a long pencil»។ និយាយគូផ្ទុយគ្នា big/small ហើយ long/short ឲ្យបានច្រើនដង។ បន្ទាប់មកសង្កេតសត្វពីរ ដូច្នេះដំរីធំ ចំណែកបក្សីតូច ហើយនិយាយជាអង់គ្លេសថា An elephant is big but a bird is small។</p><h3>៤. សង្ខេប</h3><p>គុណនាមពណ៌នានាម។ ដាក់នៅមុខនាម ឬក្រោយ to be។ វាមិនបន្ថែម s ទោះនាមពហុវចនាក៏ដោយ។ មុនជ្រើសរើសពាក្យ សូមគិតពីវត្ថុនោះពិតប្រាកដ ថាវាធំ ឬតូច វែង ឬខ្លី លឿន ឬយឺត។ ការប្រើគុណនាមឲ្យត្រឹមត្រូវ ធ្វើឲ្យការនិទានរឿងរបស់អ្នកកាន់តែច្បាស់។</p>",
+          "estimated_minutes": 16,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យ «small» មានន័យខ្មែរយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "វែង"},
+                {"id": "B", "text": "តូច"},
+                {"id": "C", "text": "ធំ"},
+                {"id": "D", "text": "លឿន"}
+              ],
+              "correct": "B",
+              "explanation_km": "small មានន័យថាតូច ផ្ទុយពី big ដែលមានន័យថាធំ។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "តើគុណនាមណាសមស្រប៖ «A rabbit is ___.» (ទន្សាយលឿន)",
+              "options": [
+                {"id": "A", "text": "fast"},
+                {"id": "B", "text": "old"},
+                {"id": "C", "text": "long"},
+                {"id": "D", "text": "tall"}
+              ],
+              "correct": "A",
+              "explanation_km": "ទន្សាយរត់លឿន ដូច្នេះគុណនាមសមស្របគឺ fast។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«two big balls» ជាការប្រើគុណនាមត្រឹមត្រូវ",
+              "correct": "true",
+              "explanation_km": "គុណនាមអង់គ្លេសមិនប្ដូរតាមចំនួន ដូច្នេះ big នៅមុខ balls បាន។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញគុណនាមផ្ទុយ៖ «A snake is ___ but a fish is short.» (ពស់វែង ប៉ុន្តែត្រីខ្លី)",
+              "correct": "long",
+              "explanation_km": "វែងជាអង់គ្លេសគឺ long ដែលផ្ទុយពី short។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ៖ «An elephant is ___.» (ដំរីធំ)",
+              "correct": "big",
+              "explanation_km": "ធំជាអង់គ្លេសគឺ big ដាក់ក្រោយពាក្យ is។"
+            }
+          ]
+        },
+        {
+          "title_km": "មានមួយ / មានច្រើន (there is / there are)",
+          "summary_km": "សិស្សប្រើ there is សម្រាប់មួយដង្ហើម និង there are សម្រាប់ច្រើន ដើម្បីប្រាប់អ្វីមាននៅទីនេះ",
+          "content_html": "<h3>១. ពន្យល់</h3><p>យើងប្រើ <strong>there is</strong> និង <strong>there are</strong> ដើម្បីប្រាប់ថា មានអ្វីនៅកន្លែងណាមួយ។ <em>There is</em> ប្រើមុខនាមឯកវចនា ឬមនុស្សមួយ ដូច្នេះ «There is a book on the desk = មានសៀវភៅមួយនៅលើតុ»។ <em>There are</em> ប្រើមុខនាមពហុវចនា ដូច្នេះ «There are five pupils in the room = មានសិស្សប្រាំនាក់ក្នុងបន្ទប់»។ ចំណាំថា យើងបន្ថែម <strong>a</strong> នៅមុខនាមមួយដង្ហើមដែលរាប់បាន។ ប្រយោគសួរប្ដូរ is/are មកពីមុខ ដូច្នេះ «Is there a cat in the house?» និង «Are there apples in the basket?»។ បដិសេធប្រើ «There is not a clock here» និង «There are not desks in the room»។</p><h3>២. ឧទាហរណ៍</h3><ul><li>«There is one window in my classroom.» = មានបង្អួចមួយក្នុងថ្នាក់រៀនរបស់ខ្ញុំ។</li><li>«There are two blackboards.» = មានក្ដារខៀនពីរ។</li><li>«There is milk in the cup.» = មានទឹកដោះគោក្នុងកែវ។</li><li>«There are birds in the tree.» = មានបក្សីនៅលើដើមឈើ។</li></ul><h3>៣. អនុវត្ត</h3><p>មើលជុំវិញថ្នាក់ ហើយសរសេរប្រយោគបួនដោយ there is ឬ there are។ រាប់វត្ថុពិតប្រាកដ ដូច្នេះ «There are ten desks»។ ហាត់សួរមិត្ត «Is there a clock in the room?» រួចឆ្លើយតាមការពិត។</p><h3>៤. សង្ខេប</h3><p>There is + នាមមួយ។ There are + នាមច្រើន។ ប្រើ a នៅមុខនាមឯកវចនារាប់បាន។</p>",
+          "estimated_minutes": 17,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ជ្រើសរើសត្រឹមត្រូវ៖ «___ three pens in my bag.» (មានប៊ិចបីក្នុងកាបូបខ្ញុំ)",
+              "options": [
+                {"id": "A", "text": "There is"},
+                {"id": "B", "text": "There are"},
+                {"id": "C", "text": "It is"},
+                {"id": "D", "text": "They is"}
+              ],
+              "correct": "B",
+              "explanation_km": "three pens ជាពហុវចនា ដូច្នេះត្រូវប្រើ There are។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "«There is a dog in the yard.» មានន័យយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "មានឆ្វាពីរនៅទីធ្លាផ្ទះ"},
+                {"id": "B", "text": "មានឆ្វាមួយនៅទីធ្លាផ្ទះ"},
+                {"id": "C", "text": "ឆ្វាកំពុងគេងក្នុងបន្ទប់"},
+                {"id": "D", "text": "គ្មានឆ្វានៅទីនេះ"}
+              ],
+              "correct": "B",
+              "explanation_km": "a dog សំដៅលើឆ្វាមួយដង្ហើម ហើយ yard មានន័យថាទីធ្លាផ្ទះ ដូច្នេះចម្លើយគឺមានឆ្វាមួយនៅទីធ្លា។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«There are one apple on the table» ត្រឹមត្រូវ",
+              "correct": "false",
+              "explanation_km": "one apple ជាឯកវចនា ដូច្នេះត្រូវប្រើ There is មិនមែន There are ទេ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ៖ «There ___ two tables in the room.» (មានតុពីរក្នុងបន្ទប់)",
+              "correct": "are",
+              "explanation_km": "tables ជាពហុវចនា ដូច្នេះប្រើ are។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ៖ «There ___ a lamp on the desk.» (មានអំពូលមួយលើធ្នើត)",
+              "correct": "is",
+              "explanation_km": "a lamp ជាឯកវចនា ដូច្នេះប្រើ is។"
+            }
+          ]
+        },
+        {
+          "title_km": "ទីតាំង៖ in front of / behind / next to",
+          "summary_km": "សិស្សប្រើពាក្យទីតាំង in on under in front of behind next to និយាយអំពីការនៅ",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ពាក្យដែលបង្ហាញទំនាក់ទំនងទីកន្លែងហៅថា <strong>prepositions of place</strong>។ <strong>in front of</strong> = នៅមុខ។ <strong>behind</strong> = នៅក្រោយ... នៅក្រោយខ្នង ឬពីក្រោយ។ <strong>next to</strong> = នៅជិត នៅក្បែរ។ លើសពីនេះ យើងមាន in (ក្នុង) on (លើ) under (ក្រោម)។ រចនាសម្ព័ន្ធគឺ នាម + to be + ពាក្យទីតាំង + នាមទី២ ដូច្នេះ «The temple is behind the school = វត្តស្ថិតនៅពីក្រោយសាលា»។ ពាក្យទាំងនេះជួយឲ្យអ្នកស្ដាប់ស្រមៃមើលកន្លែងបានច្បាស់។</p><h3>២. ឧទាហរណ៍</h3><ul><li>«The boy is in front of the door.» = ក្មេងប្រុសនៅមុខទ្វារ។</li><li>«The garden is behind the house.» = សួនបន្លែនៅពីក្រោយផ្ទះ។</li><li>«My seat is next to Sokha.» = កន្លែងអង្គុយខ្ញុំក្បែរ សុខា។</li><li>«The ball is under the table.» = បាល់នៅក្រោមតុ។</li><li>«The fish is in the water.» = ត្រីនៅក្នុងទឹក។</li></ul><h3>៣. អនុវត្ត</h3><p>គូររូបផ្ទះមួយ និងវត្តមួយ ហើយសរសេរប្រយោគបួនបង្ហាញទីតាំងដោយប្រើ in front of behind next to។ ប្រើដៃយករបស់ក្នុងថ្នាក់ដាក់លើតុ ក្រោមតុ ក្បែរតុ រួចនិយាយជាអង់គ្លេស។ កុំភ្លេចអានប្រយោគរបស់អ្នកសំឡេងឮ ដើម្បីឲ្យគ្រូជួយកែឲ្យត្រឹមត្រូវ។</p><h3>៤. សង្ខេប</h3><p>in front of = នៅមុខ។ behind = នៅពីក្រោយ។ next to = នៅក្បែរ។ on = នៅលើ។ in = នៅក្នុង។ under = នៅក្រោម។ ពាក្យទាំងនេះប្រើបានគ្រប់កន្លែង ទាំងនៅផ្ទះ នៅសាលា និងនៅផ្សារ។ ព្យាយាមប្រើវារាល់ថ្ងៃ ដើម្បីឲ្យចាំបានណែន។</p>",
+          "estimated_minutes": 17,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "«behind» មានន័យខ្មែរយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "នៅពីមុខ"},
+                {"id": "B", "text": "នៅពីក្រោយ"},
+                {"id": "C", "text": "នៅលើ"},
+                {"id": "D", "text": "នៅក្រោម"}
+              ],
+              "correct": "B",
+              "explanation_km": "behind មានន័យថានៅពីក្រោយ ផ្ទុយពី in front of។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "«The cat is ___ the table.» (ឆ្មានៅក្រោមតុ)",
+              "options": [
+                {"id": "A", "text": "under"},
+                {"id": "B", "text": "next"},
+                {"id": "C", "text": "front"},
+                {"id": "D", "text": "in"}
+              ],
+              "correct": "A",
+              "explanation_km": "ក្រោមជាអង់គ្លេសគឺ under។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«next to» មានន័យថានៅក្បែរគ្នា",
+              "correct": "true",
+              "explanation_km": "next to ប្រើនិយាយពីរបស់ពីរដែលស្ថិតជិតក្បែរគ្នា។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យទីតាំង៖ «The tree is ___ the house.» (ដើមឈើនៅពីក្រោយផ្ទះ)",
+              "correct": "behind",
+              "explanation_km": "ពីក្រោយជាអង់គ្លេសគឺ behind។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ៖ «The shop is ___ to the school.» (ហាងនៅក្បែរសាលា)",
+              "correct": "next",
+              "explanation_km": "រចនាសម្ព័ន្ធពេញគឺ next to ដែលសម្របកន្លែងដែលនៅក្បែរគ្នា។"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_km": "មេរៀនទី៣ ការបញ្ជា កំណាព្យ និងការអាន",
+      "description_km": "រៀនពាក្យបញ្ជានៅក្នុងថ្នាក់ អានកំណាព្យអង់គ្លេសខ្លី និងហាត់អានយ៉ាងមានន័យ",
+      "lessons": [
+        {
+          "title_km": "ការបញ្ជា៖ Open the door / Sit down",
+          "summary_km": "សិស្សយល់ និងប្រើពាក្យបញ្ជា (imperative) សម្រាប់ស្នើ និងបញ្ជាក្នុងថ្នាក់",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ប្រយោគបញ្ជាហៅថា <strong>imperative</strong>។ វាចាប់ផ្ដើមដោយ<strong>ពាក្យកិរិយាដើម</strong>ភ្លាម ដោយគ្មានសព្វនាមទេ ដូច្នេះ «Open the door = បើកទ្វារ» និង «Sit down = អង្គុយចុះ»។ សម្រាប់ការបញ្ជាមិនឲ្យធ្វើ យើងដាក់ <strong>Do not</strong> (Don't) នៅពីមុខ ដូច្នេះ «Do not run in the classroom = កុំរត់ក្នុងថ្នាក់រៀន»។ នៅពេលស្នើដោយភាពសុភាព យើងបន្ថែម <strong>please</strong> ដូច្នេះ «Close the window, please = សូមបិទបង្អួច»។ ពាក្យបញ្ជាដែលគ្រូប្រើញឹកញាប់ គឺ stand up (ឈរឡើង) listen (ស្ដាប់) look at the board (មើលក្ដារខៀន) write your name (សរសេរឈ្មោះ) be quiet (ស្ងាត់)។</p><h3>២. ឧទាហរណ៍</h3><ul><li>«Open your book.» = បើកសៀវភៅរបស់អ្នក។</li><li>«Stand up, please.» = សូមឈរឡើង។</li><li>«Sit down and listen.» = អង្គុយ ហើយស្ដាប់។</li><li>«Do not talk.» = កុំនិយាយ។</li><li>«Clean the board, please.» = សូមជូតក្ដារខៀន។</li></ul><h3>៣. អនុវត្ត</h3><p>សិស្សម្នាក់ឈរពីមុខថ្នាក់ ហើយបញ្ជាជាអង់គ្លេស ពួកមិត្តធ្វើតាម រួចប្ដូរវេនគ្នារហូតដល់គ្រប់គ្នាបាននិយាយ។ សរសេរប្រយោគបញ្ជាប្រាំក្នុងសៀវភៅ ដោយប្រើពាក្យ open close stand sit listen write clean។ ចាំថា please ធ្វើឲ្យការស្នើរលូនជាងការបញ្ជាដាច់ខាត។ អានប្រយោគបញ្ជារបស់អ្នកពីមុខថ្នាក់ ហើយសុំឲ្យមិត្តធ្វើតាមម្នាក់ម្ដង។</p><h3>៤. សង្ខេប</h3><p>ប្រយោគបញ្ជាចាប់ផ្ដើមដោយកិរិយាដើម។ បញ្ជាកុំធ្វើ ប្រើ Do not ឬ Don't។ បន្ថែម please សម្រាប់ភាពសុភាព។ នៅផ្ទះ អ្នកក៏ប្រើបានដែរ ដូច្នេះ «Wash your hands, please» សម្រាប់សូមឲ្យលាងដៃ និង «Turn off the light» សម្រាប់បិទភ្លើង។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "«Sit down» មានន័យយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "ឈរឡើង"},
+                {"id": "B", "text": "អង្គុយចុះ"},
+                {"id": "C", "text": "ដើរទៅមុខ"},
+                {"id": "D", "text": "ចេញក្រៅ"}
+              ],
+              "correct": "B",
+              "explanation_km": "sit មានន័យថាអង្គុយ ហើយ sit down គឺការបញ្ជាឲ្យអង្គុយចុះ។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "តើប្រយោគណាជាបញ្ជាត្រឹមត្រូវសម្រាប់ «កុំរត់»?",
+              "options": [
+                {"id": "A", "text": "Not run."},
+                {"id": "B", "text": "Does not run."},
+                {"id": "C", "text": "Do not run."},
+                {"id": "D", "text": "Running not."}
+              ],
+              "correct": "C",
+              "explanation_km": "បញ្ជាបដិសេធ ប្រើ Do not + កិរិយាដើម ដូច្នេះ Do not run។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«Close the window, please» ជាការស្នើដោយសុភាព",
+              "correct": "true",
+              "explanation_km": "ការបន្ថែម please នៅចុងប្រយោគធ្វើឲ្យពាក្យបញ្ជាក្លាយជាការស្នើរលូន។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យកិរិយា៖ «___ the door, please.» (សូមបិទទ្វារ)",
+              "correct": "close",
+              "explanation_km": "បិទជាអង់គ្លេសគឺ close ដាក់នៅដើមប្រយោគបញ្ជា។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ៖ «___ up, children!» (សូមឈរឡើង កូនៗ!)",
+              "correct": "stand",
+              "explanation_km": "ឈរឡើងជាអង់គ្លេសគឺ stand up។"
+            }
+          ]
+        },
+        {
+          "title_km": "កំណាព្យអង់គ្លេសខ្លី និងការអាន",
+          "summary_km": "សិស្សអានកំណាព្យអង់គ្លេសខ្លី យល់ពាក្យថ្មី និងឆ្លើយសំណួរអំពីខ្លឹមសារ",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ការអានកំណាព្យខ្លីជួយឲ្យយើងចងចាំសំឡេង និងពាក្យអង់គ្លេស។ <strong>Twinkle, twinkle, little star</strong> ជាកំណាព្យល្បី។ ពាក្យសំខាន់ក្នុងកំណាព្យគឺ star (ផ្កាយ) sky (មេឃ) high (ខ្ពស់) night (យប់) little (តូច)។ ពេលអាន យើងត្រូវអានយឺត ចែកប្រយោគ និងសង្កេតសំឡេងដែលស្រដៀងគ្នា។ កំណាព្យទាំងមូលមានបួនប្រយោគខ្លី ដែលពណ៌នាផ្កាយតូចមួយភ្លែងនៅលើមេឃយប់។ ប្រយោគទី១ «Twinkle, twinkle, little star» ហៅផ្កាយតូចឡើងវិញ។ ប្រយោគទី២ «How I wonder what you are» បង្ហាញថាអ្នកនិយាយងឿងឆ្ងល់អំពីផ្កាយ។ ប្រយោគទី៣ «Up above the world so high» និយាយថាផ្កាយស្ថិតនៅខ្ពស់ពីលើពិភពលោក។ ប្រយោគទី៤ «Like a diamond in the sky» ប្រៀបផ្កាយជាមួយពេជ្រភ្លឺ។ សំឡេង star និង are ស្របគ្នា ដែលធ្វើឲ្យកំណាព្យមានចង្វាក់ល្អ។</p><h3>២. ឧទាហរណ៍</h3><blockquote>«Twinkle, twinkle, little star, How I wonder what you are. Up above the world so high, Like a diamond in the sky.»</blockquote><p>អត្ថន័យខ្មែរសង្ខេប គឺ «ផ្កាយតូចភ្លឹបភ្លែត ខ្ញុំងឿងឆ្ងល់ថាអ្នកជាអ្វី នៅពីលើពិភពលោកខ្ពស់ណាស់ ដូចជាពេជ្រមួយនៅលើមេឃ»។ ពាក្យ <em>wonder</em> មានន័យថា ងឿងឆ្ងល់ រីឯ <em>diamond</em> មានន័យថា ពេជ្រ។</p><h3>៣. អនុវត្ត</h3><p>អានកំណាព្យនេះបីដង ដងទី១ អានយឺត ដងទី២ អានលឿនបន្តិច ដងទី៣ អានជាមួយមិត្ត។ សរសេរពាក្យប្រាំដែលថ្មីសម្រាប់អ្នក ព្រមទាំងអត្ថន័យខ្មែរ។ បន្ទាប់មកឆ្លើយសំណួរ ថាកំណាព្យនេះនិយាយអំពីអ្វី និងនៅពេលណា។ បន្ថែមមួយជំហានទៀត គឺសរសេរប្រយោគខ្លីអំពីអ្វីដែលអ្នកឃើញនៅលើមេឃពេលយប់ ដោយប្រើពាក្យពីកំណាព្យ ដូច្នេះ The moon is in the sky at night។</p><h3>៤. សង្ខេប</h3><p>កំណាព្យខ្លីបង្រៀនពាក្យ star sky high night little wonder diamond។ អានសំឡេងឮរាល់ថ្ងៃ ដើម្បីឲ្យការអានកាន់តែច្បាស់ និងពាក្យកាន់តែច្រើន។ ពាក្យដែលស្របសំឡេងគ្នា ធ្វើឲ្យការចងចាំងាយ សម្រាប់សិស្សថ្នាក់បី។</p>",
+          "estimated_minutes": 20,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យ «star» មានន័យខ្មែរយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "ព្រះចន្ទ"},
+                {"id": "B", "text": "ផ្កាយ"},
+                {"id": "C", "text": "មេឃ"},
+                {"id": "D", "text": "យប់"}
+              ],
+              "correct": "B",
+              "explanation_km": "star មានន័យថាផ្កាយ ចំពោះព្រះចន្ទ យើងប្រើពាក្យ moon។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យ «sky» ក្នុងកំណាព្យមានន័យយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "មេឃ"},
+                {"id": "B", "text": "ដី"},
+                {"id": "C", "text": "ទឹក"},
+                {"id": "D", "text": "ព្រៃ"}
+              ],
+              "correct": "A",
+              "explanation_km": "sky មានន័យថាមេឃ ដែលជាកន្លែងផ្កាយភ្លែង។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "កំណាព្យនេះនិយាយអំពីផ្កាយតូចមួយ",
+              "correct": "true",
+              "explanation_km": "ប្រយោគដំបូងនិយាយ «little star» ដូច្នេះខ្លឹមសារគឺអំពីផ្កាយតូច។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យកំណាព្យ៖ «Like a diamond in the ___.»",
+              "correct": "sky",
+              "explanation_km": "ប្រយោគបញ្ចប់ក្នុងកំណាព្យគឺ in the sky (នៅលើមេឃ)។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យ៖ «Up above the world so ___.» (ខ្ពស់)",
+              "correct": "high",
+              "explanation_km": "ខ្ពស់ជាអង់គ្លេសគឺ high ដែលបញ្ចប់ប្រយោគទី៣។"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

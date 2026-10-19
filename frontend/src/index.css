@@ -1,0 +1,132 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,300..700;1,300..700&family=Noto+Sans+Khmer:wght@300;400;500;600;700;800;900&display=swap');
+
+@layer base {
+  * {
+    border-color: #E2E8F0;
+  }
+
+  body {
+    font-family: 'Kantumruy Pro', 'Noto Sans Khmer', system-ui, -apple-system, sans-serif;
+    line-height: 1.85;
+    background-color: #F8FAFC;
+    color: #1E293B;
+    background-image: radial-gradient(#CBD5E1 0.75px, transparent 0.75px), radial-gradient(#E2E8F0 0.75px, #F8FAFC 0.75px);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kantumruy Pro', 'Noto Sans Khmer', sans-serif;
+    line-height: 1.45;
+    font-weight: 800;
+  }
+}
+
+/* Playful Animations for Primary School Learners */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(1.5deg); }
+}
+
+.animate-float {
+  animation: float 3.5s ease-in-out infinite;
+}
+
+@keyframes bounce-short {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-bounce-short {
+  animation: bounce-short 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.9; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.03); }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2.5s infinite ease-in-out;
+}
+
+/* Sound wave equalizer animation */
+@keyframes wave-bar {
+  0%, 100% { height: 6px; }
+  50% { height: 22px; }
+}
+
+.wave-bar-1 { animation: wave-bar 0.8s ease-in-out infinite; }
+.wave-bar-2 { animation: wave-bar 0.6s ease-in-out infinite 0.15s; }
+.wave-bar-3 { animation: wave-bar 0.9s ease-in-out infinite 0.3s; }
+.wave-bar-4 { animation: wave-bar 0.7s ease-in-out infinite 0.1s; }
+
+/* Custom Tactile 3D Buttons for kids */
+.btn-3d-blue {
+  background: linear-gradient(180deg, #3B82F6 0%, #2563EB 100%);
+  box-shadow: 0 4px 0 #1D4ED8, 0 6px 12px rgba(37, 99, 235, 0.25);
+  transition: all 0.15s ease;
+}
+.btn-3d-blue:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #1D4ED8, 0 8px 16px rgba(37, 99, 235, 0.3);
+}
+.btn-3d-blue:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #1D4ED8, 0 2px 4px rgba(37, 99, 235, 0.2);
+}
+
+.btn-3d-emerald {
+  background: linear-gradient(180deg, #10B981 0%, #059669 100%);
+  box-shadow: 0 4px 0 #047857, 0 6px 12px rgba(5, 150, 105, 0.25);
+  transition: all 0.15s ease;
+}
+.btn-3d-emerald:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #047857, 0 8px 16px rgba(5, 150, 105, 0.3);
+}
+.btn-3d-emerald:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #047857, 0 2px 4px rgba(5, 150, 105, 0.2);
+}
+
+.btn-3d-amber {
+  background: linear-gradient(180deg, #F59E0B 0%, #D97706 100%);
+  box-shadow: 0 4px 0 #B45309, 0 6px 12px rgba(217, 119, 6, 0.25);
+  transition: all 0.15s ease;
+}
+.btn-3d-amber:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #B45309, 0 8px 16px rgba(217, 119, 6, 0.3);
+}
+.btn-3d-amber:active {
+  transform: translateY(3px);
+  box-shadow: 0 1px 0 #B45309, 0 2px 4px rgba(217, 119, 6, 0.2);
+}
+
+/* Glassmorphism card styles */
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05), 0 4px 12px -2px rgba(0, 0, 0, 0.02);
+}
+
+/* Smooth custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

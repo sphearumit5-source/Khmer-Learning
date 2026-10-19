@@ -1,0 +1,503 @@
+{
+  "subject": "english",
+  "grade": 2,
+  "chapters": [
+    {
+      "title_km": "លេខ រូបធរណីមាត្រ និងអាហារ",
+      "description_km": "រៀនលេខពី 11 ដល់ 20 ពាក្យរូបធរណីមាត្រលាយជាមួយពណ៌ និងពាក្យផ្លែឈើ អាហារប្រចាំថ្ងៃជាភាសាអង់គ្លេស",
+      "lessons": [
+        {
+          "title_km": "លេខពី 11 ដល់ 20 ជាភាសាអង់គ្លេស",
+          "summary_km": "សិស្សអាន និងរាប់លេខពី 11 ដល់ 20 ជាភាសាអង់គ្លេសចាប់ពី eleven ដល់ twenty បានត្រឹមត្រូវ។",
+          "content_html": "<h3>1. ការពន្យល់</h3><p>កន្លងមកយើងបានរៀនលេខពី 1 ដល់ 10 រួចហើយ។ ឥឡូវនេះ យើងបន្តរៀនលេខពី 11 ដល់ 20 ជាភាសាអង់គ្លេស។ លេខពី 13 ដល់ 19 ភាគច្រើនបញ្ចប់ដោយអក្សរ teen ដែលអានថា តីន ដូចគ្នា។ ចំណែកឯលេខ 11 eleven និង 12 twelve មានមុខពាក្យខុសគេ ត្រូវចាំដាច់ដោយឡែក។ លេខ 20 twenty ក៏មានមុខពាក្យខុសក្រុម teen ដែរ។</p><h3>2. ពាក្យថ្មី និងលេខ</h3><table><thead><tr><td>លេខ</td><td>អង់គ្លេស</td></tr></thead><tbody><tr><td>11</td><td>eleven</td></tr><tr><td>12</td><td>twelve</td></tr><tr><td>13</td><td>thirteen</td></tr><tr><td>14</td><td>fourteen</td></tr><tr><td>15</td><td>fifteen</td></tr><tr><td>16</td><td>sixteen</td></tr><tr><td>17</td><td>seventeen</td></tr><tr><td>18</td><td>eighteen</td></tr><tr><td>19</td><td>nineteen</td></tr><tr><td>20</td><td>twenty</td></tr></tbody></table><p>ចំណាំ៖ 15 fifteen កើតពី five ប៉ុន្តែបាត់ពាក្យ ve មួយ ចំណែក 20 twenty កើតពី ten។</p><h3>3. អនុវត្ត</h3><p>កូនរាប់ពី 11 ដល់ 20 ជាភាសាអង់គ្លេសដោយប្រើម្រាមដៃជួយ រាល់ព្រឹកម្ដង។ សូមមិត្តភក្ដិបន្តរាប់ពីលេខដែលគេឈប់ ឧទាហរណ៍ គេបន្តពី twelve កូនបន្តថា thirteen fourteen fifteen។ បើរាប់ខុស កុំខ្មាសអៀន ចូររាប់ថ្មីម្ដងទៀត ការហ្វឹកហាត់ញឹកញាប់ធ្វើឲ្យកូនចាំបានល្អ។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យថា twelve គឺតំណាងឲ្យលេខប៉ុន្មាន?",
+              "options": [
+                {"id": "A", "text": "10"},
+                {"id": "B", "text": "11"},
+                {"id": "C", "text": "12"},
+                {"id": "D", "text": "20"}
+              ],
+              "correct": "C",
+              "explanation_km": "twelve គឺលេខ 12 ដែលយើងត្រូវចាំដាច់ដោយឡែកពីក្រុម teen។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "លេខបន្ទាប់ពី 19 nineteen គឺលេខអ្វីជាភាសាអង់គ្លេស?",
+              "options": [
+                {"id": "A", "text": "twenty"},
+                {"id": "B", "text": "twelve"},
+                {"id": "C", "text": "ten"},
+                {"id": "D", "text": "thirteen"}
+              ],
+              "correct": "A",
+              "explanation_km": "បន្ទាប់ពី nineteen (19) គឺ twenty (20) ដែលជាលេខបញ្ចប់ក្នុងមេរៀននេះ។",
+              "hint_km": "លេខ 20"
+            },
+            {
+              "type": "true_false",
+              "text_km": "លេខ 15 ជាភាសាអង់គ្លេសសរសេរថា fifteen",
+              "correct": "true",
+              "explanation_km": "15 = fifteen អានថា ហ្វីបទិន កើតពីពាក្យ five ប៉ុន្តែប្ដូរតួអក្សរនៅចុងពាក្យ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញលេខដែលបាត់ជាភាសាអង់គ្លេស៖ eleven, twelve, ___",
+              "correct": "thirteen",
+              "explanation_km": "បន្ទាប់ពី twelve (12) គឺ thirteen (13) ព្រោះយើងរាប់ជាលំដាប់។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យថា twenty គឺតំណាងឲ្យលេខប៉ុន្មាន?",
+              "options": [
+                {"id": "A", "text": "12"},
+                {"id": "B", "text": "15"},
+                {"id": "C", "text": "2"},
+                {"id": "D", "text": "20"}
+              ],
+              "correct": "D",
+              "explanation_km": "twenty គឺលេខ 20 ហើយវាខុសពីក្រុមពាក្យដែលបញ្ចប់ដោយ teen។"
+            }
+          ]
+        },
+        {
+          "title_km": "ពណ៌ និងរូបធរណីមាត្រជាភាសាអង់គ្លេស",
+          "summary_km": "សិស្សស្គាល់រូប circle, square, triangle, rectangle ហើយអាចបញ្ចូលពណ៌ជាមួយរូបធរណីមាត្របាន។",
+          "content_html": "<h3>1. ការពន្យល់</h3><p>រូបធរណីមាត្រមាននៅក្នុងរបស់របរជុំវិញខ្លួនយើង។ កង់មានរាងរង្វង់ បង្អែលមានរាងការ៉េ ហើយនំបញ្ចុក? មិនមែនទេ ដុំថ្មបីជ្រុងមានរាងត្រីកោណ។ នៅមេរៀននេះ យើងរៀនឈ្មោះរូបទាំងនោះជាភាសាអង់គ្លេស ហើយបញ្ចូលជាមួយពណ៌ដែលយើងធ្លាប់រៀនរួច ដូចជា red, blue, green, yellow។</p><h3>2. ពាក្យថ្មី និងការអាន</h3><ul><li>circle មានន័យថា រង្វង់</li><li>square មានន័យថា រាងការ៉េ</li><li>triangle មានន័យថា ត្រីកោណ ដែលមានជ្រុងបាន់ គឺ 3 ជ្រុង</li><li>rectangle មានន័យថា រាងចតុកោណ ដែលវែងជាងទទឹង</li></ul><p>ឧទាហរណ៍ការបញ្ចូលពណ៌៖ a red circle រង្វង់ពណ៌ក្រហម, a blue square រាងការ៉េពណ៌ខៀវ។ ចំណាំ ពាក្យ a ស្ថិតមុនពណ៌ រួចពណ៌មុនរូប។</p><h3>3. អនុវត្ត</h3><p>គូររូបបួនលើក្ដារ៖ រង្វង់មួយ រាងការ៉េមួយ ត្រីកោណមួយ និងរាងចតុកោណមួយ។ លាបពណ៌រូបនីមួយៗ រួចសរសេរឈ្មោះជាភាសាអង់គ្លេស ដូចជា green triangle។ បង្ហាញមិត្តភក្ដិ ហើយសួរថា What shape is this? ឆ្លើយថា It is a circle.។</p>",
+          "estimated_minutes": 20,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "រង្វង់ ជាភាសាអង់គ្លេសគឺពាក្យអ្វី?",
+              "options": [
+                {"id": "A", "text": "circle"},
+                {"id": "B", "text": "square"},
+                {"id": "C", "text": "triangle"},
+                {"id": "D", "text": "rectangle"}
+              ],
+              "correct": "A",
+              "explanation_km": "រង្វង់គឺ circle ដូចរាងកង់កង់ទាន់ដូច្នេះ។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ត្រីកោណ triangle មានជ្រុងចំនួនប៉ុន្មាន?",
+              "options": [
+                {"id": "A", "text": "2 ជ្រុង"},
+                {"id": "B", "text": "3 ជ្រុង"},
+                {"id": "C", "text": "4 ជ្រុង"},
+                {"id": "D", "text": "5 ជ្រុង"}
+              ],
+              "correct": "B",
+              "explanation_km": "ត្រីកោណ triangle មាន 3 ជ្រុង ដូចនាមត្រីដែលមានន័យថាបី។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ពាក្យថា square មានន័យថា រាងការ៉េ",
+              "correct": "true",
+              "explanation_km": "square គឺរាងការ៉េ ដែលមានជ្រុងបួនស្មើគ្នា។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យជាភាសាអង់គ្លេស៖ ត្រីកោណ គឺ ___",
+              "correct": "triangle",
+              "explanation_km": "ត្រីកោណជាភាសាអង់គ្លេសថា triangle ដែលមាន 3 ជ្រុង។"
+            }
+          ]
+        },
+        {
+          "title_km": "ផ្លែឈើ និងអាហារប្រចាំថ្ងៃ",
+          "summary_km": "សិស្សស្គាល់ពាក្យ rice, fish, apple, mango, orange និងពេលវេលាញ៉ាំអាហារ breakfast, lunch, dinner ជាភាសាអង់គ្លេស។",
+          "content_html": "<h3>1. ការពន្យល់</h3><p>មនុស្សយើងញ៉ាំអាហារបីពេលក្នុងមួយថ្ងៃ គឺព្រឹក ថ្ងៃត្រង់ និងល្ងាច។ អាហាររបស់ខ្មែរភាគច្រើនមានបាយ និងត្រី ហើយក្រោមអាហារយើងញ៉ាំផ្លែឈើផង។ កូនអាចនិយាយអំពីអាហារទាំងនោះជាភាសាអង់គ្លេសបាន ដោយចាំពាក្យថ្មីបន្តិចបន្តួចប៉ុណ្ណោះ។</p><h3>2. ពាក្យថ្មី និងការអាន</h3><ul><li>rice អានថា រ៉ាយស មានន័យថា បាយ</li><li>fish អានថា ហ្វិស មានន័យថា ត្រី</li><li>apple អានថា អាប៉ូ មានន័យថា ផ្លែប៉ោម</li><li>mango អានថា ម៉ាងហ្គោ មានន័យថា ផ្លែស្វាយ</li><li>orange អានថា អូរ៉េនច មានន័យថា ផ្លែក្រូច</li><li>breakfast អាហារព្រឹក</li><li>lunch អាហារថ្ងៃត្រង់</li><li>dinner អាហារល្ងាច</li></ul><p>ឧទាហរណ៍៖ I eat rice and fish at lunch. ខ្ញុំញ៉ាំបាយ និងត្រីនៅពេលថ្ងៃត្រង់។</p><h3>3. អនុវត្ត</h3><p>ពេលញ៉ាំអាហារ កូននិយាយឈ្មោះម្ហូបជាភាសាអង់គ្លេស ដូចជា rice, fish, mango។ សរសេរអាហារដែលកូនញ៉ាំកាលពីថ្ងៃម្សិលមិញជាបីបន្ទាត់៖ breakfast, lunch, dinner។ សួរម្ដាយថាតើល្ងាចញ៉ាំអ្វី រួច dịch? បកខ្លួនឯងថា I eat rice and fish for dinner.។</p>",
+          "estimated_minutes": 20,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យថា rice មានន័យថាអ្វីជាភាសាខ្មែរ?",
+              "options": [
+                {"id": "A", "text": "ត្រី"},
+                {"id": "B", "text": "បាយ"},
+                {"id": "C", "text": "ផ្លែប៉ោម"},
+                {"id": "D", "text": "ទឹក"}
+              ],
+              "correct": "B",
+              "explanation_km": "rice មានន័យថា បាយ ជាអាហារសំខាន់របស់ខ្មែររាល់ថ្ងៃ។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "អាហារដែលញ៉ាំនៅពេលថ្ងៃត្រង់ ជាភាសាអង់គ្លេសគឺអ្វី?",
+              "options": [
+                {"id": "A", "text": "breakfast"},
+                {"id": "B", "text": "dinner"},
+                {"id": "C", "text": "lunch"},
+                {"id": "D", "text": "rice"}
+              ],
+              "correct": "C",
+              "explanation_km": "lunch គឺអាហារថ្ងៃត្រង់ ឯ breakfast ព្រឹក និង dinner ល្ងាច។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ពាក្យថា apple មានន័យថា ផ្លែប៉ោម",
+              "correct": "true",
+              "explanation_km": "apple មានន័យថា ផ្លែប៉ោម ជាផ្លែឈើក្រហម ឬបៃតង។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យជាភាសាអង់គ្លេស៖ ត្រី គឺ ___",
+              "correct": "fish",
+              "explanation_km": "ត្រីជាភាសាអង់គ្លេសថា fish អានថា ហ្វិស។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ផ្លែស្វាយ ជាភាសាអង់គ្លេសគឺពាក្យអ្វី?",
+              "options": [
+                {"id": "A", "text": "orange"},
+                {"id": "B", "text": "mango"},
+                {"id": "C", "text": "apple"},
+                {"id": "D", "text": "rice"}
+              ],
+              "correct": "B",
+              "explanation_km": "ផ្លែស្វាយគឺ mango អានថា ម៉ាងហ្គោ ឯ orange វិញជាផ្លែក្រូច។"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_km": "ប្រយោគ និងរបស់របរជុំវិញខ្លួន",
+      "description_km": "រៀននិយាយការចូលចិត្ត I like និង Do you like? វត្ថុក្នុងផ្ទះជាមួយ in, on, under សម្លៀកបំពាក់ និងសកម្មភាពប្រចាំថ្ងៃ",
+      "lessons": [
+        {
+          "title_km": "ការចូលចិត្ត៖ I like និង Do you like?",
+          "summary_km": "សិស្សប្រើប្រយោគ I like..., I don't like... និងសំណួរ Do you like...? បានត្រឹមត្រូវ។",
+          "content_html": "<h3>1. ការពន្យល់</h3><p>ពាក្យថា like អានថា លាយ មានន័យថា ចូលចិត្ត។ នៅពេលយើងចង់និយាយអំពីរបស់ដែលយើងចូលចិត្ត យើងប្រើប្រយោគថា I like rice. ខ្ញុំចូលចិត្តបាយ។ បើវាជាអ្វីដែលយើងមិនចូលចិត្ត យើងថា I don't like fish. ខ្ញុំមិនចូលចិត្តត្រី។ សម្រាប់សួរអ្នកដទៃវិញ យើងថា Do you like apples? នោះហើយជាវិធីនិយាយអំពីរបស់ដែលខ្លួនចូលចិត្ត។</p><h3>2. ពាក្យថ្មី និងការអាន</h3><ul><li>I like mango. ខ្ញុំចូលចិត្តផ្លែស្វាយ។</li><li>I don't like fish. ខ្ញុំមិនចូលចិត្តត្រី។</li><li>Do you like apples? តើកូនចូលចិត្តផ្លែប៉ោមទេ?</li><li>Yes, I do. បាទ/ចាស ខ្ញុំចូលចិត្ត។</li><li>No, I don't. ទេ ខ្ញុំមិនចូលចិត្តទេ។</li></ul><h3>3. អនុវត្ត</h3><p>សួរមិត្តភក្ដិបីនាក់ថា Do you like rice? ហើយកត់ចំណាំគេឆ្លើយបាទ ឬទេ។ បន្ទាប់មក និយាយពីរបស់ដែលខ្លួនចូលចិត្តមួយ និងមិនចូលចិត្តមួយ ដូចជា I like apples. I don't like fish.។ ការអនុវត្តបែបនេះធ្វើឲ្យកូននិយាយបានឆាប់ជាងមុន។</p>",
+          "estimated_minutes": 20,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ប្រយោគ I like rice. មានន័យថាដូចម្ដេច?",
+              "options": [
+                {"id": "A", "text": "ខ្ញុំញ៉ាំបាយ"},
+                {"id": "B", "text": "ខ្ញុំចូលចិត្តបាយ"},
+                {"id": "C", "text": "ខ្ញុំមិនចូលចិត្តបាយ"},
+                {"id": "D", "text": "ខ្ញុំចង់បានបាយ"}
+              ],
+              "correct": "B",
+              "explanation_km": "like មានន័យថា ចូលចិត្ត ដូច្នេះ I like rice. គឺ ខ្ញុំចូលចិត្តបាយ។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ឆ្លើយតបនឹងសំណួរ Do you like mango? ទាញ? យកពាក្យអ្វីនៅក្រោយ Yes, I ___ ?",
+              "options": [
+                {"id": "A", "text": "do"},
+                {"id": "B", "text": "am"},
+                {"id": "C", "text": "is"},
+                {"id": "D", "text": "likes"}
+              ],
+              "correct": "A",
+              "explanation_km": "ចម្លើយបាទគឺ Yes, I do. ដែលប្រើពាក្យ do នៅខាងក្រោយ I។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ប្រយោគ I don't like milk. មានន័យថា ខ្ញុំមិនចូលចិត្តទឹកដោះគោ",
+              "correct": "true",
+              "explanation_km": "don't បញ្ជាការមិនចូលចិត្ត ដូច្នេះប្រយោគនេះមានន័យថា ខ្ញុំមិនចូលចិត្តទឹកដោះគោ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យដែលបាត់ជាភាសាអង់គ្លេស (ចូលចិត្ត)៖ I ___ fish.",
+              "correct": "like",
+              "explanation_km": "ពាក៙ដែលមានន័យថា ចូលចិត្ត គឺ like ដូច្នេះ I like fish.។"
+            }
+          ]
+        },
+        {
+          "title_km": "វត្ថុក្នុងផ្ទះ និងទីតាំង in, on, under",
+          "summary_km": "សិស្សស្គាល់វត្ថុក្នុងផ្ទះ និងប្រើ preposition in, on, under ដើម្បីបង្ហាញទីតាំងបាន។",
+          "content_html": "<h3>1. ការពន្យល់</h3><p>ក្នុងផ្ទះរបស់យើងមានតុ កៅអី គ្រែ ទ្វារ និងបង្អួចជាច្រើន។ ដើម្បីនិយាយថា របស់មួយស្ថិតនៅត្រង់ណា ភាសាអង់គ្លេសប្រើពាក្យបីគឺ in ស្ថិតនៅក្នុង, on ស្ថិតនៅលើ និង under ស្ថិតនៅក្រោម។ ពាក្យទាំងបីហៅថា preposition ឬពាក្យបង្ហាញទីតាំង។</p><h3>2. ពាក្យថ្មី និងការអាន</h3><ul><li>house ផ្ទះ, table តុ, chair កៅអី, bed គ្រែ</li><li>door ទ្វារ, window បង្អួច, box ប្រអប់</li><li>in មានន័យថា នៅក្នុង</li><li>on មានន័យថា នៅលើ</li><li>under មានន័យថា នៅក្រោម</li></ul><p>ឧទាហរណ៍៖ The cat is under the table. ឆ្មានៅក្រោមតុ។ The book is on the chair. សៀវភៅនៅលើកៅអី។ The fish is in the box? មិនមែនទេ ត្រីនៅក្នុងអត់ គឺ The apple is in the box.។</p><h3>3. អនុវត្ត</h3><p>យកប៊ិចមួយដាក់លើតុ រួចនិយាយថា The pen is on the table. បន្ទាប់មកដាក់វាក្នុងកាបូប ថា The pen is in the bag. និងដាក់វាក្រោមកៅអី ថា The pen is under the chair.។ សាកល្បងឲ្យមិត្តភក្ដិប្រាប់ទីតាំងរបស់ ហើយកូនដាក់តាម ដើម្បីឲ្យពាក្យ in on under ចម្រើនឡើង។</p>",
+          "estimated_minutes": 20,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យថា on មានន័យថាដូចម្ដេច?",
+              "options": [
+                {"id": "A", "text": "នៅក្នុង"},
+                {"id": "B", "text": "នៅលើ"},
+                {"id": "C", "text": "នៅក្រោម"},
+                {"id": "D", "text": "នៅខាងក្រោយ"}
+              ],
+              "correct": "B",
+              "explanation_km": "on មានន័យថា នៅលើ ដូចក្នុងប្រយោគ The book is on the table.។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ប្រយោគ The cat is under the table. មានន័យថាដូចម្ដេច?",
+              "options": [
+                {"id": "A", "text": "ឆ្មានៅលើតុ"},
+                {"id": "B", "text": "ឆ្មានៅក្នុងប្រអប់"},
+                {"id": "C", "text": "ឆ្មានៅក្រោមតុ"},
+                {"id": "D", "text": "ឆ្មានៅក្រោមគ្រែ"}
+              ],
+              "correct": "C",
+              "explanation_km": "under មានន័យថា នៅក្រោម ហើយ table មានន័យថា តុ ដូច្នេះឆ្មានៅក្រោមតុ។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ពាក្យថា in មានន័យថា នៅក្រោម",
+              "correct": "false",
+              "explanation_km": "in មានន័យថា នៅក្នុង ឯ នៅក្រោម គឺ under។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យដែលបាត់ជាភាសាអង់គ្លេស៖ The book is ___ the bag. (សៀវភៅនៅក្នុងកាបូប)",
+              "correct": "in",
+              "explanation_km": "ពេលវត្ថុស្ថិតនៅក្នុងរបស់អ្វីមួយ យើងប្រើពាក្យ in។"
+            }
+          ]
+        },
+        {
+          "title_km": "សម្លៀកបំពាក់៖ អាវ ខោ ស្បែកជើង",
+          "summary_km": "សិស្សស្គាល់ពាក្យសម្លៀកបំពាក់ shirt, T-shirt, pants, shoes, socks, hat ហើយអាចនិយាយពីរបស់របរពាក់បាន។",
+          "content_html": "<h3>1. ការពន្យល់</h3><p>រាល់ព្រឹកមុនចេញទៅសាលា យើងត្រូវពាក់សម្លៀកបំពាក់។ សម្លៀកបំពាក់របស់ក្មេងសាលាបឋមភាគច្រើនមានអាវយឺត ខោ និងស្បែកជើង។ ការស្គាល់ពាក្យសម្លៀកបំពាក់ជាភាសាអង់គ្លេស ជួយឲ្យកូនអាចស្នើសុំ ឬនិយាយពីអ្វីដែលកូនកំពុងពាក់បាន។</p><h3>2. ពាក្យថ្មី និងការអាន</h3><ul><li>shirt អានថា ឈើត មានន័យថា អាវ</li><li>T-shirt អាវយឺត</li><li>pants អានថា ប៉ែនស៍ មានន័យថា ខោ</li><li>shoes អានថា ស៊ូស៍ មានន័យថា ស្បែកជើង</li><li>socks អានថា ស៊កស៍ មានន័យថា ស្រោមជើង</li><li>hat អានថា ហែត មានន័យថា មួក</li></ul><p>ឧទាហរណ៍៖ This is my T-shirt. នេះជាអាវយឺតរបស់ខ្ញុំ។ Put on your shoes! ពាក់ស្បែកជើង!</p><h3>3. អនុវត្ត</h3><p>ពេលព្រឹក កូនចង្អុលមើលសម្លៀកបំពាក់របស់ខ្លួន ហើយរាប់និយាយជាភាសាអង់គ្លេស៖ shirt, pants, socks, shoes។ សួរឪពុកថា Where is my hat? មួករបស់ខ្ញុំនៅឯណា? រួចឆ្លើយតាមទីតាំង ដូចជា It is on the bed.។ ធ្វើបែបនេះរាល់ថ្ងៃ កូននឹងចាំពាក្យទាំងអស់បានល្អ។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យថា shoes មានន័យថាអ្វីជាភាសាខ្មែរ?",
+              "options": [
+                {"id": "A", "text": "ស្រោមជើង"},
+                {"id": "B", "text": "ស្បែកជើង"},
+                {"id": "C", "text": "មួក"},
+                {"id": "D", "text": "ខោ"}
+              ],
+              "correct": "B",
+              "explanation_km": "shoes មានន័យថា ស្បែកជើង ឯ socks វិញជាស្រោមជើង។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ខោ ជាភាសាអង់គ្លេសគឺពាក្យអ្វី?",
+              "options": [
+                {"id": "A", "text": "shirt"},
+                {"id": "B", "text": "hat"},
+                {"id": "C", "text": "pants"},
+                {"id": "D", "text": "socks"}
+              ],
+              "correct": "C",
+              "explanation_km": "ខោគឺ pants អានថា ប៉ែនស៍។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ពាក្យថា hat មានន័យថា មួក",
+              "correct": "true",
+              "explanation_km": "hat គឺមួក ដែលយើងពាក់ការពារកម្ដៅថ្ងៃ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យជាភាសាអង់គ្លេស៖ ស្រោមជើង គឺ ___",
+              "correct": "socks",
+              "explanation_km": "ស្រោមជើងជាភាសាអង់គ្លេសថា socks ដែលពាក់មុនពេលពាក់ស្បែកជើង។"
+            }
+          ]
+        },
+        {
+          "title_km": "សកម្មភាពប្រចាំថ្ងៃជាភាសាអង់គ្លេស",
+          "summary_km": "សិស្សស្គាល់កិរិយាស័ព្ទ run, jump, swim, read, write, walk, play និងនិយាយ I can... បាន។",
+          "content_html": "<h3>1. ការពន្យល់</h3><p>រាល់ថ្ងៃយើងធ្វើសកម្មភាពជាច្រើន ដូចជា រត់ លោត ហែលទឹក អាន សរសេរ និងលេង។ ពាក្យដែលបង្ហាញសកម្មភាពហៅថា កិរិយាស័ព្ទ ឬ verb។ នៅមេរៀននេះ កូននឹងរៀនពាក្យសកម្មភាពជាភាសាអង់គ្លេស ហើយបញ្ចូលជាមួយពាក្យថា can ដែលមានន័យថា អាច ដើម្បីនិយាយពីសមត្ថភាពខ្លួនឯង។</p><h3>2. ពាក្យថ្មី និងការអាន</h3><ul><li>run អានថា រ៉ាន មានន័យថា រត់</li><li>jump អានថា ចាំប? ចាម៉ព មានន័យថា លោត</li><li>swim អានថា ស្វិម មានន័យថា ហែលទឹក</li><li>read អានថា រ៉ិប? រីត មានន័យថា អាន</li><li>write អានថា រ៉ាយត មានន័យថា សរសេរ</li><li>walk ដើរ, play លេង</li></ul><p>ឧទាហរណ៍៖ I can run fast. ខ្ញុំអាចរត់លឿន។ Fish can swim. ត្រីអាចហែលទឹក។</p><h3>3. អនុវត្ត</h3><p>ក្រោកឈរ ហើយធ្វើសកម្មភាពតាមពាក្យគ្រូនិយាយ៖ Jump! កូនលោត។ Run! កូនរត់នៅកន្លែង។ Read! កូនចង្អុលសៀវភៅ។ Write! កូនធ្វើអាកប្បកិរិយាសរសេរ។ លេងល្បែងនេះជាមួយមិត្តភក្ដិ 5 នាក់ ក្នុងពេលសម្រាក ហើយកូននឹងចាំពាក្យកិរិយាស័ព្ទបានឆាប់។</p>",
+          "estimated_minutes": 20,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យថា run មានន័យថាសកម្មភាពអ្វី?",
+              "options": [
+                {"id": "A", "text": "លោត"},
+                {"id": "B", "text": "រត់"},
+                {"id": "C", "text": "ហែលទឹក"},
+                {"id": "D", "text": "អាន"}
+              ],
+              "correct": "B",
+              "explanation_km": "run មានន័យថា រត់ ដូចក្នុងប្រយោគ I can run fast.។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "សកម្មភាពអ្វីដែលត្រីធ្វើក្នុងទឹក ជាភាសាអង់គ្លេស?",
+              "options": [
+                {"id": "A", "text": "read"},
+                {"id": "B", "text": "jump"},
+                {"id": "C", "text": "swim"},
+                {"id": "D", "text": "write"}
+              ],
+              "correct": "C",
+              "explanation_km": "ត្រីហែលទឹកក្នុងទឹក ហើយ ហែលទឹកជាភាសាអង់គ្លេសថា swim។",
+              "hint_km": "សកម្មភាពក្នុងទឹក"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ពាក្យថា jump មានន័យថា អានសៀវភៅ",
+              "correct": "false",
+              "explanation_km": "jump មានន័យថា លោត ឯ អាន គឺ read។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យដែលបាត់ជាភាសាអង់គ្លេស៖ I ___ my name with a pen. (ខ្ញុំសរសេរឈ្មោះរបស់ខ្ញុំដោយប៊ិច)",
+              "correct": "write",
+              "explanation_km": "សរសេរជាភាសាអង់គ្លេសថា write ដូច្នេះចម្លើយគឺ I write my name with a pen.។"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_km": "ខ្យល់អាកាស ភេសជ្ជៈ និងការណែនាំខ្លួនឯង",
+      "description_km": "រៀនពាក្យអាកាសធាតុ sunny, rainy, hot, cold ភេសជ្ជៈប្រចាំថ្ងៃ និងប្រយោគណែនាំខ្លួនឯង My name is... / I am ... years old",
+      "lessons": [
+        {
+          "title_km": "ខ្យល់អាកាស៖ ស្រូប? ថ្ងៃក្ដៅ និងភ្លៀង",
+          "summary_km": "សិស្សស្គាល់ពាក្យអាកាសធាតុ sunny, rainy, cloudy, windy, hot, cold និងនិយាយពីអាកាសធាតុបាន។",
+          "content_html": "<h3>1. ការពន្យល់</h3><p>ប្រទេសកម្ពុជាមានរដូវក្ដៅ និងរដូវវស្សា។ ពេលខ្លះថ្ងៃថ្លាមានពន្លឺថ្ងៃច្រើន ពេលខ្លះភ្លៀងធ្លាក់ និងពេលខ្លះត្រជាក់។ ការនិយាយពីអាកាសធាតុជាភាសាអង់គ្លេស ធ្វើឲ្យយើងអាចឆ្លើយតបពេលគេសួរថា អាកាសធាតុថ្ងៃនេះដូចម្ដេច។</p><h3>2. ពាក្យថ្មី និងការអាន</h3><ul><li>sunny មានន័យថា មានថ្ងៃចាំង ថ្ងៃក្ដៅ</li><li>rainy មានន័យថា ភ្លៀងធ្លាក់</li><li>cloudy មានន័យថា ពពកក្រាស់</li><li>windy មានន័យថា មានខ្យល់ខ្លាំង</li><li>hot ក្ដៅ, cold ត្រជាក់</li></ul><p>ឧទាហរណ៍៖ It is sunny. ថ្ងៃនេះមានថ្ងៃចាំង។ It is rainy and cold. ថ្ងៃនេះភ្លៀងធ្លាក់ និងត្រជាក់។</p><h3>3. អនុវត្ត</h3><p>ពេលព្រឹក មើលតាមបង្អួច ហើយនិយាយពីអាកាសធាតុជាភាសាអង់គ្លេស ដូចជា It is hot today.។ សួរមិត្តភក្ដិថា ថ្ងៃសប្ដាហ៍មុនអាកាសធាតុដូចម្ដេច រួចឆ្លើយដោយប្រើ sunny ឬ rainy។ គូររូបពីរ គឺរូបថ្ងៃ និងរូបភ្លៀង ក្រោមរូបសរសេរ sunny និង rainy។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យថា rainy មានន័យថាអាកាសធាតុដូចម្ដេច?",
+              "options": [
+                {"id": "A", "text": "ថ្ងៃក្ដៅខ្លាំង"},
+                {"id": "B", "text": "ភ្លៀងធ្លាក់"},
+                {"id": "C", "text": "ពពកក្រាស់"},
+                {"id": "D", "text": "មានខ្យល់ខ្លាំង"}
+              ],
+              "correct": "B",
+              "explanation_km": "rainy កើតពីពាក្យថា rain ភ្លៀង ដូច្នេះមានន័យថា ភ្លៀងធ្លាក់។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "នៅពេលយើងដកដង្ហើមត្រជាក់ខ្លាំង អាកាសធាតុគឺអ្វីជាភាសាអង់គ្លេស?",
+              "options": [
+                {"id": "A", "text": "hot"},
+                {"id": "B", "text": "sunny"},
+                {"id": "C", "text": "cold"},
+                {"id": "D", "text": "rainy"}
+              ],
+              "correct": "C",
+              "explanation_km": "cold មានន័យថា ត្រជាក់ ឯ hot មានន័យថា ក្ដៅ។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "It is sunny. មានន័យថា ថ្ងៃនេះមានថ្ងៃចាំង ឬថ្ងៃក្ដៅ",
+              "correct": "true",
+              "explanation_km": "sunny បង្ហាញអំពីថ្ងៃមានពន្លឺថ្ងៃច្រើន និងក្ដៅ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យជាភាសាអង់គ្លេស៖ ពពកក្រាស់ គឺ ___",
+              "correct": "cloudy",
+              "explanation_km": "cloudy មានន័យថា ត្រង់មានពពកក្រាស់ កើតពីពាក្យថា cloud ពពក។"
+            }
+          ]
+        },
+        {
+          "title_km": "ម្ហូប និងភេសជ្ជៈប្រចាំថ្ងៃ",
+          "summary_km": "សិស្សស្គាល់ពាក្យ water, milk, tea, coffee, juice និងនិយាយប្រយោគ I drink... / I eat... បាន។",
+          "content_html": "<h3>1. ការពន្យល់</h3><p>រាងកាយរបស់យើងត្រូវការទឹក និងអាហារជារៀងរាល់ថ្ងៃ។ ក្រៅពីបាយ និងត្រីដែលបានរៀនកន្លងទៅ យើងក៏ត្រូវការភេសជ្ជៈផ្សេងទៀតផង។ ពាក្យថា drink មានន័យថា ផឹក ហើយពាក្យថា eat មានន័យថា ញ៉ាំ។ កូនអាចនិយាយពីភេសជ្ជៈដែលកូនផឹកប្រចាំថ្ងៃជាភាសាអង់គ្លេសបាន។</p><h3>2. ពាក្យថ្មី និងការអាន</h3><ul><li>water អានថា វ៉ាយវ? វ៉ាវ មានន័យថា ទឹក</li><li>milk អានថា មិលក មានន័យថា ទឹកដោះគោ</li><li>tea អានថា តី មានន័យថា ទឹកតែ</li><li>coffee អានថា កាហ្វេ មានន័យថា កាហ្វេ</li><li>juice អានថា ជូស៍ មានន័យថា ទឹកផ្លែឈើ</li></ul><p>ឧទាហរណ៍៖ I drink water every day. ខ្ញុំផឹកទឹករាល់ថ្ងៃ។ My mother drinks tea in the morning. ម្ដាយខ្ញុំផឹកទឹកតែពេលព្រឹក។</p><h3>3. អនុវត្ត</h3><p>ពេលញ៉ាំភោជនីយ? អាហារ កូននិយាយថា I drink milk. ឬ I eat rice and fish.។ សរសេរភេសជ្ជៈដែលក្រុមគ្រួសារកូនប្រើ 3 មុខជាភាសាអង់គ្លេស ដូចជា water, tea, juice។ បន្ទាប់មក អានឲ្យម្ដាយស្ដាប់ ហើយឲ្យគេសួរត្រឡប់វិញថា Do you like milk? កូនឆ្លើយ Yes, I do. ឬ No, I don't.។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យថា milk មានន័យថាអ្វីជាភាសាខ្មែរ?",
+              "options": [
+                {"id": "A", "text": "ទឹកតែ"},
+                {"id": "B", "text": "ទឹកដោះគោ"},
+                {"id": "C", "text": "ទឹកផ្លែឈើ"},
+                {"id": "D", "text": "កាហ្វេ"}
+              ],
+              "correct": "B",
+              "explanation_km": "milk មានន័យថា ទឹកដោះគោ ដែលកូនផឹកជារៀងរាល់ថ្ងៃ។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "របស់អ្វីដែលយើងត្រូវផឹករាល់ថ្ងៃ ជាភាសាអង់គ្លេស?",
+              "options": [
+                {"id": "A", "text": "water"},
+                {"id": "B", "text": "shoes"},
+                {"id": "C", "text": "rice"},
+                {"id": "D", "text": "chair"}
+              ],
+              "correct": "A",
+              "explanation_km": "ទឹក គឺ water ដែលរាងកាយត្រូវការរាល់ថ្ងៃ ចំណែក rice បាយ យើងញ៉ាំវិញ។",
+              "hint_km": "របស់ដែលផឹក"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ពាក្យថា tea មានន័យថា ទឹកតែ",
+              "correct": "true",
+              "explanation_km": "tea គឺទឹកតែ ដែលមនុស្សចាស់នៅកម្ពុជាចូលចិត្តផឹក។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យជាភាសាអង់គ្លេស៖ ទឹក គឺ ___",
+              "correct": "water",
+              "explanation_km": "ទឹកជាភាសាអង់គ្លេសថា water អានថា វ៉ាវ។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "កាហ្វេ ជាភាសាអង់គ្លេសសរសេរយ៉ាងដូចម្ដេច?",
+              "options": [
+                {"id": "A", "text": "tea"},
+                {"id": "B", "text": "milk"},
+                {"id": "C", "text": "juice"},
+                {"id": "D", "text": "coffee"}
+              ],
+              "correct": "D",
+              "explanation_km": "កាហ្វេគឺ coffee ដែលសរសេរតាមសំឡេងនិយាយរបស់ខ្មែរផងដែរ។"
+            }
+          ]
+        },
+        {
+          "title_km": "ប្រយោគសាមញ្ញ៖ My name is... និង I am ... years old",
+          "summary_km": "សិស្សសរសេរ និងនិយាយប្រយោគណែនាំខ្លួនឯង My name is... / I am ... years old ជាភាសាអង់គ្លេសបានត្រឹមត្រូវ។",
+          "content_html": "<h3>1. ការពន្យល់</h3><p>នៅពេលយើងជួបអ្នកថ្មី យើងត្រូវណែនាំខ្លួនឯងជាមុនសិន។ ជាភាសាអង់គ្លេស យើងនិយាយឈ្មោះរបស់យើងដោយប្រើប្រយោគថា My name is... ដែលមានន័យថា ខ្ញុំឈ្មោះ...។ បន្ទាប់មក ប្រាប់អាយុរបស់ខ្លួនដោយប្រើ I am ... years old មានន័យថា ខ្ញុំអាយុ...ឆ្នាំ។ ចំណាំពាក្យ year old តែងនៅក្រោយលេខជានិច្ច។</p><h3>2. ពាក្យថ្មី និងការអាន</h3><ul><li>My name is Dara. ខ្ញុំឈ្មោះ តារា។</li><li>I am seven years old. ខ្ញុំអាយុ 7 ឆ្នាំ។</li><li>How old are you? តើអ្នកអាយុប៉ុន្មាន?</li><li>Nice to meet you. រីករាយដែលបានជួបអ្នក។</li></ul><p>ឧទាហរណ៍ប្រយោគពេញលេញ៖ Hello! My name is Sokha. I am eight years old. Nice to meet you.។</p><h3>3. អនុវត្ត</h3><p>ឈរមុនថ្នាក់ ហើយណែនាំខ្លួនឯងជាភាសាអង់គ្លេសចំនួន 3 ប្រយោគ៖ សួស្ដី ឈ្មោះ អាយុ។ សរសេរប្រយោគទាំងនោះចូលក្នុងសៀវភៅ ដោយប្តូរលេខអាយុជាភាសាអង់គ្លេស ដូចជា six, seven, eight, nine។ សាកល្បងណែនាំខ្លួនឯងជាមួយមិត្តភក្ដិម្នាក់ទៀត ដោយប្តូរគ្នាវិញម្ដងម្កាល ដើម្បីឲ្យការនិយាយកាន់តែជំនាញ។</p>",
+          "estimated_minutes": 20,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ប្រយោគ My name is Dara. មានន័យថាដូចម្ដេច?",
+              "options": [
+                {"id": "A", "text": "ខ្ញុំអាយុ តារា"},
+                {"id": "B", "text": "ខ្ញុំឈ្មោះ តារា"},
+                {"id": "C", "text": "អ្នកឈ្មោះ តារា"},
+                {"id": "D", "text": "នេះជាតារា"}
+              ],
+              "correct": "B",
+              "explanation_km": "My name is... មានន័យថា ខ្ញុំឈ្មោះ... ដូច្នេះប្រយោគនេះគឺ ខ្ញុំឈ្មោះ តារា។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ពេលចង់ប្រាប់អាយុខ្លួនឯង យើងប្រើប្រយោគអ្វី?",
+              "options": [
+                {"id": "A", "text": "I am ... years old."},
+                {"id": "B", "text": "This is my book."},
+                {"id": "C", "text": "Do you like rice?"},
+                {"id": "D", "text": "Thank you very much."}
+              ],
+              "correct": "A",
+              "explanation_km": "years old ជាពាក៙សម្រាប់និយាយពីអាយុ ដូច្នេះ I am seven years old. ខ្ញុំអាយុ 7 ឆ្នាំ។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ប្រយោគ I am eight years old. មានន័យថា ខ្ញុំអាយុ 8 ឆ្នាំ",
+              "correct": "true",
+              "explanation_km": "eight គឺលេខ 8 ដូច្នេះប្រយោគនេះមានន័យថា ខ្ញុំអាយុ 8 ឆ្នាំ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យដែលបាត់ជាភាសាអង់គ្លេស៖ My ___ is Sokha. (ខ្ញុំឈ្មោះ សុខា)",
+              "correct": "name",
+              "explanation_km": "name មានន័យថា ឈ្មោះ ដូច្នេះប្រយោគពេញគឺ My name is Sokha.។"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

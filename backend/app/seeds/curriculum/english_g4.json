@@ -1,0 +1,480 @@
+{
+  "subject": "english",
+  "grade": 4,
+  "chapters": [
+    {
+      "title_km": "មេរៀនទី១ អក្សរ សំឡេង ការណែនាំខ្លួនឯង គ្រួសារ ពណ៌ និងលេខ",
+      "description_km": "រៀនអក្សរអង់គ្លេស ២៦ តួ និងសំឡេងអក្សរស្រីខ្លី ពាក្យសួស្ដី និងការណែនាំខ្លួនឯង វាក្យសព្ទគ្រួសារ ព្រមទាំងពណ៌ និងលេខពី ១ ដល់ ២០",
+      "lessons": [
+        {
+          "title_km": "អក្សរ ២៦ តួ និងសំឡេងអក្សរស្រីខ្លី a e i o u",
+          "summary_km": "សិស្សសរសេរ និងអានអក្សរអង់គ្លេស ២៦ តួ ហើយបញ្ចូលសំឡេងខ្លីរបស់ a e i o u ក្នុងពាក្យងាយៗ",
+          "content_html": "<h3>១. អក្សរអង់គ្លេស ២៦ តួ</h3><p>ភាសាអង់គ្លេសមានអក្សរ <strong>២៦ តួ</strong> ដែលហៅថា <em>alphabet</em> ចាប់ពី A ដល់ Z។ អក្សរមានពីរប្រភេទ គឺ<strong>អក្សរធំ</strong> (capital letter) និង<strong>អក្សរតូច</strong> (small letter) ដូចជា A/a B/b C/c។ យើងសរសេរអក្សរធំនៅដើមប្រយោគ និងនៅមុខឈ្មោះមនុស្ស ឬឈ្មោះទីក្រុង ដូចជា Dara, Phnom Penh។ ពាក្យធម្មតាភាគច្រើនសរសេរដោយអក្សរតូច ដូចជា cat dog pen book។</p><h3>២. អក្សរស្រី និងសំឡេងខ្លី</h3><p>ក្នុងអក្សរ ២៦ តួ មាន <strong>៥ តួជាអក្សរស្រី</strong> (vowels) គឺ a e i o u រីឯ <strong>២១ តួទៀត</strong> ជាព្យញ្ជនៈ (consonants)។ អក្សរស្រីបញ្ចូល<strong>សំឡេងខ្លី</strong> (short vowel sounds) ក្នុងពាក្យខ្លីៗ តាមតារាងខាងក្រោម។ សំឡេងខ្លី មានន័យថាយើងហៅម្ដងខ្លីៗ មិនលូតវែងទេ។</p><table><thead><tr><td>អក្សរស្រី</td><td>សំឡេងខ្លី</td><td>ពាក្យឧទាហរណ៍</td><td>អត្ថន័យខ្មែរ</td></tr></thead><tbody><tr><td>a</td><td>អែ</td><td>cat</td><td>ឆ្មា</td></tr><tr><td>e</td><td>អេ</td><td>bed</td><td>គ្រែ</td></tr><tr><td>i</td><td>អ៊ី</td><td>sit</td><td>អង្គុយ</td></tr><tr><td>o</td><td>អុ</td><td>dog</td><td>ឆ្វា</td></tr><tr><td>u</td><td>អាប់</td><td>cup</td><td>កែវ</td></tr></tbody></table><h3>៣. ហាត់អាន និងសរសេរ</h3><p>សរសេរអក្សរ ២៦ តួជាអក្សរធំម្ដង ជាអក្សរតូចម្ដង ចុះក្នុងសៀវភៅ។ បន្ទាប់មកអានពាក្យក្នុងតារាងដោយសំឡេងឮ ម្ដងមួយតួ ព្យាយាមបញ្ចូលសំឡេង a e i o u ឲ្យខ្លី។ ហាត់បញ្ចូលអក្សរជាពាក្យថ្មី ដូចជា c-a-t = cat, d-o-g = dog, c-u-p = cup, b-e-d = bed។</p><h3>៤. សង្ខេប</h3><p>អក្សរអង់គ្លេសមាន ២៦ តួ។ អក្សរស្រីមាន ៥ តួ គឺ a e i o u។ ពាក្យ cat bed sit dog cup មានសំឡេងអក្សរស្រីខ្លី។ ការចាំអក្សរ និងសំឡេងខ្លីបានល្អ ជួយឲ្យយើងអានពាក្យថ្មីដែលមិនធ្លាប់ឃើញបានត្រឹមត្រូវ។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "អក្សរអង់គ្លេសមានប៉ុន្មានតួសរុប?",
+              "options": [
+                {"id": "A", "text": "២៤ តួ"},
+                {"id": "B", "text": "២៥ តួ"},
+                {"id": "C", "text": "២៦ តួ"},
+                {"id": "D", "text": "២៨ តួ"}
+              ],
+              "correct": "C",
+              "explanation_km": "អក្សរអង់គ្លេសមាន ២៦ តួ ចាប់ពី A រហូតដល់ Z។",
+              "hint_km": "រាប់ពី A ដល់ Z"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យណាមានសំឡេងអក្សរស្រីខ្លី «i»?",
+              "options": [
+                {"id": "A", "text": "dog"},
+                {"id": "B", "text": "sit"},
+                {"id": "C", "text": "cup"},
+                {"id": "D", "text": "bed"}
+              ],
+              "correct": "B",
+              "explanation_km": "sit បញ្ចូលសំឡេងខ្លី i ចំណែក dog មាន o, cup មាន u, bed មាន e។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "អក្សរស្រីអង់គ្លេសមាន ៥ តួ គឺ a e i o u",
+              "correct": "true",
+              "explanation_km": "ត្រូវហើយ អក្សរស្រីមាន ៥ តួ គឺ a e i o u ចំណែក ២១ តួទៀតជាព្យញ្ជនៈ។"
+            },
+            {
+              "type": "fill_blank",
+              "options": [],
+              "text_km": "បំពេញអក្សរស្រីដែលបាត់៖ a, e, i, o, ___",
+              "correct": "u",
+              "explanation_km": "អក្សរស្រីតួចុងក្រោយគឺ u ដូចក្នុងពាក្យ cup និង sun។",
+              "hint_km": "ពាក្យ cup មានអក្សរស្រីអ្វី?"
+            }
+          ]
+        },
+        {
+          "title_km": "ការសួស្ដី និងការណែនាំខ្លួនឯង",
+          "summary_km": "សិស្សសួស្ដីតាមពេលវេលា ណែនាំឈ្មោះ អាយុ និងស្រុកកំណើតរបស់ខ្លួនជាអង់គ្លេស",
+          "content_html": "<h3>១. ពាក្យសួស្ដី</h3><p>ពេលជួរមិត្ត ឬគ្រូ យើងនិយាយ <strong>Hello</strong> (សួស្ដី) ឬ <strong>Hi</strong> (ពាក្យសួស្ដីស្និទ្ធស្នាល)។ ពាក្យសួស្ដីតាមពេលមាន <strong>Good morning</strong> (សួស្ដីព្រឹក) <strong>Good afternoon</strong> (សួស្ដីរសៀល) <strong>Good evening</strong> (សួស្ដីល្ងាច) និង <strong>Good night</strong> (ជូនពរគេងសុខ)។ ពេលបែកគ្នា យើងនិយាយ <strong>Goodbye</strong> ឬ <strong>Bye-bye</strong> និង <strong>See you tomorrow</strong> (ជួរគ្នាថ្ងៃស្អែក)។</p><h3>២. ការណែនាំខ្លួនឯង</h3><table><thead><tr><td>ប្រយោគអង់គ្លេស</td><td>អត្ថន័យខ្មែរ</td></tr></thead><tbody><tr><td>My name is Dara.</td><td>ខ្ញុំឈ្មោះ ដារ៉ា។</td></tr><tr><td>I am nine years old.</td><td>ខ្ញុំអាយុ ៩ ឆ្នាំ។</td></tr><tr><td>I am from Cambodia.</td><td>ខ្ញុំមកពីប្រទេសកម្ពុជា។</td></tr><tr><td>I am in grade four.</td><td>ខ្ញុំស្ថិតក្នុងថ្នាក់ទី៤។</td></tr><tr><td>Nice to meet you.</td><td>រីករាយដែលបានជួរអ្នក។</td></tr></tbody></table><h3>៣. បន្តការសន្ទនា</h3><p>បើគេសួរ <strong>How are you?</strong> (សុខភាពល្អទេ?) យើងឆ្លើយ <strong>I am fine, thank you.</strong> (ខ្ញុំសុខល្អ អរគុណ)។ បើចង់សួរវិញ បន្ថែម <strong>And you?</strong> (រីឯអ្នកវិញ?)។ ពេលណែនាំខ្លួន ត្រូវនិយាយឈ្មោះ អាយុ និងថ្នាក់ ដោយសំឡេងច្បាស់។</p><h3>៤. សង្ខេប</h3><p>Hello និង Hi ប្រើបានគ្រប់ពេល។ Good morning ប្រើពេលព្រឹក ឯ Good evening ប្រើពេលល្ងាច។ ណែនាំខ្លួនដោយ «My name is... I am ... years old. I am from...»។ ឆ្លើយ «Nice to meet you» ដោយ «Nice to meet you too»។</p>",
+          "estimated_minutes": 16,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពេលអ្នកទៅសាលាម៉ោងប្រាំពីរព្រឹក យើងគួរនិយាយពាក្យណា?",
+              "options": [
+                {"id": "A", "text": "Good night"},
+                {"id": "B", "text": "Good morning"},
+                {"id": "C", "text": "Goodbye"},
+                {"id": "D", "text": "Good evening"}
+              ],
+              "correct": "B",
+              "explanation_km": "Good morning គឺពាក្យសួស្ដីពេលព្រឹក។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ប្រយោគណាប្រើណែនាំឈ្មោះខ្លួនឯង?",
+              "options": [
+                {"id": "A", "text": "How are you?"},
+                {"id": "B", "text": "Goodbye!"},
+                {"id": "C", "text": "My name is Rida."},
+                {"id": "D", "text": "Thank you."}
+              ],
+              "correct": "C",
+              "explanation_km": "«My name is Rida» មានន័យថា ខ្ញុំឈ្មោះ រីដា ដែលជាការណែនាំឈ្មោះ។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«See you tomorrow» មានន័យថា ជួរគ្នាថ្ងៃស្អែក",
+              "correct": "true",
+              "explanation_km": "See មានន័យថាឃើញ ឬជួរ ដូច្នេះប្រយោគនេះប្រើពេលបែកគ្នាដោយណាត់ជួរគ្នាថ្ងៃស្អែក។"
+            },
+            {
+              "type": "fill_blank",
+              "options": [],
+              "text_km": "បំពេញពាក្យ to be៖ «I ___ eight years old.» (ខ្ញុំអាយុ ៨ ឆ្នាំ)",
+              "correct": "am",
+              "explanation_km": "ក្រោយសព្វនាម I យើងប្រើ am តែមួយគត់ ដូច្នេះ «I am eight years old»។",
+              "hint_km": "I ជាមួយពាក្យអ្វី?"
+            }
+          ]
+        },
+        {
+          "title_km": "សមាជិកគ្រួសារ៖ father mother brother sister",
+          "summary_km": "សិស្សហៅឈ្មោះសមាជិកគ្រួសារជាអង់គ្លេស និងសរសេរប្រយោគខ្លីអំពីគ្រួសាររបស់ខ្លួន",
+          "content_html": "<h3>១. វាក្យសព្ទគ្រួសារ</h3><p>ពាក្យ <strong>family</strong> មានន័យថា គ្រួសារ។ គ្រួសាររបស់យើងមានឪពុកម្ដាយ បងប្អូន និងឪពុកម្ដាយចាស់ៗ។ តារាងខាងក្រោមបង្ហាញពាក្យសំខាន់ៗសម្រាប់សិស្សថ្នាក់ទី៤។ ចំណាំថា father ត្រូវនឹងឪពុក ឯ dad ជាពាក្យនិយាយនៅផ្ទះ។</p><table><thead><tr><td>អង់គ្លេស</td><td>ខ្មែរ</td><td>អង់គ្លេស</td><td>ខ្មែរ</td></tr></thead><tbody><tr><td>father / dad</td><td>ឪពុក</td><td>mother / mom</td><td>ម្ដាយ</td></tr><tr><td>brother</td><td>បងប្រុស ឬប្អូនប្រុស</td><td>sister</td><td>បងស្រី ឬប្អូនស្រី</td></tr><tr><td>grandfather</td><td>ជា ឬតា</td><td>grandmother</td><td>ជី ឬយាយ</td></tr><tr><td>uncle</td><td>បងប្រុសរបស់ម្ដាយ ឬឪពុក</td><td>aunt</td><td>បងស្រីរបស់ម្ដាយ ឬឪពុក</td></tr><tr><td>cousin</td><td>កូនរបស់បងប្អូនម្ដាយ ឬឪពុក</td><td>parents</td><td>ឪពុកម្ដាយ</td></tr></tbody></table><h3>២. ប្រយោគឧទាហរណ៍</h3><ul><li>«This is my family.» = នេះជាគ្រួសាររបស់ខ្ញុំ។</li><li>«My father is a farmer.» = ឪពុកខ្ញុំជាកសិករ។</li><li>«My mother cooks rice every day.» = ម្ដាយខ្ញុំធ្វើម្ហូបរាល់ថ្ងៃ។</li><li>«I have two brothers and one sister.» = ខ្ញុំមានបងប្អូនប្រុសពីរ និងបងប្អូនស្រីមួយ។</li><li>«My grandmother tells me a story.» = យាយខ្ញុំនិទានរឿងឲ្យខ្ញុំស្ដាប់។</li></ul><h3>៣. អនុវត្ត</h3><p>គូររូបគ្រួសាររបស់អ្នក រួចសរសេរប្រយោគបួនអំពីសមាជិកនីមួយៗ ដោយប្រើ my father my mother my brother my sister។ និយាយសំឡេងឮឲ្យមិត្តស្ដាប់ថា «This is my mother. Her name is Sokha.»។ បើអ្នកគ្មានបងប្អូន អ្នកអាចសរសេរថា «I do not have a brother.»។</p><h3>៤. សង្ខេប</h3><p>father គឺឪពុក ។ mother គឺម្ដាយ ។ brother គឺបងប្អូនប្រុស ។ sister គឺបងប្អូនស្រី។ grandfather និង grandmother ជាឪពុកម្ដាយចាស់ៗ។ ប្រើ <strong>He is...</strong> សម្រាប់បុគ្គលប្រុស និង <strong>She is...</strong> សម្រាប់បុគ្គលស្រី។</p>",
+          "estimated_minutes": 17,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "«my mother's mother» គឺជានរណា?",
+              "options": [
+                {"id": "A", "text": "cousin"},
+                {"id": "B", "text": "grandmother"},
+                {"id": "C", "text": "aunt"},
+                {"id": "D", "text": "sister"}
+              ],
+              "correct": "B",
+              "explanation_km": "ម្ដាយរបស់ម្ដាយគឺ ជី ឬយាយ ដែលជាអង់គ្លេសហៅ grandmother។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យ «brother» មានន័យខ្មែរយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "បងប្រុស ឬប្អូនប្រុស"},
+                {"id": "B", "text": "បងស្រី ឬប្អូនស្រី"},
+                {"id": "C", "text": "ឪពុក"},
+                {"id": "D", "text": "យាយ"}
+              ],
+              "correct": "A",
+              "explanation_km": "brother សំដៅលើសមាជិកប្រុស ជាបង ឬប្អូន ចំណែក sister សំដៅលើសមាជិកស្រី។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«My parents are my father and my mother.» ជាការប្រើពាក្យត្រឹមត្រូវ",
+              "correct": "true",
+              "explanation_km": "parents មានន័យថាឪពុកម្ដាយទាំងសងខាង ដូច្នេះប្រយោគនេះត្រូវ។"
+            },
+            {
+              "type": "fill_blank",
+              "options": [],
+              "text_km": "បំពេញពាក្យគ្រួសារ៖ «My father's father is my ___.»",
+              "correct": "grandfather",
+              "explanation_km": "ឪពុករបស់ឪពុក គឺជា ឬតា ជាអង់គ្លេសហៅ grandfather។"
+            }
+          ]
+        },
+        {
+          "title_km": "ពណ៌ និងលេខពី ១ ដល់ ២០",
+          "summary_km": "សិស្សនិយាយពណ៌វត្ថុជុំវិញខ្លួន និងរាប់ ឬសរសេរលេខអង់គ្លេសពី ១ ដល់ ២០",
+          "content_html": "<h3>១. ពណ៌</h3><p>ពាក្យ <strong>colour</strong> មានន័យថា ពណ៌។ ការរៀនពណ៌ ជួយឲ្យយើងពណ៌នាវត្ថុបានច្បាស់ ដូចជា «The flag of Cambodia is red and blue» (ទង់ជាតិកម្ពុជាមានពណ៌ក្រហម និងពណ៌ខៀវ)។ រចនាសម្ព័ន្ធប្រើគឺ នាម + to be + ពណ៌ ឬ ពណ៌ + នាម ដូចជា «a white shirt»។</p><table><thead><tr><td>អង់គ្លេស</td><td>ខ្មែរ</td><td>ឧទាហរណ៍</td></tr></thead><tbody><tr><td>red</td><td>ក្រហម</td><td>a red apple</td></tr><tr><td>blue</td><td>ខៀវ</td><td>the sky is blue</td></tr><tr><td>green</td><td>បៃតង</td><td>green leaves</td></tr><tr><td>yellow</td><td>លឿង</td><td>a yellow banana</td></tr><tr><td>white</td><td>ស</td><td>a white T-shirt</td></tr><tr><td>black</td><td>ខ្មៅ</td><td>a black cat</td></tr></tbody></table><h3>២. លេខពី ១ ដល់ ១០</h3><ul><li>១ one, ២ two, ៣ three, ៤ four, ៥ five</li><li>៦ six, ៧ seven, ៨ eight, ៩ nine, ១០ ten</li></ul><h3>៣. លេខពី ១១ ដល់ ២០</h3><ul><li>១១ eleven, ១២ twelve, ១៣ thirteen, ១៤ fourteen, ១៥ fifteen</li><li>១៦ sixteen, ១៧ seventeen, ១៨ eighteen, ១៩ nineteen, ២០ twenty</li></ul><p>លេខពី ១៣ ដល់ ១៩ ភាគច្រើនបន្ថែម <strong>-teen</strong> នៅក្រោយ ដូចជា four + teen = fourteen។ ចំណែកលេខដប់វិញបន្ថែម <strong>-ty</strong> ដូចជា twenty thirty forty។</p><h3>៤. សង្ខេប</h3><p>ពណ៌សំខាន់ៗមាន ៦ គឺ red blue green yellow white black។ លេខពី ១ ដល់ ២០ ត្រូវចាំឲ្យបានច្បាស់ ព្រោះប្រើរាប់របស់ រាប់សិស្ស និងនិយាយអាយុ។ ហាត់សួរគ្នាថា «How many pens are there?» ដោយឆ្លើយជាអង់គ្លេស។</p>",
+          "estimated_minutes": 18,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "លេខ ១២ សរសេរជាអង់គ្លេសយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "two"},
+                {"id": "B", "text": "twenty"},
+                {"id": "C", "text": "twelve"},
+                {"id": "D", "text": "ten"}
+              ],
+              "correct": "C",
+              "explanation_km": "១២ ជាអង់គ្លេសគឺ twelve ចំណែក twenty គឺ ២០។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ស្លឹកឈើបៃតង គឺពណ៌អ្វីជាអង់គ្លេស?",
+              "options": [
+                {"id": "A", "text": "green"},
+                {"id": "B", "text": "red"},
+                {"id": "C", "text": "yellow"},
+                {"id": "D", "text": "black"}
+              ],
+              "correct": "A",
+              "explanation_km": "បៃតងជាអង់គ្លេសគឺ green ដូចក្នុងប្រយោគ green leaves។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ពាក្យ «twenty» មានន័យថាលេខ ២០",
+              "correct": "true",
+              "explanation_km": "twenty គឺលេខ ២០ ដែលជាលេខចុងក្រោយក្នុងចំនួនពី ១ ដល់ ២០។"
+            },
+            {
+              "type": "fill_blank",
+              "options": [],
+              "text_km": "បំពេញលេខបាត់ជាអង់គ្លេស៖ one, two, ___, four",
+              "correct": "three",
+              "explanation_km": "លេខបន្ទាប់ពី ២ គឺ ៣ ដែលជាអង់គ្លេសសរសេរ three។",
+              "hint_km": "រាប់ពី ១ ទៅ ៤"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_km": "មេរៀនទី២ ថ្ងៃខែ កិរិយាបច្ចុប្បន្ន និងទីតាំង",
+      "description_km": "រៀនថ្ងៃក្នុងសប្ដាហ៍ និងខែក្នុងឆ្នាំ របៀបប្រើ present simple អំពីការចូលចិត្ត និងពាក្យទីតាំង in on under",
+      "lessons": [
+        {
+          "title_km": "ថ្ងៃក្នុងសប្ដាហ៍ និងខែក្នុងឆ្នាំ",
+          "summary_km": "សិស្សរាប់ថ្ងៃទាំង ៧ ក្នុងសប្ដាហ៍ និងខែទាំង ១២ ក្នុងឆ្នាំជាអង់គ្លេស",
+          "content_html": "<h3>១. ថ្ងៃទាំង ៧</h3><p>មួយសប្ដាហ៍មានថ្ងៃ <strong>៧</strong>។ ឈ្មោះថ្ងៃជាអង់គ្លេសសរសេរដោយ<strong>អក្សរធំ</strong>នៅដើមពាក្យជានិច្ច ដូចជា Monday និង Sunday។ ថ្ងៃសៅរ៍ និងថ្ងៃអាទិត្យជាថ្ងៃសម្រាករបស់សិស្ស។</p><table><thead><tr><td>អង់គ្លេស</td><td>ខ្មែរ</td><td>អង់គ្លេស</td><td>ខ្មែរ</td></tr></thead><tbody><tr><td>Monday</td><td>ថ្ងៃចន្ទ</td><td>Friday</td><td>ថ្ងៃសុក្រ</td></tr><tr><td>Tuesday</td><td>ថ្ងៃអង្គារ</td><td>Saturday</td><td>ថ្ងៃសៅរ៍</td></tr><tr><td>Wednesday</td><td>ថ្ងៃពុធ</td><td>Sunday</td><td>ថ្ងៃអាទិត្យ</td></tr><tr><td>Thursday</td><td>ថ្ងៃព្រហស្បតិ៍</td><td>week</td><td>សប្ដាហ៍</td></tr></tbody></table><h3>២. ខែទាំង ១២</h3><p>មួយឆ្នាំមានខែ <strong>១២</strong>។ ខែទាំងអស់ជាអង់គ្លេសគឺ January February March April May June July August September October November December។ ខែមេសា (April) ជាខែបុណ្យចូលឆ្នាំខ្មែរ ឯខែធ្នូ (December) ជាខែចុងក្រោយនៃឆ្នាំ។</p><h3>៣. ប្រយោគឧទាហរណ៍</h3><ul><li>«Today is Monday.» = ថ្ងៃនេះជាថ្ងៃចន្ទ។</li><li>«I go to school from Monday to Friday.» = ខ្ញុំទៅសាលាពីថ្ងៃចន្ទដល់ថ្ងៃសុក្រ។</li><li>«My birthday is in March.» = ថ្ងៃកំណើតខ្ញុំស្ថិតក្នុងខែមីនា។</li><li>«We do not study on Saturday and Sunday.» = យើងមិនរៀនថ្ងៃសៅរ៍ និងថ្ងៃអាទិត្យទេ។</li></ul><h3>៤. សង្ខេប</h3><p>មួយសប្ដាហ៍មាន ៧ ថ្ងៃ ចាប់ពី Monday ដល់ Sunday។ មួយឆ្នាំមាន ១២ ខែ ចាប់ពី January ដល់ December។ ចាំថា យើងប្រើ <strong>on</strong> នៅមុខថ្ងៃ (on Monday) និង <strong>in</strong> នៅមុខខែ (in January)។ ឈ្មោះថ្ងៃ និងខែត្រូវសរសេរអក្សរធំជានិច្ច។</p>",
+          "estimated_minutes": 17,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ថ្ងៃ «Friday» ត្រូវនឹងថ្ងៃអ្វីខ្មែរ?",
+              "options": [
+                {"id": "A", "text": "ថ្ងៃពុធ"},
+                {"id": "B", "text": "ថ្ងៃសុក្រ"},
+                {"id": "C", "text": "ថ្ងៃសៅរ៍"},
+                {"id": "D", "text": "ថ្ងៃអាទិត្យ"}
+              ],
+              "correct": "B",
+              "explanation_km": "Friday គឺថ្ងៃសុក្រ ដែលជាថ្ងៃចុងក្រោយនៃថ្ងៃរៀនរបស់សិស្ស។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "មួយឆ្នាំមានខែចំនួនប៉ុន្មាន?",
+              "options": [
+                {"id": "A", "text": "៧ ខែ"},
+                {"id": "B", "text": "១០ ខែ"},
+                {"id": "C", "text": "១២ ខែ"},
+                {"id": "D", "text": "២០ ខែ"}
+              ],
+              "correct": "C",
+              "explanation_km": "មួយឆ្នាំមាន ១២ ខែ ចាប់ពី January ដល់ December។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«Sunday» ត្រូវនឹងថ្ងៃអាទិត្យ",
+              "correct": "true",
+              "explanation_km": "Sunday គឺថ្ងៃអាទិត្យ ដែលជាថ្ងៃសម្រាកសម្រាប់សិស្សភាគច្រើន។"
+            },
+            {
+              "type": "fill_blank",
+              "options": [],
+              "text_km": "បំពេញថ្ងៃបាត់៖ Monday, Tuesday, ___, Thursday",
+              "correct": "Wednesday",
+              "explanation_km": "ថ្ងៃទី៣ នៃសប្ដាហ៍គឺ Wednesday ឬថ្ងៃពុធ។",
+              "hint_km": "ថ្ងៃពុធសរសេរជាអង់គ្លេសយ៉ាងណា?"
+            }
+          ]
+        },
+        {
+          "title_km": "Present Simple៖ I like rice / She likes fish",
+          "summary_km": "សិស្សប្រើ present simple និយាយទម្លាប់ និងការចូលចិត្ត ដោយបន្ថែម s សម្រាប់ he she it",
+          "content_html": "<h3>១. ពន្យល់</h3><p><strong>Present simple</strong> ប្រើនិយាយអំពីអ្វីដែលធ្វើ<strong>ជាប្រចាំ</strong> និងអ្វីដែលជាការពិតទូទៅ។ រចនាសម្ព័ន្ធគឺ សព្វនាម + ពាក្យកិរិយាដើម។ ចំពោះ I you we they កិរិយា<strong>នៅដើម</strong>ដដែល ដូចជា «I like rice» និង «They play football»។ ចំពោះ he she it ឬមនុស្សមួយនាក់ យើងបន្ថែម <strong>s</strong> នៅក្រោយកិរិយា ដូចជា «She likes fish» និង «He reads books»។</p><h3>២. តារាងប្រៀបធៀប</h3><table><thead><tr><td>សព្វនាម</td><td>រូបកិរិយា</td><td>ប្រយោគ</td><td>ខ្មែរ</td></tr></thead><tbody><tr><td>I / we / you / they</td><td>like</td><td>We like mangoes.</td><td>យើងចូលចិត្តស្វាយ។</td></tr><tr><td>he / she / it</td><td>likes</td><td>He likes chicken.</td><td>គាត់ចូលចិត្តសាច់មាន់។</td></tr><tr><td>I / you / we / they</td><td>do not like</td><td>They do not like tea.</td><td>ពួកគេមិនចូលចិត្តតែទេ។</td></tr><tr><td>he / she / it</td><td>does not like</td><td>She does not like coffee.</td><td>នាងមិនចូលចិត្តកាហ្វេទេ។</td></tr></tbody></table><h3>៣. ប្រយោគសួរ</h3><p>សម្រាប់ប្រយោគសួរ យើងដាក់ <strong>Do</strong> សម្រាប់ I you we they និង <strong>Does</strong> សម្រាប់ he she it នៅដើមប្រយោគ ដូចជា «Do you like bananas?» និង «Does your father like fish?»។ ចំណាំពេលប្រើ does ហើយ កិរិយាត្រូវ<strong>ដក s ចេញ</strong> គឺសរសេរ «Does she like milk?» មិនប្រើ likes ទេ។</p><h3>៤. សង្ខេប</h3><p>I you we they + កិរិយាដើម។ He she it + កិរិយាបន្ថែម s។ បដិសេធ និងការសួរប្រើ do does។ ពាក្យដែលបង្ហាញ present simple គឺ every day always often sometimes never។</p>",
+          "estimated_minutes": 18,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "បំពេញឲ្យត្រឹមត្រូវ៖ «My sister ___ noodles.» (បងស្រីខ្ញុំចូលចិត្តមី)",
+              "options": [
+                {"id": "A", "text": "like"},
+                {"id": "B", "text": "likes"},
+                {"id": "C", "text": "liking"},
+                {"id": "D", "text": "is like"}
+              ],
+              "correct": "B",
+              "explanation_km": "My sister ស្មើនឹង she ដូច្នេះកិរិយាត្រូវបន្ថែម s គឺ likes។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "តើប្រយោគណាត្រឹមត្រូវ?",
+              "options": [
+                {"id": "A", "text": "He like mangoes."},
+                {"id": "B", "text": "He likes mangoes."},
+                {"id": "C", "text": "He is likes mangoes."},
+                {"id": "D", "text": "He likesing mangoes."}
+              ],
+              "correct": "B",
+              "explanation_km": "He ជាសព្វនាមទី៣ ឯកវចនា ដូច្នេះ like បន្ថែម s ក្លាយជា likes។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«Do she like fish?» ជារចនាសម្ព័ន្ធសួរត្រឹមត្រូវ",
+              "correct": "false",
+              "explanation_km": "សម្រាប់ she ត្រូវប្រើ Does មិនមែន Do ទេ គឺ «Does she like fish?»។"
+            },
+            {
+              "type": "fill_blank",
+              "options": [],
+              "text_km": "បំពេញពាក្យជំនួយ៖ «___ you like rice?» (តើអ្នកចូលចិត្តអង្ករទេ?)",
+              "correct": "Do",
+              "explanation_km": "ក្រោយសព្វនាម you ប្រយោគសួរ present simple ប្រើ Do នៅដើមប្រយោគ។"
+            }
+          ]
+        },
+        {
+          "title_km": "ពាក្យទីតាំង៖ in / on / under",
+          "summary_km": "សិស្សប្រើ in on under និយាយថារបស់មួយស្ថិតនៅក្នុង លើ ឬក្រោមអ្វីមួយ",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ពាក្យ <strong>preposition</strong> បង្ហាញទំនាក់ទំនងទីកន្លែង។ <strong>in</strong> = នៅក្នុង (ក្នុងកែវ ក្នុងប្រអប់ ក្នុងថ្នាក់)។ <strong>on</strong> = នៅលើ (ផ្ទៃលើដែលប៉ះនឹងរបស់)។ <strong>under</strong> = នៅក្រោម។ រចនាសម្ព័ន្ធគឺ នាម + to be + in/on/under + នាមទី២ ដូចជា «The cat is under the chair» (ឆ្មានៅក្រោមកៅអី)។</p><h3>២. តារាងឧទាហរណ៍</h3><table><thead><tr><td>ពាក្យ</td><td>ខ្មែរ</td><td>ប្រយោគអង់គ្លេស</td><td>អត្ថន័យ</td></tr></thead><tbody><tr><td>in</td><td>ក្នុង</td><td>The fish is in the water.</td><td>ត្រីនៅក្នុងទឹក។</td></tr><tr><td>on</td><td>លើ</td><td>The book is on the desk.</td><td>សៀវភៅនៅលើតុ។</td></tr><tr><td>under</td><td>ក្រោម</td><td>The ball is under the bed.</td><td>បាល់នៅក្រោមគ្រែ។</td></tr><tr><td>in</td><td>ក្នុង</td><td>My pens are in my bag.</td><td>ប៊ិចខ្ញុំនៅក្នុងកាបូប។</td></tr></tbody></table><h3>៣. អនុវត្ត</h3><p>យកប៊ិចមួយដាក់<strong>លើ</strong>តុ <strong>ក្នុង</strong>ប្រអប់ និង<strong>ក្រោម</strong>សៀវភៅ រួចនិយាយជាអង់គ្លេសម្ដងមួយៗ។ សួរមិត្តថា «Where is your eraser?» ហើយឆ្លើយដោយ in on under។ សរសេរប្រយោគបួនក្នុងសៀវភៅអំពីរបស់ក្នុងថ្នាក់រៀនរបស់អ្នក។</p><h3>៤. សង្ខេប</h3><p>in សម្រាប់ក្នុងអ្វីមួយដែលបិទជុំវិញ។ on សម្រាប់លើផ្ទៃដែលប៉ះ។ under សម្រាប់ក្រោម។ ប្រយោគសួរអំពីទីតាំងប្រើ «Where is...?» ហើយចម្លើយតែងចាប់ផ្ដើមដោយ It is + in/on/under។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "បំពេញឲ្យត្រឹមត្រូវ៖ «The milk is ___ the glass.» (ទឹកដោះគោនៅក្នុងកែវ)",
+              "options": [
+                {"id": "A", "text": "on"},
+                {"id": "B", "text": "in"},
+                {"id": "C", "text": "under"},
+                {"id": "D", "text": "of"}
+              ],
+              "correct": "B",
+              "explanation_km": "ទឹកដោះគោស្ថិតក្នុងកែវ ដូច្នេះប្រើ in។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យ «under» មានន័យខ្មែរយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "នៅលើ"},
+                {"id": "B", "text": "នៅក្នុង"},
+                {"id": "C", "text": "នៅក្រោម"},
+                {"id": "D", "text": "នៅមុខ"}
+              ],
+              "correct": "C",
+              "explanation_km": "under មានន័យថានៅក្រោម ផ្ទុយពី on ដែលមានន័យថានៅលើ។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«The bag on the floor» ជារចនាសម្ព័ន្ធត្រឹមត្រូវ (កាបូបនៅលើដីផ្ទះ)",
+              "correct": "false",
+              "explanation_km": "ប្រយោគនេះខ្វះពាក្យ to be ត្រូវសរសេរ «The bag is on the floor»។"
+            },
+            {
+              "type": "fill_blank",
+              "options": [],
+              "text_km": "បំពេញពាក្យទីតាំង៖ «The cat is ___ the table.» (ឆ្មានៅលើតុ)",
+              "correct": "on",
+              "explanation_km": "លើជាអង់គ្លេសគឺ on ព្រោះឆ្មាប៉ះផ្ទៃតុ។"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_km": "មេរៀនទី៣ សត្វ ទំនៀមប្រចាំថ្ងៃ និងការអានសន្ទនា",
+      "description_km": "រៀនពាក្យសត្វ និងសំឡេងរបស់វា កិរិយាទំនៀមប្រចាំថ្ងៃ ព្រមទាំងអានសន្ទនាខ្លី និងឆ្លើយសំណួរយល់ខ្លឹមសារ",
+      "lessons": [
+        {
+          "title_km": "សត្វ និងសំឡេងរបស់វា",
+          "summary_km": "សិស្សភ្ជាប់ឈ្មោះសត្វជាអង់គ្លេសនឹងសំឡេងរបស់វា និងសរសេរប្រយោគខ្លី",
+          "content_html": "<h3>១. ឈ្មោះសត្វ</h3><p>ពាក្យ <strong>animal</strong> មានន័យថា សត្វ។ សត្វនៅផ្ទះ និងនៅភូមិរបស់យើងមាន មាន់ ទា ឆ្មា ឆ្វា គោ និងស្រូក។ ជាអង់គ្លេស ពាក្យ <strong>sound</strong> មានន័យថា សំឡេង ហើយយើងនិយាយថា The dog barks (ឆ្វាហ៊ូ)។</p><h3>២. សត្វជាមួយសំឡេង</h3><table><thead><tr><td>សត្វ (អង់គ្លេស)</td><td>ខ្មែរ</td><td>សំឡេងអង់គ្លេស</td><td>សំឡេងខ្មែរ</td></tr></thead><tbody><tr><td>dog</td><td>ឆ្វា</td><td>woof woof</td><td>ហ៊ូ ហ៊ូ</td></tr><tr><td>cat</td><td>ឆ្មា</td><td>meow</td><td>មេវ</td></tr><tr><td>cow</td><td>គោ</td><td>moo</td><td>មូ</td></tr><tr><td>duck</td><td>ទា</td><td>quack</td><td>ក្អាក</td></tr><tr><td>rooster</td><td>មាន់ដើ</td><td>cock-a-doodle-doo</td><td>ក្ដូក ខុក</td></tr><tr><td>bird</td><td>បក្សី</td><td>tweet</td><td>ចៀង ចៀង</td></tr></tbody></table><h3>៣. ប្រយោគឧទាហរណ៍ និងការអនុវត្ត</h3><ul><li>«The cat says meow.» = ឆ្មានិយាយសំឡេង មេវ។</li><li>«A cow gives us milk.» = គោឲ្យទឹកដោះគោយើង។</li><li>«The rooster wakes us up in the morning.» = មាន់ដើរោទ៍ធ្វើឲ្យយើងក្រោកពេលព្រឹក។</li></ul><p>និយាយសំឡេងសត្វម្ដងមួយៗ ហើយឲ្យមិត្តទាយឈ្មោះសត្វជាអង់គ្លេស។ សរសេរប្រយោគបួន ដូចជា «I like birds because they sing»។</p><h3>៤. សង្ខេប</h3><p>dog គឺឆ្វា (woof) ។ cat គឺឆ្មា (meow) ។ cow គឺគោ (moo) ។ duck គឺទា (quack) ។ rooster គឺមាន់ដើ (cock-a-doodle-doo)។ ការរៀនសំឡេងសត្វធ្វើឲ្យការចងចាំពាក្យងាយ និងសប្បាយ។</p>",
+          "estimated_minutes": 16,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "សត្វអ្វីបញ្ចេញសំឡេង «moo»?",
+              "options": [
+                {"id": "A", "text": "duck"},
+                {"id": "B", "text": "cow"},
+                {"id": "C", "text": "cat"},
+                {"id": "D", "text": "bird"}
+              ],
+              "correct": "B",
+              "explanation_km": "គោ (cow) បញ្ចេញសំឡេង moo ចំណែកទាបញ្ចេញ quack។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យ «duck» មានន័យខ្មែរយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "មាន់"},
+                {"id": "B", "text": "ឆ្មា"},
+                {"id": "C", "text": "ទា"},
+                {"id": "D", "text": "គោ"}
+              ],
+              "correct": "C",
+              "explanation_km": "duck គឺទា ដែលសំឡេងរបស់វាគឺ quack។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«The dog says woof woof» ជាការប្រើពាក្យត្រឹមត្រូវ",
+              "correct": "true",
+              "explanation_km": "ឆ្វាហ៊ូ ឬ barks ដែលជាអង់គ្លេសសរសេរសំឡេងថា woof woof។"
+            },
+            {
+              "type": "fill_blank",
+              "options": [],
+              "text_km": "បំពេញសំឡេងសត្វ៖ «The cat says ___.»",
+              "correct": "meow",
+              "explanation_km": "សំឡេងឆ្មាជាអង់គ្លេសគឺ meow។"
+            }
+          ]
+        },
+        {
+          "title_km": "កិរិយាទំនៀមប្រចាំថ្ងៃ៖ I wake up at five",
+          "summary_km": "សិស្សរៀនពាក្យកិរិយាទំនៀមប្រចាំថ្ងៃ ហើយសរសេរប្រយោគ present simple ជាមួយម៉ោង",
+          "content_html": "<h3>១. ពាក្យកិរិយាថ្មី</h3><p><strong>Daily routine</strong> មានន័យថា ការធ្វើប្រចាំរាល់ថ្ងៃ។ ពាក្យសំខាន់ៗគឺ wake up (ក្រោកពីគេង) get up (ក្រោកឈរពីគ្រែ) wash my face (លាងមុខ) brush my teeth (ដុសធ្មេញ) take a bath (ងូតទឹក) get dressed (សម្លៀកបំពាក់) eat breakfast (ញ៉ាំអាហារព្រឹក) go to school (ទៅសាលា) study lessons (រៀនបទរៀន) play with friends (លេងជាមួយមិត្ត) eat dinner (ញ៉ាំអាហារល្ងាច) go to bed (ចូលគេង)។</p><h3>២. តារាងទំនៀមប្រចាំថ្ងៃ</h3><table><thead><tr><td>ម៉ោង</td><td>ប្រយោគអង់គ្លេស</td><td>អត្ថន័យខ្មែរ</td></tr></thead><tbody><tr><td>៥:០០</td><td>I wake up at five o'clock.</td><td>ខ្ញុំក្រោកពីគេងម៉ោងប្រាំ។</td></tr><tr><td>៦:០០</td><td>I eat breakfast at six o'clock.</td><td>ខ្ញុំញ៉ាំអាហារព្រឹកម៉ោងប្រាំមួយ។</td></tr><tr><td>៧:០០</td><td>I go to school at seven o'clock.</td><td>ខ្ញុំទៅសាលាម៉ោងប្រាំពីរ។</td></tr><tr><td>៩:០០</td><td>I go to bed at nine o'clock.</td><td>ខ្ញុំចូលគេងម៉ោងប្រាំបួន។</td></tr></tbody></table><h3>៣. ការប្រើពេល</h3><p>ប្រើ <strong>at</strong> នៅមុខម៉ោង (at six o'clock) និង <strong>in the morning</strong> <strong>in the afternoon</strong> <strong>at night</strong> សម្រាប់ពេល។ ឧទាហរណ៍ «I brush my teeth in the morning» និង «I do my homework in the evening»។ សរសេរទំនៀមរបស់អ្នកប្រាំមួយជំហាន ជាប្រយោគ present simple។</p><h3>៤. សង្ខេប</h3><p>ទំនៀមប្រចាំថ្ងៃប្រើ present simple ព្រោះយើងធ្វើរាល់ថ្ងៃ។ He she it បន្ថែម s នៅកិរិយា ដូចជា «She washes her face»។ ចាំពាក្យ wake up get up brush eat go study play go to bed ឲ្យបានច្បាស់។</p>",
+          "estimated_minutes": 18,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "«brush my teeth» មានន័យយ៉ាងណា?",
+              "options": [
+                {"id": "A", "text": "លាងមុខ"},
+                {"id": "B", "text": "ដុសធ្មេញ"},
+                {"id": "C", "text": "ងូតទឹក"},
+                {"id": "D", "text": "សម្លៀកបំពាក់"}
+              ],
+              "correct": "B",
+              "explanation_km": "teeth គឺធ្មេញ ហើយ brush គឺដុស ដូច្នេះ brush my teeth មានន័យថា ដុសធ្មេញ។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "បំពេញពាក្យកិរិយាឲ្យត្រឹមត្រូវ៖ «He ___ to school at seven o'clock.» (គាត់ទៅសាលាម៉ោងប្រាំពីរ)",
+              "options": [
+                {"id": "A", "text": "go"},
+                {"id": "B", "text": "going"},
+                {"id": "C", "text": "goes"},
+                {"id": "D", "text": "is go"}
+              ],
+              "correct": "C",
+              "explanation_km": "He ជាសព្វនាមទី៣ ឯកវចនា ដូច្នេះ go បន្ថែម es ក្លាយជា goes។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "«go to bed» មានន័យថា ទៅសាលា",
+              "correct": "false",
+              "explanation_km": "go to bed មានន័យថាចូលគេង ចំណែកទៅសាលាគឺ go to school។"
+            },
+            {
+              "type": "fill_blank",
+              "options": [],
+              "text_km": "បំពេញពាក្យអាហារ៖ «I eat ___ in the morning.»",
+              "correct": "breakfast",
+              "explanation_km": "អាហារព្រឹកជាអង់គ្លេសគឺ breakfast ចំណែកអាហារល្ងាចគឺ dinner។",
+              "hint_km": "អាហារមុនទៅសាលា"
+            }
+          ]
+        },
+        {
+          "title_km": "អានសន្ទនាខ្លី និងយល់ខ្លឹមសារ",
+          "summary_km": "សិស្សអានសន្ទនារបស់ដារ៉ា និងរីដា ហើយឆ្លើយសំណួរយល់ខ្លឹមសារតាមការពិត",
+          "content_html": "<h3>១. សន្ទនា</h3><p>អានសន្ទនាខាងក្រោម នៅពេល <strong>Dara</strong> និង <strong>Rida</strong> ជួរគ្នាលើកដំបូងនៅសាលា។</p><p><strong>Dara:</strong> Hello! My name is Dara. What is your name?</p><p><strong>Rida:</strong> Hi Dara. My name is Rida. How old are you?</p><p><strong>Dara:</strong> I am nine years old. Where are you from?</p><p><strong>Rida:</strong> I am from Siem Reap. Nice to meet you.</p><p><strong>Dara:</strong> Nice to meet you too. I like drawing pictures. What do you like?</p><p><strong>Rida:</strong> I like reading books. Let us play together!</p><h3>២. ពាក្យថ្មីក្នុងសន្ទនា</h3><table><thead><tr><td>ពាក្យអង់គ្លេស</td><td>អត្ថន័យខ្មែរ</td></tr></thead><tbody><tr><td>name</td><td>ឈ្មោះ</td></tr><tr><td>years old</td><td>ឆ្នាំ (អាយុ)</td></tr><tr><td>from</td><td>មកពី</td></tr><tr><td>together</td><td>ជាមួយគ្នា</td></tr><tr><td>to play</td><td>លេង</td></tr></tbody></table><h3>៣. ការយល់ខ្លឹមសារ</h3><p>ដើម្បីយល់សន្ទនា សូមសួរខ្លួនឯងថា នរណានិយាយ? និយាយអំពីអ្វី? និយាយនៅឯណា? ក្នុងសន្ទនានេះ Dara សួរអំពីឈ្មោះ អាយុ និងស្រុកកំណើតរបស់ Rida។ Dara អាយុ ៩ ឆ្នាំ ចំណែក Rida មកពីខេត្តសៀមរាប និងចូលចិត្តអានសៀវភៅ។ ចុងក្រោយ ពួកគេសុំលេងជាមួយគ្នា។</p><h3>៤. សង្ខេប និងអនុវត្ត</h3><p>អានសន្ទនាដោយសំឡេងឮជាមួយមិត្តម្នាក់ ដោយម្នាក់អាន Dara ម្នាក់អាន Rida រួចប្ដូរវេនគ្នា។ បន្ទាប់មកឆ្លើយសំណួរយល់ខ្លឹមសារ។ រចនាសម្ព័ន្ធដែលរៀនពីសន្ទនា គឺ «My name is...» «I am ... years old» «I am from...» និង «I like...» ដែលយើងអាចប្រើណែនាំខ្លួនឯងបានភ្លាម។</p>",
+          "estimated_minutes": 20,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "តើ Rida មកពីខេត្តអ្វីតាមសន្ទនា?",
+              "options": [
+                {"id": "A", "text": "Battambang"},
+                {"id": "B", "text": "Kampot"},
+                {"id": "C", "text": "Siem Reap"},
+                {"id": "D", "text": "Kampong Cham"}
+              ],
+              "correct": "C",
+              "explanation_km": "ក្នុងសន្ទនា Rida និយាយថា «I am from Siem Reap» ដូច្នេះគាត់មកពីខេត្តសៀមរាប។"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "តើ Dara ចូលចិត្តធ្វើអ្វី?",
+              "options": [
+                {"id": "A", "text": "គូររូប"},
+                {"id": "B", "text": "ហែលទឹក"},
+                {"id": "C", "text": "ធ្វើម្ហូប"},
+                {"id": "D", "text": "ជិះកង់"}
+              ],
+              "correct": "A",
+              "explanation_km": "Dara និយាយថា «I like drawing pictures» ដែលមានន័យថា ខ្ញុំចូលចិត្តគូររូប។"
+            },
+            {
+              "type": "true_false",
+              "text_km": "តាមសន្ទនា Dara មានអាយុ ៩ ឆ្នាំ",
+              "correct": "true",
+              "explanation_km": "Dara និយាយថា «I am nine years old» ដូច្នេះគាត់អាយុ ៩ ឆ្នាំពិតប្រាកដ។"
+            },
+            {
+              "type": "fill_blank",
+              "options": [],
+              "text_km": "បំពេញពាក្យពីសន្ទនា៖ «Nice to meet you ___.» (រីករាយដែលបានជួរអ្នកដែរ)",
+              "correct": "too",
+              "explanation_km": "ពេលឆ្លើយតប «Nice to meet you» យើងបន្ថែម too នៅចុងប្រយោគ ដែលមានន័យថា ដែរ។"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

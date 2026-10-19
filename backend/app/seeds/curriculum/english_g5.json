@@ -1,0 +1,484 @@
+{
+  "subject": "english",
+  "grade": 5,
+  "chapters": [
+    {
+      "title_km": "ចំណេះដឹងមូលដ្ឋានអំពីវេយ្យាករណ៍",
+      "description_km": "រៀនការប្រៀបធៀប បច្ចុប្បន្នអវឌ្ឍនៈ និងពាក្យប្រេក្វង់ស៊ីជាភាសាអង់គ្លេស",
+      "lessons": [
+        {
+          "title_km": "ប្រៀបធៀប និងប្រៀបប្រសើរ (bigger / the biggest)",
+          "summary_km": "សិស្សប្រើ -er និង -est ប្រៀបធៀបរបស់របរ មនុស្ស ឬសត្វបានត្រឹមត្រូវ",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ពាក្យប្រៀបធៀប (comparative) ប្រើពេលប្រៀបធៀបរបស់ពីរយ៉ាង។ បើពាក្យរំលឹកខ្លី (short adjective) យើងបន្ថែម -er និងប្រើ than នៅក្រោយ។ បើពាក្យវែង យើងបន្ថែម more ពីមុខ។ ពាក្យប្រៀបប្រសើរ (superlative) ប្រើពេលនិយាយអំពីអ្នកលេខមួយ ឬល្អជាងគេក្នុងក្រុមបីឡើង៖ បន្ថែម -est និងដាក់ the នៅពីមុខ ឬប្រើ most សម្រាប់ពាក្យវែង។ ពាក្យខ្លះមិនប្រកាន់គោលការណ៍ (irregular) ដូចជា good ប្រែថា ល្អ ប្រៀបធៀបជា better ប្រៀបប្រសើរជា best ហើយ bad ប្រែថា មិនល្អ ប្រៀបធៀបជា worse ប្រៀបប្រសើរជា worst។ សិស្សត្រូវចាំរចនាប័ទ្មទាំងពីរនេះឲ្យបានច្បាស់ ព្រោះវាប្រើញឹកញាប់ក្នុងប្រយោគប្រចាំថ្ងៃ។ ចាំថា កុំដាក់ -er និង more ព្រមគ្នាក្នុងប្រយោគតែមួយឡើយ ហើយកុំភ្លេច the នៅពីមុខទម្រង់ប្រៀបប្រសើរ។</p><h3>២. ឧទាហរណ៍</h3><ul><li>Chan is taller than Dara. (ចាន់ ខ្ពស់ជាង តារា។)</li><li>The elephant is the biggest animal on land. (សត្វដំរី ជាសត្វធំបំផុតលើគោក។)</li><li>This book is more interesting than that book. (សៀវភៅនេះ គួរឲ្យចាប់អារម្មណ៍ជាង សៀវភៅនោះ។)</li><li>Rice is the most important food in Cambodia. (អង្ករ ជាអាហារសំខាន់បំផុត នៅកម្ពុជា។)</li></ul><h3>៣. អនុវត្ត</h3><p>សូមមើលវត្ថុនៅក្នុងថ្នាក់ រួចសរសេរប្រយោគប្រៀបធៀបចំនួនបួន។ ឧទាហរណ៍៖ My bag is bigger than your bag. (កាបូបខ្ញុំ ធំជាង កាបូបរបស់អ្នក។) បន្ទាប់មក សរសេរប្រយោគប្រៀបប្រសើរពីរប្រើ the ដូចជា He is the fastest runner in our class. (គាត់ ជាអ្នករត់លឿនបំផុត ក្នុងថ្នាក់យើង។) បើសិស្សមិនប្រាកដ ចូរសួរគ្រូម្ដងទៀត ហើយអានប្រយោគរបស់ខ្លួនឡើងវិញដើម្បីពិនិត្យកំហុស។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យ big ទម្រង់ប្រៀបធៀប ត្រូវបានតាមរបៀបណា?",
+              "options": [
+                {"id": "A", "text": "bigger"},
+                {"id": "B", "text": "more big"},
+                {"id": "C", "text": "biggest"},
+                {"id": "D", "text": "most big"}
+              ],
+              "correct": "A",
+              "explanation_km": "ពាក្យ big ខ្លី ដូច្នេះយើងបន្ថែម -er ក្លាយជា bigger មានន័យថា ធំជាង។",
+              "hint_km": "ពាក្យខ្លីបន្ថែម -er"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ប្រយោគណាត្រឹមត្រូវ?",
+              "options": [
+                {"id": "A", "text": "She is the most beautiful girl."},
+                {"id": "B", "text": "She is the beautifullest girl."},
+                {"id": "C", "text": "She is beautiful than girl."},
+                {"id": "D", "text": "She is more beautiful girl in class."}
+              ],
+              "correct": "A",
+              "explanation_km": "ពាក្យ beautiful វែង ដូច្នេះប្រៀបប្រសើរត្រូវប្រើ the most beautiful មិនបន្ថែម -est ទេ។",
+              "hint_km": "ពាក្យវែងប្រើ most"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ប្រយោគ He is worse than his brother. ត្រឹមត្រូវតាមវេយ្យាករណ៍",
+              "correct": "true",
+              "explanation_km": "worse ជាទម្រង់ប្រៀបធៀបនៃពាក្យ bad ដែលជា irregular ដូច្នេះប្រយោគនេះត្រឹមត្រូវ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ៖ The cheetah is the ____ animal on land. (លឿន = fast)",
+              "correct": "fastest",
+              "explanation_km": "និយាយអំពីល្អបំផុតក្នុងក្រុម យើងបន្ថែម -est ដាក់ the នៅពីមុខ ក្លាយជា the fastest។"
+            }
+          ]
+        },
+        {
+          "title_km": "បច្ចុប្បន្នអវឌ្ឍនៈ (I am reading)",
+          "summary_km": "សិស្សសរសេរប្រយោគ present continuous ដោយប្រើ am is are ជាមួយ verb + ing",
+          "content_html": "<h3>១. ពន្យល់</h3><p>Present continuous គឺកាលបច្ចុប្បន្នអវឌ្ឍនៈ ប្រើពេលសកម្មភាពកំពុងកើតឡើងឥឡូវនេះ មិនទាន់ចប់។ រចនាប័ទ្មរបស់វាគឺ៖ អ្នកនិយាយ + ករណីយក be (am / is / are) + កិរិយាស័ព្ទ + ing។ យើងប្រើ I am, He is, She is, It is សម្រាប់ម្នាក់តែមួយ ហើយប្រើ You are, We are, They are សម្រាប់ពហុវចនៈ។ ឧទាហរណ៍ read ប្រែថា អាន បន្ថែម ing ក្លាយជា reading កំពុងអាន។ ពាក្យរំលឹកពេលដែលតែងប្រើជាមួយកាលនេះគឺ now (ឥឡូវ) ឬ at the moment (នៅពេលនេះ)។ បើបញ្ច្រាស យើងដាក់ not ក្រោយ be ដូចជា I am not sleeping. បើសួរ យើងផ្លាស់ប្ដូរ be ទៅពីមុខអ្នកនិយាយ។ សិស្សគួរអនុវត្តប្រយោគវិជ្ជមាន បញ្ច្រាស និងសំណួរឲ្យបានស្ទាត់ ព្រោះវាប្រើប្រចាំក្នុងការសន្ទនាប្រចាំថ្ងៃ។ ចាំថា ត្រូវមាន be ជានិច្ចមុន verb ing។</p><h3>២. ឧទាហរណ៍</h3><ul><li>I am reading an English book now. (ខ្ញុំ កំពុងអាន សៀវភៅអង់គ្លេស ឥឡូវនេះ។)</li><li>She is writing a letter. (នាង កំពុងសរសេរ សំបុត្រ។)</li><li>They are playing football in the yard. (ពួកគេ កំពុងលេង បាល់ទាត់ ក្នុងទីធ្លា។)</li><li>We are listening to the teacher. (យើង កំពុងស្ដាប់ គ្រូបង្រៀន។)</li></ul><h3>៣. អនុវត្ត</h3><p>សូមមើលវត្ថុនៅជុំវិញខ្លួន រួចសរសេរប្រយោគ ៣ ដែលប្រើ present continuous។ ឧទាហរណ៍៖ Sokha is eating rice. (សុខា កំពុងញ៉ាំ បាយ។) បន្ទាប់មក សរសេរប្រយោគបញ្ច្រាសមួយដូចជា He is not watching TV. (គាត់ មិន កំពុងមើល ទូរទស្សន៍ទេ។) ចុងក្រោយ បង្កើតសំណួរមួយ៖ What are you doing? (អ្នក កំពុងធ្វើ អ្វី?) ហើយឆ្លើយតាមពិត។ អានឡើងវិញ ដើម្បីពិនិត្យ be និង ing ឲ្យបានត្រឹមត្រូវ។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "តើប្រយោគណាត្រឹមត្រូវ?",
+              "options": [
+                {"id": "A", "text": "She reading a book now."},
+                {"id": "B", "text": "She is reading a book now."},
+                {"id": "C", "text": "She are reading a book now."},
+                {"id": "D", "text": "She is read a book now."}
+              ],
+              "correct": "B",
+              "explanation_km": "She ជាមួយ be is ហើយកិរិយាស័ព្ទត្រូវបន្ថែម ing ក្លាយជា She is reading។",
+              "hint_km": "She ប្រើ is + verb ing"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "បំពេញ៖ We ____ playing games at the moment.",
+              "options": [
+                {"id": "A", "text": "is"},
+                {"id": "B", "text": "am"},
+                {"id": "C", "text": "are"},
+                {"id": "D", "text": "be"}
+              ],
+              "correct": "C",
+              "explanation_km": "We ជាពហុវចនៈ ដូច្នេះប្រើ are តាមរចនាប័ទ្ម present continuous។",
+              "hint_km": "We / You / They ប្រើ are"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ប្រយោគ I am go to school now. ត្រឹមត្រូវ",
+              "correct": "false",
+              "explanation_km": "ត្រូវបន្ថែម ing លើ go ក្លាយជា I am going to school now. ទើបត្រឹមត្រូវ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (កំពុងសរសេរ)៖ He is ____ a letter now. (write + ing)",
+              "correct": "writing",
+              "explanation_km": "write បាត់អក្សរ e មួយ រួចបន្ថែម ing ក្លាយជា writing។"
+            }
+          ]
+        },
+        {
+          "title_km": "ពាក្យប្រេក្វង់ស៊ី (always usually sometimes never)",
+          "summary_km": "សិស្សប្រើពាក្យ always usually sometimes never ដើម្បីនិយាយអំពីទម្លាប់",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ពាក្យប្រេក្វង់ស៊ី (adverbs of frequency) ប្រាប់ថា សកម្មភាពមួយកើតឡើងញឹកញាប់កម្រិតណា។ always ប្រែថា តែងតែ មានន័យ ១០០ ភាគរយ។ usually ប្រែថា ជាទម្លាប់ ប្រហែល ៧០ ភាគរយ។ sometimes ប្រែថា ពេលខ្លះ ប្រហែល ៥០ ភាគរយ។ never ប្រែថា មិនដែល មានន័យ ០ ភាគរយ។ ក្នុងប្រយោគធម្មតា ពាក្យទាំងនេះនៅពីមុខកិរិយាស័ព្ទសកម្មភាព ប៉ុន្តែនៅក្រោយករណីយក be។ ឧទាហរណ៍ I always brush my teeth. ប៉ុន្តែ I am always happy។ ពាក្យទាំងនេះតែងប្រើជាមួយ simple present ពេលនិយាយអំពីទម្លាប់ប្រចាំថ្ងៃ ដូចជា ការធ្វើអនាម័យ ការជួយឪពុកម្ដាយ និងការសិក្សា។ សិស្សគួរតាំងសំណួរ What do you usually do? ហើយឆ្លើយតាមទម្លាប់ពិតរបស់ខ្លួន។ ចាំថា never មានន័យបញ្ច្រាសរួចស្រេច កុំដាក់ not ម្ដងទៀត ដូចជា He never eats fish គឺត្រឹមត្រូវហើយ។</p><h3>២. ឧទាហរណ៍</h3><ul><li>I always get up at six o'clock. (ខ្ញុំ តែងតែ ក្រោកពីគេង ម៉ោង ៦។)</li><li>She usually walks to school. (នាង ជាទម្លាប់ ដើរ ទៅសាលា។)</li><li>We sometimes eat noodles on Sunday. (យើង ពេលខ្លះ ញ៉ាំ មី ថ្ងៃអាទិត្យ។)</li><li>He never does his homework. (គាត់ មិនដែល ធ្វើ កិច្ចការសាលាទេ។)</li></ul><h3>៣. អនុវត្ត</h3><p>សរសេរប្រយោគ ៤ អំពីទម្លាប់របស់អ្នក ដោយប្រើពាក្យទាំង ៤ ខាងលើមួយពាក្យម្ដង។ ឧទាហរណ៍៖ I always wash my face in the morning. (ខ្ញុំ តែងតែ លាងមុខ ពេលព្រឹក។) បន្ទាប់មក សួរមិត្តភក្ដិម្នាក់អំពីទម្លាប់របស់គាត់ រួចសរសេរប្រយោគអំពីគាត់ដោយប្រើ usually ឬ sometimes តាមចម្លើយ។ ឧទាហរណ៍ She usually helps her mother. (នាង ជាទម្លាប់ ជួយ ម្ដាយ នាង។)</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យណាមានន័យថា មិនដែល (០ ភាគរយ)?",
+              "options": [
+                {"id": "A", "text": "always"},
+                {"id": "B", "text": "usually"},
+                {"id": "C", "text": "sometimes"},
+                {"id": "D", "text": "never"}
+              ],
+              "correct": "D",
+              "explanation_km": "never ប្រែថា មិនដែល មានន័យថា សកម្មភាពនោះមិនកើតឡើងសោះ។",
+              "hint_km": "ពាក្យដែលមានន័យសូន្យភាគរយ"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "តំណែងពាក្យត្រឹមត្រូវក្នុងប្រយោគគឺអ្វី?",
+              "options": [
+                {"id": "A", "text": "She goes usually to school."},
+                {"id": "B", "text": "She usually goes to school."},
+                {"id": "C", "text": "Usually she goes to school very."},
+                {"id": "D", "text": "She goes to usually school."}
+              ],
+              "correct": "B",
+              "explanation_km": "ពាក្យប្រេក្វង់ស៊ីនៅពីមុខកិរិយាស័ព្ទ ដូច្នេះ She usually goes to school ត្រឹមត្រូវ។",
+              "hint_km": "usually នៅមុខ goes"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ប្រយោគ I am always on time for class. ត្រឹមត្រូវតាមវេយ្យាករណ៍",
+              "correct": "true",
+              "explanation_km": "ក្នុងប្រយោគមានករណីយក be ពាក្យ always នៅក្រោយ am ដែលត្រឹមត្រូវតាមគោលការណ៍។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (តែងតែ)៖ We ____ brush our teeth every day.",
+              "correct": "always",
+              "explanation_km": "every day រាល់ថ្ងៃ មានន័យញឹក ១០០ ភាគរយ ដូច្នេះប្រើ always។"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_km": "ជំនាញអាន និយាយ និងពាក្យសម្ដី",
+      "description_km": "អានអត្ថបទខ្លី រកគំនិតសំខាន់ ពាក្យបង្ហាញផ្លូវ there was / there were និងមុខរបរ",
+      "lessons": [
+        {
+          "title_km": "អានអត្ថបទខ្លី និងរកគំនិតសំខាន់",
+          "summary_km": "សិស្សអានអត្ថបទអង់គ្លេសខ្លី ហើយកំណត់គំនិតសំខាន់ (main idea) បានត្រឹមត្រូវ",
+          "content_html": "<h3>១. ពន្យល់</h3><p>គំនិតសំខាន់ (main idea) គឺអត្ថន័យធំបំផុតដែលអ្នកនិពន្ធចង់ប្រាប់។ ពេលអានអត្ថបទខ្លីមួយ សិស្សកុំអានពាក្យម្ដងមួយៗទេ គួរអានទាំងមូលជាមុនសិន។ បន្ទាប់មក សួរខ្លួនឯងថា អត្ថបទនេះនិយាយអំពីអ្វី? តើប្រយោគណាប្រាប់អត្ថន័យធំ? ជាធម្មតា គំនិតសំខាន់ស្ថិតនៅប្រយោគទីមួយ ឬប្រយោគចុងក្រោយនៃអត្ថបទ។ ព័ត៌មានផ្សេងទៀតជា លម្អិតរង (details) ដែលគាំទ្រគំនិតធំ។ បើសិស្សជួបពាក្យថ្មី ព្យាយាមទាយអត្ថន័យតាមបរិបទ (context) មុនសួរគ្រូ។ ការអានជាវិធីល្អបំផុតដើម្បីពង្រីកពាក្យសម្ដីអង់គ្លេស និងធ្វើឲ្យយល់រហ័ស។ អានឡើងវិញម្ដងទៀត ដើម្បីធានាថាយល់អត្ថន័យទាំងមូល។</p><h3>២. ឧទាហរណ៍</h3><p>អត្ថបទខ្លីអំពីស្រុកខ្មែរ៖ My village is a happy place. People grow rice near the river. Children go to school every morning. In the evening, families eat dinner together under the trees. (ស្រុកខ្ញុំ ជាកន្លែង រីករាយ។ ប្រជាជន ដាំ អង្ករ ជិត ទន្លេ។ កុមារ ទៅ សាលា រាល់ ព្រឹក។ ពេលល្ងាច គ្រួសារ ញ៉ាំ អាហារ ជុំគ្នា ក្រោម ដើមឈើ។) គំនិតសំខាន់គឺ My village is a happy place. ព្រោះប្រយោគផ្សេងទៀតជា លម្អិតរង ដូចជា ការដាំអង្ករ ការទៅសាលា និងការញ៉ាំអាហារពេលល្ងាច។</p><h3>៣. អនុវត្ត</h3><p>សិស្សនីមួយៗ អានអត្ថបទខ្លីមួយពីសៀវភៅ រួចសរសេរប្រយោគទីមួយរបស់អត្ថបទនោះ និងគំនិតសំខាន់ជាភាសាខ្មែរ។ បន្ទាប់មក គូសវាងពាក្យថ្មី ៣ និងទាយអត្ថន័យរបស់វា រួចរៀបរាប់ផ្ទាល់មាត់ពីគំនិតសំខាន់ទៅមិត្តភក្ដិ។ គ្រូអាចសួរថា Why is this the main idea? (ហេតុអ្វី វា ជា គំនិត សំខាន់?) ដើម្បីឲ្យសិស្សពន្យល់ដោយខ្លួនឯង។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "main idea ប្រែថា អ្វី?",
+              "options": [
+                {"id": "A", "text": "លម្អិតរង"},
+                {"id": "B", "text": "គំនិតសំខាន់"},
+                {"id": "C", "text": "ចំណងជើង"},
+                {"id": "D", "text": "ប្រយោគបញ្ច្រាស"}
+              ],
+              "correct": "B",
+              "explanation_km": "main = សំខាន់, idea = គំនិត ដូច្នេះ main idea ប្រែថា គំនិតសំខាន់។",
+              "hint_km": "អត្ថន័យធំបំផុត"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "តើគំនិតសំខាន់នៅអត្ថបទខាងលើគឺអ្វី?",
+              "options": [
+                {"id": "A", "text": "People grow rice near the river."},
+                {"id": "B", "text": "Children go to school every morning."},
+                {"id": "C", "text": "My village is a happy place."},
+                {"id": "D", "text": "Families eat dinner under the trees."}
+              ],
+              "correct": "C",
+              "explanation_km": "ប្រយោគ My village is a happy place. ជាគំនិតធំ ចំណែកប្រយោគផ្សេងជាលម្អិតរង។",
+              "hint_km": "ស្ថិតនៅប្រយោគទីមួយ"
+            },
+            {
+              "type": "true_false",
+              "text_km": "គំនិតសំខាន់អាចស្ថិតនៅប្រយោគទីមួយ ឬប្រយោគចុងក្រោយនៃអត្ថបទ",
+              "correct": "true",
+              "explanation_km": "ជាទម្លាប់ អ្នកនិពន្ធល្បាយគំនិតសំខាន់នៅដើម ឬបញ្ចប់អត្ថបទ ដូច្នេះសេចក្ដីនេះត្រឹមត្រូវ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (ទន្លេ)៖ People in my village grow rice near the ____.",
+              "correct": "river",
+              "explanation_km": "river ប្រែថា ទន្លេ ដែលជាកន្លែងប្រជាជនដាំអង្ករនៅក្នុងអត្ថបទ។"
+            }
+          ]
+        },
+        {
+          "title_km": "ការបង្ហាញផ្លូវ (turn left, go straight)",
+          "summary_km": "សិស្សយល់ពាក្យបង្ហាញផ្លូវ និងសួរ ឬឆ្លើយ តើកន្លែងណានៅឯណា",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ពាក្យបង្ហាញផ្លូវ (directions) ជួយពេលអ្នកដទៃចង់ទៅកន្លែងណាមួយ។ ពាក្យសំខាន់ៗគឺ go straight (ទៅត្រង់) turn left (បង្វែងឆ្វេង) turn right (បង្វែងស្ដាំ) stop (ឈប់) cross the road (ឆ្លងផ្លូវ) និង go past (ទៅលើង)។ យើងអាចប្រើ on the left (នៅខាងឆ្វេង) on the right (នៅខាងស្ដាំ) next to (នៅក្បែរ) between (នៅចន្លោះ) និង opposite (នៅប្រឈមមុខ)។ សំណួរពេញនិយមគឺ Excuse me where is the market? (សុំទោស ផ្សារ នៅ ឯណា?) និង How do I get to the school? (ខ្ញុំ ទៅ សាលា ដោយ របៀបណា?) ពេលឆ្លើយ គួរប្រើប្រយោគខ្លី ច្បាស់ និងតាមលំដាប់ ដើម្បីកុំឲ្យអ្នកសួរ ច្រឡំផ្លូវ។ សិស្សគួរហាត់និយាយមាត់ខ្លាំងៗជាមួយមិត្តភក្ដិឲ្យបានញឹកញាប់។</p><h3>២. ឧទាហរណ៍</h3><ul><li>Go straight, then turn left at the corner. (ទៅ ត្រង់ បន្ទាប់មក បង្វែង ឆ្វេង នៅ ជ្រុង។)</li><li>The pagoda is next to the school. (វត្ត នៅ ក្បែរ សាលា។)</li><li>Turn right after the gas station. (បង្វែង ស្ដាំ ក្រោយ ស្ថានីយបេនស៊ីន។)</li><li>The hospital is opposite the market. (មន្ទីរពេទ្យ នៅ ប្រឈមមុខ ផ្សារ។)</li></ul><h3>៣. អនុវត្ត</h3><p>ត្រង់ក្ដារខៀន គ្រូគូសផែនទីសាមញ្ញមួយមាន សាលា ផ្សារ វត្ត និង មន្ទីរពេទ្យ។ សិស្សម្នាក់សួរថា Excuse me where is the pagoda? (សុំទោស វត្ត នៅ ឯណា?) ម្នាក់ទៀតឆ្លើយដោយប្រើ go straight និង turn left ឬ turn right។ បន្ទាប់មក សរសេរប្រយោគបង្ហាញផ្លូវ ៣ ពីផ្ទះអ្នក ទៅសាលា ជាភាសាអង់គ្លេស។ កុំភ្លេចប្រើ at the corner (នៅ ជ្រុង) និង next to (នៅ ក្បែរ) ដើម្បីឲ្យកាន់តែច្បាស់។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "turn left ប្រែថា អ្វី?",
+              "options": [
+                {"id": "A", "text": "បង្វែងស្ដាំ"},
+                {"id": "B", "text": "បង្វែងឆ្វេង"},
+                {"id": "C", "text": "ទៅត្រង់"},
+                {"id": "D", "text": "ឈប់"}
+              ],
+              "correct": "B",
+              "explanation_km": "left ប្រែថា ឆ្វេង, turn ប្រែថា បង្វែង ដូច្នេះ turn left គឺ បង្វែងឆ្វេង។",
+              "hint_km": "មើលដៃខាងឆ្វេង"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "តើពាក្យណាមានន័យថា ទៅត្រង់?",
+              "options": [
+                {"id": "A", "text": "turn around"},
+                {"id": "B", "text": "stop here"},
+                {"id": "C", "text": "go straight"},
+                {"id": "D", "text": "cross the road"}
+              ],
+              "correct": "C",
+              "explanation_km": "go straight ប្រែថា ទៅត្រង់ មិនបង្វែងឆ្វេង ឬស្ដាំទេ។",
+              "hint_km": "straight = ត្រង់"
+            },
+            {
+              "type": "true_false",
+              "text_km": "next to មានន័យថា នៅឆ្ងាយពី",
+              "correct": "false",
+              "explanation_km": "next to មានន័យថា នៅក្បែរ មិនមែន នៅឆ្ងាយពី (far from) នោះទេ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (ស្ដាំ)៖ Turn ____ at the corner, then you see the shop.",
+              "correct": "right",
+              "explanation_km": "right ប្រែថា ស្ដាំ ដូច្នេះ turn right គឺ បង្វែងស្ដាំ។"
+            }
+          ]
+        },
+        {
+          "title_km": "មាននៅអតីតកាល (there was / there were)",
+          "summary_km": "សិស្សប្រើ there was និង there were និយាយអំពីអ្វីដែលមាននៅអតីតកាល",
+          "content_html": "<h3>១. ពន្យល់</h3><p>there was និង there were ជាទម្រង់អតីត (past) នៃ there is និង there are ដែលប្រាប់ថា មានអ្វីមួយស្ថិតនៅកន្លែងណាមួយកាលពីមុន។ យើងប្រើ there was ជាមួយនាមឯកវចនៈ ឬនាមរាប់មិនបាន (uncountable) ហើយប្រើ there were ជាមួយនាមពហុវចនៈ។ ពាក្យរំលឹកពេលដែលប្រើច្រើនគឺ yesterday (ម្សិលមិញ) last week (សប្ដាហ៍មុន) long ago (យូរណាស់មកហើយ)។ ទម្រង់បញ្ច្រាសគឺ there was not និង there were not។ ទម្រង់សំណួរគឺផ្លាស់ប្ដូរ was ឬ were ទៅពីមុខ there ដូចជា Were there many fish in the river? (តើ មាន ត្រី ច្រើន ក្នុង ទន្លេ ដែរ ឬ?) សិស្សត្រូវប្រយ័ត្រកុំច្រឡំ was ជាមួយ were។ ចាំថា was សម្រាប់ឯកវចនៈ ហើយ were សម្រាប់ពហុវចនៈ ហើយពាក្យទាំងពីរស្ថិតក្នុងអតីតកាលទាំងស្រុង។</p><h3>២. ឧទាហរណ៍</h3><ul><li>There was one tree in our yard last year. (មាន ដើមឈើ មួយ ក្នុង ទីធ្លា យើង ឆ្នាំ មុន។)</li><li>There were many students in the hall yesterday. (មាន សិស្ស ច្រើន ក្នុង វិមាន ម្សិលមិញ។)</li><li>There was a big flood in the village last year. (មាន ទឹកជន់ ធំ ក្នុង ភូមិ ឆ្នាំ មុន។)</li><li>There were not any lights in the street. (មិន មាន ភ្លើង តាម បណ្ដោយ ផ្លូវ ទេ។)</li></ul><h3>៣. អនុវត្ត</h3><p>សរសេរប្រយោគ ៤ អំពីភូមិរបស់អ្នក កាលពី ៥ ឆ្នាំមុន ដោយប្រើ there was និង there were មួយ ២។ ឧទាហរណ៍៖ There was a small school in my village. (មាន សាលា តូច មួយ ក្នុង ភូមិ ខ្ញុំ។) There were only two roads. (មាន ផ្លូវ តែ ពីរ។) បន្ទាប់មក ប្រៀបធៀបជាមួយបច្ចុប្បន្ន៖ Now there is a big school. (ឥឡូវ មាន សាលា ធំ។) អានប្រយោគរបស់គ្នាទៅវិញទៅមក ដើម្បីពិនិត្យ was were ឲ្យបានត្រឹមត្រូវ។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "បំពេញ៖ ____ two temples in my village ten years ago.",
+              "options": [
+                {"id": "A", "text": "There was"},
+                {"id": "B", "text": "There were"},
+                {"id": "C", "text": "There is"},
+                {"id": "D", "text": "There are"}
+              ],
+              "correct": "B",
+              "explanation_km": "two temples ជាពហុវចនៈ និង ten years ago ជាអតីត ដូច្នេះប្រើ There were។",
+              "hint_km": "ពហុវចនៈ + អតីត"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ប្រយោគណាត្រឹមត្រូវ?",
+              "options": [
+                {"id": "A", "text": "There was many birds in the tree."},
+                {"id": "B", "text": "There were a big house here."},
+                {"id": "C", "text": "There was a big house here."},
+                {"id": "D", "text": "There were many bird in tree."}
+              ],
+              "correct": "C",
+              "explanation_km": "a big house ជាឯកវចនៈ ដូច្នេះត្រូវប្រើ There was ទើបត្រឹមត្រូវ។",
+              "hint_km": "a house = ឯកវចនៈ"
+            },
+            {
+              "type": "true_false",
+              "text_km": "There were some books on the desk last night. ត្រឹមត្រូវ",
+              "correct": "true",
+              "explanation_km": "some books ជាពហុវចនៈ ជាមួយ last night អតីត ដូច្នេះ There were ត្រឹមត្រូវ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ៖ There ____ one boat on the river yesterday. (ឯកវចនៈ អតីត)",
+              "correct": "was",
+              "explanation_km": "one boat ជាឯកវចនៈ និង yesterday ជាអតីត ដូច្នេះប្រើ was។"
+            }
+          ]
+        },
+        {
+          "title_km": "មុខរបរ (jobs)",
+          "summary_km": "សិស្សស្គាល់ពាក្យមុខរបរជាភាសាអង់គ្លេស និងប្រើប្រយោគ He is a teacher",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ពាក្យប្រាប់មុខរបរ (jobs / occupations) ភាគច្រើនបញ្ចប់ដោយ -er, -or ឬ -ist នៅក្រោយកិរិយាស័ព្ទ ឬពាក្យពុំនោះ។ ឧទាហរណ៍ teach (បង្រៀន) ប្រែជា teacher (គ្រូ) ដោយបន្ថែម -er។ farm (ធ្វើស្រែ) ប្រែជា farmer (កសិករ)។ សម្រាប់ពាក្យខ្លះមិនប្រកាន់គោលការណ៍ទេ ដូចជា nurse (គិលានុបដ្ឋាយិកា) driver (អ្នកបើកបរ) police officer (ប៉ូលិស) និង monk (ព្រះសង្ឃ)។ នៅពេលនិយាយអំពីមុខរបរអ្នកណាម្នាក់ យើងដាក់ a ឬ an នៅពីមុខនាមមុខរបរ ដូចជា She is a nurse. He is an engineer។ ពាក្យ an ប្រើមុនពាក្យចាប់ដោយសូរ (a e i o u)។ សំណួរពេញនិយមគឺ What do you do? (អ្នក ធ្វើ មុខរបរ អ្វី?) និង What do you want to be? (អ្នក ចង់ ក្លាយជា អ្វី?) សិស្សគួរសរសេរបញ្ជីពាក្យមុខរបរទាំងនេះក្នុងសៀវភៅខ្លួន។</p><h3>២. ឧទាហរណ៍</h3><ul><li>My father is a farmer. (ឪពុក ខ្ញុំ ជា កសិករ។)</li><li>My mother works in a hospital. She is a nurse. (ម្ដាយ ខ្ញុំ ធ្វើការ ក្នុង មន្ទីរពេទ្យ។ នាង ជា គិលានុបដ្ឋាយិកា។)</li><li>The teacher writes on the board. (គ្រូ សរសេរ លើ ក្ដារខៀន។)</li><li>I want to be a doctor. (ខ្ញុំ ចង់ ក្លាយជា វេជ្ជបណ្ឌិត។)</li></ul><h3>៣. អនុវត្ត</h3><p>សរសេរឈ្មោះមុខរបរ ៦ ជាភាសាអង់គ្លេស ព្រមទាំងបកខ្មែរ និងអត្ថន័យខ្លីៗ។ បន្ទាប់មក សរសេរប្រយោគ ៣ អំពីគ្រួសារអ្នក៖ My grandfather was a fisherman. (តា ខ្ញុំ ជា អ្នកនេសាទ។) រួចនិយាយរៀបរាប់ពីមុខរបរដែលអ្នកចង់ធ្វើនៅពេលធំឡើង៖ I want to be a teacher because I like children. (ខ្ញុំ ចង់ ជា គ្រូ ព្រោះ ខ្ញុំ ចូលចិត្ត កុមារ។) ប្រើ a ឬ an ឲ្យបានត្រឹមត្រូវ។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "មុខរបរណាធ្វើការក្នុងមន្ទីរពេទ្យ និងថែទាំអ្នកជំងឺ?",
+              "options": [
+                {"id": "A", "text": "farmer"},
+                {"id": "B", "text": "nurse"},
+                {"id": "C", "text": "driver"},
+                {"id": "D", "text": "cook"}
+              ],
+              "correct": "B",
+              "explanation_km": "nurse ប្រែថា គិលានុបដ្ឋាយិកា ធ្វើការ មន្ទីរពេទ្យ ថែអ្នកជំងឺ។",
+              "hint_km": "អ្នកថែអ្នកជំងឺ"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "តើពាក្យណាប្រើ an បានត្រឹមត្រូវ?",
+              "options": [
+                {"id": "A", "text": "an teacher"},
+                {"id": "B", "text": "an farmer"},
+                {"id": "C", "text": "an engineer"},
+                {"id": "D", "text": "an monk"}
+              ],
+              "correct": "C",
+              "explanation_km": "engineer ចាប់ដោយសូរ e ដូច្នេះប្រើ an engineer។ ពាក្យផ្សេងទៀតចាប់ដោយព្យង្វន្ធសូរ ត្រូវប្រើ a។",
+              "hint_km": "an នៅមុខសូរ"
+            },
+            {
+              "type": "true_false",
+              "text_km": "A fisherman catches fish for a living.",
+              "correct": "true",
+              "explanation_km": "fisherman ប្រែថា អ្នកនេសាទ ដែលនេសាទ ត្រី ជាមុខរបរ ដូច្នេះសេចក្ដីត្រឹមត្រូវ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (គ្រូ)៖ My sister is a ____. She teaches students.",
+              "correct": "teacher",
+              "explanation_km": "teaches students (បង្រៀនសិស្ស) បង្ហាញថា នាង ជា គ្រូ គឺ teacher។"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_km": "ការសរសេរ និងការប្រើពាក្យ",
+      "description_km": "រៀនសរសេររឿងខ្លី ពាក្យ in on at និងសំណួរ How many / How much",
+      "lessons": [
+        {
+          "title_km": "ការសរសេររឿងខ្លី ៤ ដល់ ៦ ប្រយោគ",
+          "summary_km": "សិស្សសរសេររឿងខ្លីជាភាសាអង់គ្លេស ៤ ដល់ ៦ ប្រយោគ មានដើម កណ្ដាល និងចុង",
+          "content_html": "<h3>១. ពន្យល់</h3><p>រឿងខ្លីមួយ (short story) ត្រូវមាន ៣ ផ្នែកធំ៖ ការណែនាំ ព្រឹត្តិការណ៍ និង ទីបញ្ចប់។ ការណែនាំ (beginning) ប្រាប់ថា នរណា នៅឯណា នៅពេលណា។ ព្រឹត្តិការណ៍ (middle) ប្រាប់ បញ្ហា ឬ ការផ្លាស់ប្ដូរ។ ទីបញ្ចប់ (ending) ប្រាប់ លទ្ធផល និង មេរៀន។ យើងអាចប្រើពាក្យតភ្ជាប់ពេល ដូចជា One day (ថ្ងៃមួយ) Then (បន្ទាប់មក) Finally (ចុងក្រោយ) ដើម្បីឲ្យប្រយោគរៀបជាក្បួន។ ប្រើ simple present ឬ simple past តាមរឿង ហើយកុំភ្លេចសញ្ញាចប់ប្រយោគ។ សរសេរប្រយោគខ្លីៗ តែមានន័យច្បាស់ គឺល្អជាងប្រយោគវែង ហើយអានម្ដងទៀត ដើម្បីកែកំហុសពេលវេលា និងព្យញ្ជនៈ។ រឿងល្អគួរមានតួអង្គតិច តែមានព្រឹត្តិការណ៍ច្បាស់។</p><h3>២. ឧទាហរណ៍</h3><p>រឿង <em>The Lost Kite</em> (យន្តហោះក្រដាសបាត់)៖ One day, Dara takes his kite to the field. (ថ្ងៃមួយ តារា នាំ ក្រដាសហោះ ទៅ វាល។) The wind is very strong. (ខ្យល់ ខ្លាំង ណាស់។) Suddenly, the kite flies away and gets stuck in a big tree. (ស្រាប់តែ វា ហោះទៅ ជាប់ លើ ដើមឈើ ធំ។) Dara is sad, but his friend helps him. (តារា សោក តែ មិត្ត របស់ គាត់ ជួយ។) Finally, they get the kite back and laugh together. (ចុងក្រោយ ពួកគេ បាន វា មកវិញ ហើយ ញញឹម ជុំគ្នា។)</p><h3>៣. អនុវត្ត</h3><p>សរសេររឿងខ្លី ៤ ដល់ ៦ ប្រយោគជាភាសាអង់គ្លេស អំពី សត្វមួយ ឬ មិត្តភក្ដិមួយ របស់អ្នក។ ចាប់ផ្ដើមដោយ One day... បន្ទាប់មក ប្រើ Then ឬ but ដើម្បីរៀបព្រឹត្តិការណ៍ ហើយបញ្ចប់ដោយ Finally... រួចនិយាយមេរៀនខ្លី។ បន្ទាប់ពីសរសេរ ប្ដូរសៀវភៅជាមួយមិត្តភក្ដិ ដើម្បីពិនិត្យ ប្រយោគ ករណីយក និងសញ្ញាចប់ ឲ្យបានត្រឹមត្រូវ។</p>",
+          "estimated_minutes": 20,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "តើផ្នែកណានៅដើមរឿងខ្លី?",
+              "options": [
+                {"id": "A", "text": "ending"},
+                {"id": "B", "text": "beginning"},
+                {"id": "C", "text": "title only"},
+                {"id": "D", "text": "moral lesson"}
+              ],
+              "correct": "B",
+              "explanation_km": "beginning ប្រែថា ការណែនាំ ផ្នែកដើមរឿង ដែលប្រាប់តួអង្គ កន្លែង និងពេលវេលា។",
+              "hint_km": "ផ្នែកទីមួយ"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យតភ្ជាប់ណាសមស្របនៅចុងរឿង?",
+              "options": [
+                {"id": "A", "text": "First"},
+                {"id": "B", "text": "Suddenly"},
+                {"id": "C", "text": "Finally"},
+                {"id": "D", "text": "Because"}
+              ],
+              "correct": "C",
+              "explanation_km": "Finally ប្រែថា ចុងក្រោយ តែងប្រើនៅទីបញ្ចប់រឿង។",
+              "hint_km": "ពាក្យបង្ហាញទីបញ្ចប់"
+            },
+            {
+              "type": "true_false",
+              "text_km": "រឿងខ្លីគួរមាន ៤ ដល់ ៦ ប្រយោគ និងបញ្ចប់ដោយទីបញ្ចប់ច្បាស់",
+              "correct": "true",
+              "explanation_km": "តាមការណែនាំ រឿងខ្លីសម្រាប់សិស្សមាន ៤ ដល់ ៦ ប្រយោគ មានដើម កណ្ដាល និងចុង។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (ថ្ងៃ)៖ One ____, Sokha finds a small bird near her house.",
+              "correct": "day",
+              "explanation_km": "One day ប្រែថា ថ្ងៃមួយ ជាការណែនាំពេលនៅដើមរឿង។"
+            }
+          ]
+        },
+        {
+          "title_km": "ពាក្យ in on at ប្រើឲ្យត្រឹមត្រូវ",
+          "summary_km": "សិស្សបែងចែកការប្រើ in on at ជាមួយពេលវេលា និងទីកន្លែង",
+          "content_html": "<h3>១. ពន្យល់</h3><p>in on at ជា preposition (ពាក្យទំនៀប) ដែលប្រើច្រើនបំផុត តែងៗក្លាយជាកំហុស។ សម្រាប់ ពេលវេលា៖ in ប្រើជាមួយ ខែ ឆ្នាំ រដូវ និង ពេលថ្ងៃ (in March, in the morning)។ on ប្រើជាមួយ ថ្ងៃ និង កាលបរិច្ឆេទ (on Monday, on my birthday)។ at ប្រើជាមួយ ម៉ោង និង ពេលជាក់លាក់ (at six o'clock, at night, at lunchtime)។ សម្រាប់ ទីកន្លែង៖ in ប្រើនៅក្នុង ប្រទេស ខេត្ត ឬ តំបន់ធំ (in Cambodia, in the room)។ on ប្រើលើ ផ្ទៃ (on the table, on the wall)។ at ប្រើនៅ ចំណុច (at school, at the bus stop)។ សូមចាំ រូបភាពប្រៀបធៀប៖ នៅក្នុងសម្រាប់ in នៅលើផ្ទៃសម្រាប់ on និងចំណុចតូចសម្រាប់ at។ ហាត់សរសេរប្រយោគជាមួយពាក្យទាំងបីឲ្យបានញឹកញាប់។</p><h3>២. ឧទាហរណ៍</h3><ul><li>My birthday is in April. (ថ្ងៃ កំណើត ខ្ញុំ នៅ ខែ មេសា។)</li><li>We have English class on Friday. (យើង មាន មេរៀន អង់គ្លេស ថ្ងៃ សុក្រ។)</li><li>The bus comes at six o'clock. (ឡានក្រុង មក ម៉ោង ៦។)</li><li>The cat is under the table, not on the table. (ឡា ខ្លា ក្រោម តុ មិន មែន លើ តុ។)</li></ul><h3>៣. អនុវត្ត</h3><p>បំពេញលំហ ៦ ក្នុងសៀវភៅ ដោយ in on at៖ I get up ____ six o'clock. We play football ____ the yard. My sister was born ____ December. បន្ទាប់មក សរសេរប្រយោគ ៣ អំពីកាលវិភាគរបស់អ្នក ដោយប្រើ in the morning, on Sunday, at noon។ សួរមិត្តភក្ដិថា What do you do on Saturday? (អ្នក ធ្វើ អ្វី ថ្ងៃ សៅរ៍?) ហើយសរសេរចម្លើយរបស់គាត់ ដោយប្រើ at ឬ in ឲ្យបានត្រឹមត្រូវ។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "បំពេញ៖ We go to the pagoda ____ Sunday.",
+              "options": [
+                {"id": "A", "text": "in"},
+                {"id": "B", "text": "on"},
+                {"id": "C", "text": "at"},
+                {"id": "D", "text": "of"}
+              ],
+              "correct": "B",
+              "explanation_km": "ថ្ងៃក្នុងសប្ដាហ៍ (Sunday) តែងប្រើ on គឺ on Sunday។",
+              "hint_km": "ថ្ងៃ = on"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ប្រយោគណាត្រឹមត្រូវ?",
+              "options": [
+                {"id": "A", "text": "The shop opens at six o'clock."},
+                {"id": "B", "text": "The shop opens in six o'clock."},
+                {"id": "C", "text": "The shop opens on six o'clock."},
+                {"id": "D", "text": "The shop opens at morning six."}
+              ],
+              "correct": "A",
+              "explanation_km": "ម៉ោងជាក់លាក់ ត្រូវប្រើ at ដូចជា at six o'clock។",
+              "hint_km": "ម៉ោង = at"
+            },
+            {
+              "type": "true_false",
+              "text_km": "My mother works in the office on the second floor. ត្រឹមត្រូវ",
+              "correct": "true",
+              "explanation_km": "in the office (នៅ ក្នុង ការិយាល័យ) និង on the second floor (នៅ ជាន់ ទី ២) ប្រើត្រូវគោលការណ៍។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (ខែ)៖ The school festival is ____ November.",
+              "correct": "in",
+              "explanation_km": "ខែ ប្រើ in តាមគោលការណ៍ពេលវេលា គឺ in November។"
+            }
+          ]
+        },
+        {
+          "title_km": "សំណួរ How many / How much",
+          "summary_km": "សិស្សបែងចែកនាមរាប់បាន និងរាប់មិនបាន ដោយប្រើ How many និង How much បានត្រឹមត្រូវ",
+          "content_html": "<h3>១. ពន្យល់</h3><p>How many (ប៉ុន្មាន) ប្រើជាមួយ នាមរាប់បាន (countable nouns) ដែលមានពហុវចនៈ ដូចជា books oranges students។ រចនាប័ទ្មគឺ How many + នាមពហុវចនៈ + are there / do you ...? How much (ប៉ុន្មាន) ប្រើជាមួយ នាមរាប់មិនបាន (uncountable nouns) ដូចជា water rice money time sugar។ នាមទាំងនេះគ្មានពហុវចនៈទេ ហើយតែងមានករណីយក be is។ មួយចំនួនពាក្យខ្មែររាប់បាន តែអង់គ្លេសរាប់មិនបាន ដូចជា បាយ (rice) ប្រាក់ (money) និង ទឹក (water)។ សិស្សត្រូវពិនិត្យថា តើវត្ថុនោះអាចរាប់ មួយ សពីរ បី បានទេ បើបាន ប្រើ many បើរាប់មិនបាន ប្រើ much។ លើសពីនេះ ប្រើ some ក្នុងប្រយោគវិជ្ជមាន និង any ក្នុងប្រយោគបញ្ច្រាស ឬសំណួរ។ ហាត់សួរឆ្លើយជាមួយមិត្តភក្ដិឲ្យបានញឹកញាប់។</p><h3>២. ឧទាហរណ៍</h3><ul><li>How many pencils do you have? (ប៊ិចស្ពាន់ ប៉ុន្មាន ដែល អ្នក មាន?)</li><li>How much water is in the bottle? (ទឹក ប៉ុន្មាន នៅ ក្នុង ដប?)</li><li>How many students are there in your class? (សិស្ស ប៉ុន្មាន នៅ ក្នុង ថ្នាក់ អ្នក?)</li><li>How much does this mango cost? (ស្វាយ ល្ហុក នេះ តម្លៃ ប៉ុន្មាន?)</li></ul><h3>៣. អនុវត្ត</h3><p>សិស្សស្រមៃថា នៅផ្សារមានការលក់ជាច្រើន។ សរសេរសំណួរ ៤ ដោយប្រើ How many ឬ How much៖ ____ apples do you want? ____ sugar do you need? បន្ទាប់មក អនុវត្តសន្ទនាខ្លីជាមួយមិត្តភក្ដិ៖ How many pens do you have? I have three pens. (ខ្ញុំ មាន ប៊ិច បី។) ចុងក្រោយ ចែក នាម ១០ ទៅ ២ ក្រុម (រាប់បាន / រាប់មិនបាន) ដូចជា fish, money, eggs, time, chairs។ កុំភ្លេច money និង time រាប់មិនបាន ទោះខ្មែរយើងច្រើននិយាយថា ប្រាក់ច្រើនក៏ដោយ។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "តើត្រូវប្រើពាក្យណា៖ ____ children are there in the room?",
+              "options": [
+                {"id": "A", "text": "How much"},
+                {"id": "B", "text": "How many"},
+                {"id": "C", "text": "How long"},
+                {"id": "D", "text": "How old"}
+              ],
+              "correct": "B",
+              "explanation_km": "children ជាពហុវចនៈរាប់បាន ដូច្នេះត្រូវប្រើ How many។",
+              "hint_km": "children = រាប់បាន"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ប្រយោគណាត្រឹមត្រូវ?",
+              "options": [
+                {"id": "A", "text": "How much rices do you eat?"},
+                {"id": "B", "text": "How many water is in the glass?"},
+                {"id": "C", "text": "How much money do you have?"},
+                {"id": "D", "text": "How many sugars do you need?"}
+              ],
+              "correct": "C",
+              "explanation_km": "money រាប់មិនបាន ដូច្នេះប្រើ How much money do you have? ចំណែក rice water sugar មិនបន្ថែម s ទេ។",
+              "hint_km": "money = រាប់មិនបាន"
+            },
+            {
+              "type": "true_false",
+              "text_km": "How many time do you study? គឺជាប្រយោគត្រឹមត្រូវ",
+              "correct": "false",
+              "explanation_km": "time រាប់មិនបាន ត្រូវនិយាយថា How much time do you study? ទើបត្រឹមត្រូវ។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (ទឹក)៖ How much ____ is there in the jar?",
+              "correct": "water",
+              "explanation_km": "water ប្រែថា ទឹក រាប់មិនបាន ដូច្នេះតាងក្នុងរចនាប័ទ្ម How much water។"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

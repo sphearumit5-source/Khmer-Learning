@@ -1,0 +1,483 @@
+{
+  "subject": "english",
+  "grade": 6,
+  "chapters": [
+    {
+      "title_km": "វេយ្យាករណ៍ និងជំនាញអានសំខាន់",
+      "description_km": "រៀនពាក្យសួរ Wh- អានយល់អត្ថបទ កាលអនាគត will / going to និងការសរសេរអ៊ីមែល",
+      "lessons": [
+        {
+          "title_km": "ពាក្យសួរ Who What Where When Why How និងការឆ្លើយ",
+          "summary_km": "សិស្សប្រើពាក្យសួរ Wh- បានត្រឹមត្រូវ និងឆ្លើយសំណួរទាំងនេះដោយខ្លួនឯង",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ពាក្យសួរ Wh- (question words) ជួយយើងសួររកព័ត៌មានជាក់លាក់។ Who (នរណា) សួរអំពីមនុស្ស។ What (អ្វី) សួរអំពីរបស់ ឬសកម្មភាព។ Where (នៅឯណា) សួរអំពីកន្លែង។ When (ពេលណា) សួរអំពីពេលវេលា។ Why (ហេតុអ្វី) សួរអំពីមូលហេតុ ហើយឆ្លើយដោយ because (ព្រោះ)។ How (ដោយរបៀបណា ឬ ម៉េច) សួរអំពីរបៀប ឬស្ថានភាព ដូចជា How are you? រចនាប័ទ្មទូទៅគឺ៖ Wh- + be/ជំនួយកិរិយា + អ្នកនិយាយ + កិរិយាស័ព្ទ + ...? ឧទាហរណ៍ Where do you live? សិស្សត្រូវហាត់សួរ និងឆ្លើយជាគូ ដើម្បីឲ្យចេះប្រើក្នុងសន្ទនាពិត។ ចាំថា Why ត្រូវឆ្លើយជាមួយ because ជានិច្ច។</p><h3>២. ឧទាហរណ៍</h3><ul><li>Who is your teacher? - Mr. Sok. (នរណា ជា គ្រូ អ្នក? - លោក សុខ។)</li><li>What are you doing? - I am reading. (អ្នក កំពុងធ្វើ អ្វី? - ខ្ញុំ កំពុង អាន។)</li><li>Where do you live? - In Siem Reap. (អ្នក នៅ ឯណា? - នៅ សៀមរាប។)</li><li>When does school start? - At seven o'clock. (សាលា បើក ពេលណា? - ម៉ោង ៧។)</li><li>Why are you late? - Because I helped my mother. (ហេតុអ្វី អ្នក យឺត? - ព្រោះ ខ្ញុំ ជួយ ម្ដាយ។)</li></ul><h3>៣. អនុវត្ត</h3><p>សរសេរសំណួរ Wh- ចំនួន ៦ អំពីមិត្តភក្ដិរបស់អ្នក មួយសំណួរៗសម្រាប់ពាក្យនីមួយៗ រួចឆ្លើយវា។ ឧទាហរណ៍៖ What does she like? She likes English. (នាង ចូលចិត្ត អ្វី? - នាង ចូលចិត្ត អង់គ្លេស។) បន្ទាប់មក តាំងសំណួរផ្ទាល់មាត់នឹងមិត្តភក្ដិចំនួន ៣ ហើយកត់សម្គាល់ចម្លើយរបស់គាត់។ ពេលសរសេរចប់ ពិនិត្យមើលថា តើសំណួរនីមួយៗចាប់ផ្ដើមដោយពាក្យ Wh- និងបញ្ចប់ដោយសញ្ញាសំណួរដែរ ឬអត់។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "តើពាក្យសួរណា សួរអំពីមូលហេតុ?",
+              "options": [
+                {"id": "A", "text": "Where"},
+                {"id": "B", "text": "When"},
+                {"id": "C", "text": "Why"},
+                {"id": "D", "text": "Who"}
+              ],
+              "correct": "C",
+              "explanation_km": "Why ប្រែថា ហេតុអ្វី ប្រើសួរមូលហេតុ ហើយឆ្លើយដោយ because។",
+              "hint_km": "ឆ្លើយដោយ because"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "បំពេញសំណួរ (កន្លែង)៖ ____ does your father work? - At the hospital.",
+              "options": [
+                {"id": "A", "text": "Who"},
+                {"id": "B", "text": "Where"},
+                {"id": "C", "text": "Why"},
+                {"id": "D", "text": "When"}
+              ],
+              "correct": "B",
+              "explanation_km": "ចម្លើយ At the hospital បង្ហាញកន្លែង ដូច្នេះសំណួរត្រូវប្រើ Where។",
+              "hint_km": "hospital ជា កន្លែង"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ប្រយោគ When do you go to school? សួរអំពីពេលវេលា",
+              "correct": "true",
+              "explanation_km": "When ប្រែថា ពេលណា ដូច្នេះសំណួរនេះសួររកពេលវេលា។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (ព្រោះ)៖ I am happy because my father comes ____. (មក = ?)",
+              "correct": "home",
+              "explanation_km": "comes home ប្រែថា មកដល់ផ្ទះ ពាក្យ home ប្រែថា ផ្ទះ។"
+            }
+          ]
+        },
+        {
+          "title_km": "អានយល់អត្ថបទ (comprehension) និងពាក្យយោង",
+          "summary_km": "សិស្សអានអត្ថបទអង់គ្លេស ឆ្លើយសំណួរយល់ និងស្គាល់ពាក្យយោង (pronouns) និងនាមរបស់វា",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ការអានយល់ (reading comprehension) ទាមទារឲ្យយើងរកចម្លើយពីអត្ថបទ មិនមែនទាយចៃដន្យទេ។ មុនឆ្លើយ អានសំណួរជាមុន រួចស្វែងរកព័ត៌មាននោះក្នុងអត្ថបទ។ ពាក្យយោង (pronouns) ដូចជា he she it they him her ជំនួសនាមដែលបាននិយាយពីមុន ដើម្បីកុំឲ្យសរសេរស្ទួន។ ឧទាហរណ៍ Mun likes mangoes. He eats them every day. He យោងទៅ Mun ហើយ them យោងទៅ mangoes។ ពេលអាន សួរខ្លួនឯងថា ពាក្យយោងនេះសំដៅលើនរណា ឬអ្វី? ទន្ទឹមនឹងនេះ រកពាក្យគន្លឹះពេលវេលា និងកន្លែង ដើម្បីឆ្លើយសំណួរ Who What Where When បានត្រឹមត្រូវ។</p><h3>២. ឧទាហរណ៍</h3><p>អត្ថបទ៖ Sokha has a small dog. Its name is Brown. Every morning, Sokha feeds it and takes it to the park. The dog loves him very much. (សុខា មាន ឆ្កែ តូច មួយ។ ឈ្មោះ របស់ វា គឺ ប្រោវន់។ រាល់ ព្រឹក សុខា ចម្អែត វា ហើយ នាំ វា ទៅ សួនច្បារ។ ឆ្កែ ចូលចិត្ត គាត់ ខ្លាំង។)</p><p>សំណួរ៖ What is the dog's name? (ឈ្មោះ ឆ្កែ អ្វី?) ចម្លើយគឺ Brown។ ពាក្យ Its យោងទៅ dog នាម។ Who does the dog love? ចម្លើយគឺ Sokha (him)។</p><h3>៣. អនុវត្ត</h3><p>អានអត្ថបទខ្លីមួយទៀត រួចឆ្លើយសំណួរ ៤៖ នរណា? អ្វី? នៅឯណា? ពេលណា? បន្ទាប់មក គូសបន្ទាត់ពាក្យយោងទាំងអស់ និងសរសេរថា វាយោងទៅនាមណា។ ឧទាហរណ៍ They យោងទៅ the children។ ចុងក្រោយ សរសេរប្រយោគ ២ អំពីសត្វ ឬរបស់ចូលចិត្តរបស់អ្នក ដោយប្រើ it និង its ឲ្យបានត្រឹមត្រូវ។</p>",
+          "estimated_minutes": 20,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "នៅអត្ថបទខាងលើ ពាក្យ Its យោងទៅអ្វី?",
+              "options": [
+                {"id": "A", "text": "Sokha"},
+                {"id": "B", "text": "the park"},
+                {"id": "C", "text": "the dog"},
+                {"id": "D", "text": "the morning"}
+              ],
+              "correct": "C",
+              "explanation_km": "Its name ប្រែថា ឈ្មោះរបស់វា ដែលយោងទៅ small dog នាម។",
+              "hint_km": "ឆ្កែមានឈ្មោះ"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "តើ Sokha ធ្វើអ្វីរាល់ព្រឹក?",
+              "options": [
+                {"id": "A", "text": "He feeds the dog and takes it to the park."},
+                {"id": "B", "text": "He sells the dog."},
+                {"id": "C", "text": "He goes to school late."},
+                {"id": "D", "text": "He eats mangoes."}
+              ],
+              "correct": "A",
+              "explanation_km": "អត្ថបទនិយាយថា Every morning, Sokha feeds it and takes it to the park។",
+              "hint_km": "រកពាក្យ every morning"
+            },
+            {
+              "type": "true_false",
+              "text_km": "them ជាពាក្យយោង (pronoun) ដែលជំនួសនាមពហុវចនៈ",
+              "correct": "true",
+              "explanation_km": "them ជំនួសនាមពហុវចនៈដែលបាននិយាយពីមុន ដូចជា mangoes។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (សត្វ)៖ My cat is cute. ____ name is White.",
+              "correct": "its",
+              "explanation_km": "សម្រាប់សត្វ ឬរបស់ យើងប្រើ it/its ដូចជា Its name is White។"
+            }
+          ]
+        },
+        {
+          "title_km": "កាលអនាគត (will / going to)",
+          "summary_km": "សិស្សប្រើ will និង be going to និយាយអំពីអនាគតបានត្រឹមត្រូវតាមបរិបទ",
+          "content_html": "<h3>១. ពន្យល់</h3><p>យើងនិយាយអំពីអនាគត (future) ដោយវិធីពីរយ៉ាង។ ទីមួយ៖ will + កិរិយាស័ព្ទដើម ប្រើពេលសម្រេចចិត្តភ្លាមៗ ការសន្យា ឬការទស្សន៍ទាយ ដូចជា I will help you. (ខ្ញុំ នឹង ជួយ អ្នក។) ទីពីរ៖ be going to + កិរិយាស័ព្ទដើម ប្រើពេលមានផែនការ ឬការត្រៀមរួចជាស្រេច ដូចជា We are going to visit Grandma on Sunday. (យើង នឹង ទៅទស្សនា យាយ ថ្ងៃអាទិត្យ។) រចនាប័ទ្មបញ្ច្រាសគឺ will not (wont) និង am not going to។ សំណួរគឺ Will you come? និង What are you going to do? ពាក្យរំលឹកពេលគឺ tomorrow (ថ្ងៃស្អែក) next week (សប្ដាហ៍ក្រោយ) soon (ឆាប់ៗ)។ សិស្សត្រូវជ្រើសរើសរវាង will និង going to តាមបរិបទ៖ ផែនការ = going to សន្យា ឬសម្រេចភ្លាម = will។</p><h3>២. ឧទាហរណ៍</h3><ul><li>I will clean the board. (ខ្ញុំ នឹង សម្អាត ក្ដារខៀន។ - សន្យាភ្លាម)</li><li>Look at those clouds! It is going to rain. (មើល ពពក ទាំងនោះ! វា នឹង ភ្លៀង។ - មានសញ្ញា)</li><li>We are going to study English tonight. (យើង នឹង រៀន អង់គ្លេស យប់ នេះ។ - ផែនការ)</li><li>She will be a nurse one day. (នាង នឹង ជា គិលានុបដ្ឋាយិកា ថ្ងៃ ណាមួយ។)</li></ul><h3>៣. អនុវត្ត</h3><p>សរសេរប្រយោគ ៤ អំពីថ្ងៃស្អែករបស់អ្នក៖ ២ ប្រើ going to (ផែនការ) និង ២ ប្រើ will (ការសន្យា ឬទស្សន៍ទាយ)។ ឧទាហរណ៍៖ Tomorrow I am going to water the vegetables. Will you play with me? បន្ទាប់មក សួរមិត្តភក្ដិម្នាក់ថា What are you going to do next week? ហើយសរសេរចម្លើយរបស់គាត់ជាប្រយោគអនាគត។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "តើប្រយោគណាបង្ហាញផែនការរួចជាស្រេច?",
+              "options": [
+                {"id": "A", "text": "I will open the window."},
+                {"id": "B", "text": "We are going to travel to Kampot next month."},
+                {"id": "C", "text": "Perhaps it will rain."},
+                {"id": "D", "text": "She will help you, I think."}
+              ],
+              "correct": "B",
+              "explanation_km": "be going to ប្រើសម្រាប់ផែនការ ឬការត្រៀមរួច ដូចជា ដំណើរកម្សាន្ត ខែក្រោយ។",
+              "hint_km": "ផែនការ = going to"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "បំពេញ៖ Look out! The bike ____ fall!",
+              "options": [
+                {"id": "A", "text": "is going to"},
+                {"id": "B", "text": "was"},
+                {"id": "C", "text": "will to"},
+                {"id": "D", "text": "going"}
+              ],
+              "correct": "A",
+              "explanation_km": "មានសញ្ញាភ្លាមៗ ដូច្នេះប្រើ is going to fall មានន័យថា នឹង កម្ទេច។",
+              "hint_km": "ព្យាករណ៍ពីសញ្ញាដែលមើលឃើញ"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ប្រយោគ I will to go to market. ត្រឹមត្រូវ",
+              "correct": "false",
+              "explanation_km": "ក្រោយ will តាមកិរិយាស័ព្ទដើម គ្មាន to ទេ៖ I will go to the market។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (សន្យា)៖ Don't worry. I ____ help you with your homework.",
+              "correct": "will",
+              "explanation_km": "ការសន្យាភ្លាមៗ ប្រើ will + កិរិយាស័ព្ទដើម គឺ I will help you។"
+            }
+          ]
+        },
+        {
+          "title_km": "ការសរសេរសំបុត្រ ឬអ៊ីមែលសាមញ្ញ",
+          "summary_km": "សិស្សសរសេរអ៊ីមែលសាមញ្ញជាភាសាអង់គ្លេស មានក្បាល ការណាម និងបញ្ចប់ត្រឹមត្រូវ",
+          "content_html": "<h3>១. ពន្យល់</h3><p>សំបុត្រ ឬអ៊ីមែល (letter / email) សាមញ្ញមាន ៥ ផ្នែក៖ ក្បាល (heading) មានអាសយដ្ឋាន ឬប្រធានបទ (subject) ការគោរពផ្ដើម (Dear + ឈ្មោះ) ខ្លឹមសារ (body) ពាក្យបញ្ចប់ (Best wishes / Yours sincerely) និង ហត្ថលេខា។ ខ្លឹមសារគួរសរសេរជាប្រយោគខ្លី ច្បាស់៖ សួសា៖ How are you? ប្រាប់ព័ត៌មាន៖ I am writing to tell you about my school. សួរចម្លើយ៖ What about you? ហើយបញ្ចប់៖ See you soon។ កុំសរសេរវែងពេក តែត្រូវរក្សាទំនាក់ទំនង៖ បើសរសេរទៅមិត្ត ប្រើពាក្យរាក់ទាក់ ឯសរសេរទៅគ្រូ ប្រើពាក្យគោរព។ អានម្ដងទៀត ដើម្បីពិនិត្យពាក្យ ការប្រើពេល និងសញ្ញា។</p><h3>២. ឧទាហរណ៍</h3><blockquote>Subject: My New School  Dear Bopha,  How are you? I am writing to tell you about my new school. It is big and clean. I have new friends. They are very kind. What about your old school? Write to me soon.  Best wishes,  Chenda</blockquote><p>(ប្រធានបទ៖ សាលា ថ្មី របស់ ខ្ញុំ។ បង បុប្ផា ជាទីរក្សា? ខ្ញុំ សរសេរ មក ប្រាប់ បង ពី សាលា ថ្មី របស់ ខ្ញុំ។ វា ធំ និង ស្អាត...)។</p><h3>៣. អនុវត្ត</h3><p>សរសេរអ៊ីមែល ៥ ដល់ ៨ ប្រយោគ ទៅមិត្តភក្ដិម្នាក់ អំពី ដំណើរ កម្សាន្ត ពិសេស មួយ ដែល អ្នក ធ្លាប់ បាន ទៅ ដូចជា បឹងកេងកង ឬ ស្រុកកំណើត របស់ អ្នក។ ត្រូវបញ្ចូល៖ Dear..., ការសួរសុខទុក្ខ, ព័ត៌មាន ២-៣ ប្រយោគ, សំណួរ ១ ដល់អ្នកអាន, និងពាក្យបញ្ចប់ Best wishes + ឈ្មោះអ្នក។ បន្ទាប់មក ប្ដូរអ៊ីមែលជាមួយមិត្តភក្ដិ ដើម្បីពិនិត្យ រចនាសម្ព័ន្ធ ឲ្យ បាន ត្រឹម ត្រូវ។</p>",
+          "estimated_minutes": 20,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យគោរពផ្ដើមអ៊ីមែលទៅមិត្តភក្ដិគឺអ្វី?",
+              "options": [
+                {"id": "A", "text": "Goodbye,"},
+                {"id": "B", "text": "Dear,"},
+                {"id": "C", "text": "Thanks,"},
+                {"id": "D", "text": "Sorry,"}
+              ],
+              "correct": "B",
+              "explanation_km": "អ៊ីមែល ឬសំបុត្រ តែង ចាប់ ផ្ដើម ដោយ Dear + ឈ្មោះ អ្នក ទទួល។",
+              "hint_km": "ពាក្យផ្ដើម"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ផ្នែកណានៅក្នុងខ្លឹមសារ (body)?",
+              "options": [
+                {"id": "A", "text": "Best wishes"},
+                {"id": "B", "text": "Subject line"},
+                {"id": "C", "text": "I am writing to tell you about my school."},
+                {"id": "D", "text": "Chenda"}
+              ],
+              "correct": "C",
+              "explanation_km": "ប្រយោគ រៀបរាប់ ព័ត៌មាន ស្ថិត ក្នុង ខ្លឹមសារ ចំណែក ផ្សេង ទៀត ជា ក្បាល ឬ បញ្ចប់។",
+              "hint_km": "ខ្លឹមសារ = រឿង ដែល ចង់ ប្រាប់"
+            },
+            {
+              "type": "true_false",
+              "text_km": "អ៊ីមែលសាមញ្ញគួរមានសំណួរត្រឡប់ទៅអ្នកអានវិញ ដូចជា What about you?",
+              "correct": "true",
+              "explanation_km": "ការដាក់សំណួរ ត្រឡប់ ធ្វើ ឲ្យ អ៊ីមែល មាន លក្ខណៈ រាក់ ទាក់ និង បន្ត ទំនាក់ ទំនង។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញពាក្យបញ្ចប់ (ឆាប់ៗ)៖ Write to me soon. See you ____!",
+              "correct": "soon",
+              "explanation_km": "See you soon ប្រែថា ជួប គ្នា ឆាប់ៗ នេះ។"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_km": "ពាក្យសម្ដី និងការតភ្ជាប់គំនិត",
+      "description_km": "រៀនមុខវិជ្ជាសាលា ការប្រៀបធៀបអតីតនិងបច្ចុប្បន្ន ពាក្យតភ្ជាប់ and but because so និងមិត្តភាព",
+      "lessons": [
+        {
+          "title_km": "មុខវិជ្ជា និងសាលា (school subjects)",
+          "summary_km": "សិស្សស្គាល់ពាក្យមុខវិជ្ជាជាភាសាអង់គ្លេស និងប្រាប់ជំនាញដែលខ្លួនចូលចិត្ត",
+          "content_html": "<h3>១. ពន្យល់</h3><p>មុខវិជ្ជាសាលា (school subjects) មានពាក្យសំខាន់ៗដូចជា Mathematics ឬ Maths (គណិតវិទ្យា) Science (វិទ្យាសាស្ត្រ) English (ភាសាអង់គ្លេស) Khmer Literature (អក្សរខ្មែរ) History (ប្រវត្តិសាស្ត្រ) Geography (ភូមិសាស្ត្រ) Ethics (ព្រះធម៌) Physical Education ឬ PE (អប់រំរាងកាយ) និង Art (សិល្បៈ)។ យើងនិយាយថា I like Mathematics because it is interesting. (ខ្ញុំ ចូលចិត្ត គណិតវិទ្យា ព្រោះ វា គួរ ឲ្យ ចាប់ អារម្មណ៍។) ប្រើ My favourite subject is... ដើម្បី ប្រាប់ មុខ វិជ្ជា ចូល ចិត្ត បំផុត។ នាម មុខ វិជ្ជា ភាគ ច្រើន ជា អក្សរ ធំ នៅ តួ ដើម។ សំណួរ ពេញ និយម គឺ What subject do you like? និង When do we have Science? សិស្ស គួរ ចាំ ពាក្យ ទាំង ឡើង វិញ ដើម្បី និយាយ ពី កាល វិភាគ របស់ ខ្លួន។</p><h3>២. ឧទាហរណ៍</h3><ul><li>We have Khmer Literature every morning. (យើង មាន អក្សរ ខ្មែរ រាល់ ព្រឹក។)</li><li>Science is my favourite subject because I like experiments. (វិទ្យាសាស្ត្រ ជា មុខ វិជ្ជា ចូល ចិត្ត ខ្ញុំ ព្រោះ ខ្ញុំ ចូល ចិត្ត ការ សាក ល្បង។)</li><li>Do you like History or Geography? (អ្នក ចូល ចិត្ត ប្រវត្តិ សាស្ត្រ ឬ ភូមិ សាស្ត្រ?)</li><li>Our PE lesson is on Friday afternoon. (មេរៀន អប់រំ រាង កាយ យើង នៅ ថ្ងៃ សុក្រ ពេល ល្ងាច។)</li></ul><h3>៣. អនុវត្ត</h3><p>សរសេរកាលវិភាគថ្ងៃចន្ទរបស់អ្នកជាភាសាអង់គ្លេស ចំនួន ៥ ម៉ោង រួចប្រៀបធៀបជាមួយមិត្តភក្ដិ។ បន្ទាប់មក សរសេរប្រយោគ ៣ អំពីមុខវិជ្ជាដែលអ្នកចូលចិត្ត និងមូលហេតុ ដោយប្រើ because។ ឧទាហរណ៍៖ I like English because I want to read storybooks. (ខ្ញុំ ចូល ចិត្ត អង់ គ្លេស ព្រោះ ខ្ញុំ ចង់ អាន សៀវភៅ រឿង។)</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "មុខវិជ្ជាណាសិក្សាអំពីប្រទេស ទន្លេ និងភ្នំ?",
+              "options": [
+                {"id": "A", "text": "History"},
+                {"id": "B", "text": "Geography"},
+                {"id": "C", "text": "Art"},
+                {"id": "D", "text": "Ethics"}
+              ],
+              "correct": "B",
+              "explanation_km": "Geography ប្រែថា ភូមិសាស្ត្រ សិក្សាអំពី ទីកន្លែង ទន្លេ និង ភ្នំ។",
+              "hint_km": "ផែនទី = ភូមិសាស្ត្រ"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យ Maths ជាភាសាខ្មែរត្រូវនឹងមុខវិជ្ជាអ្វី?",
+              "options": [
+                {"id": "A", "text": "គណិតវិទ្យា"},
+                {"id": "B", "text": "វិទ្យាសាស្ត្រ"},
+                {"id": "C", "text": "ប្រវត្តិសាស្ត្រ"},
+                {"id": "D", "text": "អក្សរខ្មែរ"}
+              ],
+              "correct": "A",
+              "explanation_km": "Maths ជាទម្រង់ខ្លីនៃ Mathematics ប្រែថា គណិតវិទ្យា។",
+              "hint_km": "លេខ និង ការគណនា"
+            },
+            {
+              "type": "true_false",
+              "text_km": "Physical Education (PE) ជាមុខវិជ្ជាកីឡា និងអប់រំរាងកាយ",
+              "correct": "true",
+              "explanation_km": "PE គឺ មេរៀន លំហាត់ ប្រាណ និង កីឡា នៅ ក្នុង សាលា។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (ភាសាអង់គ្លេស)៖ My ____ lesson is on Tuesday. I learn new words.",
+              "correct": "english",
+              "explanation_km": "ការរៀនពាក្យថ្មី កើត ឡើង នៅ មេរៀន អង់ គ្លេស គឺ English lesson។"
+            }
+          ]
+        },
+        {
+          "title_km": "ប្រៀបធៀបអតីតនិងបច្ចុប្បន្ន (past vs present)",
+          "summary_km": "សិស្សប្រើ used to និងទម្រង់ present simple ប្រៀបធៀបរឿងពីមុននិងឥឡូវ",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ដើម្បី និយាយ អំពី ស្ថាន ភាព ឬ ទម្លាប់ ដែល ធ្លាប់ កើត មាន កាល ពី មុន ប៉ុន្តែ ឥឡូវ ប្ដូរ ហើយ យើង ប្រើ used to + កិរិយា ស័ព្ទ ដើម។ ឧទាហរណ៍ There used to be a small pond here. (ធ្លាប់ មាន ស្ទះ តូច មួយ នៅ ទី នេះ។) សម្រាប់ ស្ថាន ភាព បច្ចុប្បន្ន យើង ប្រើ present simple ដូចជា Now there is a big road. (ឥឡូវ មាន ផ្លូវ ធំ។) ការ ប្រៀប ធៀប ពីរ កាល ធ្វើ ឲ្យ យើង ឃើញ ការ រីក ចម្រើន របស់ ស្រុក ខ្លួន។ យើង អាច ប្រើ ពាក្យ ប្រៀប ធៀប ដូចជា Before (ពី មុន) និង Now (ឥឡូវ)។ កុំ ភ្លេច៖ used to ប្រើ បាន តែ អតីត ប៉ុណ្ណោះ ចំណែក be going to សម្រាប់ អនាគត។ សរសេរ ប្រៀប ធៀប ផ្ទះ សាលា ឬ ភូមិ របស់ អ្នក ពី មុន នឹង ឥឡូវ។</p><h3>២. ឧទាហរណ៍</h3><ul><li>My village used to have only one well. Now we have clean water everywhere. (ភូមិ ខ្ញុំ ធ្លាប់ មាន រហោស តែ មួយ។ ឥឡូវ យើង មាន ទឹក ស្អាត គ្រប់ កន្លែង។)</li><li>People used to walk to school. Now some ride motorbikes. (ប្រជាជន ធ្លាប់ ដើរ ទៅ សាលា។ ឥឡូវ មួយ ចំនួន បើក ម៉ូតូ។)</li><li>The school used to be small. It is big now. (សាលា ធ្លាប់ តូច។ វា ធំ ហើយ ឥឡូវ។)</li></ul><h3>៣. អនុវត្ត</h3><p>សរសេរប្រៀបធៀប ៣ អំពីភូមិ ឬសាលារបស់អ្នក ដោយប្រើ used to និង now។ ឧទាហរណ៍៖ There used to be no electricity. Now we have solar lamps. (ធ្លាប់ គ្មាន ចរន្ត អគ្គិសនី។ ឥឡូវ យើង មាន ភ្លើង ព្រះអាទិត្យ។) បន្ទាប់មក ប្ដូរគ្នាជាមួយមិត្តភក្ដិ ដើម្បីពិនិត្យ used to + កិរិយាស័ព្ទដើម ឲ្យ បាន ត្រឹម ត្រូវ ហើយ ជ្រើស រើស រឿង ដែល ខ្លួន ធ្លាប់ ឃើញ ផ្ទាល់។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "បំពេញ៖ My town ____ have a library. Now it has two.",
+              "options": [
+                {"id": "A", "text": "used to"},
+                {"id": "B", "text": "is used"},
+                {"id": "C", "text": "use to"},
+                {"id": "D", "text": "uses to"}
+              ],
+              "correct": "A",
+              "explanation_km": "និយាយ អំពី ទម្លាប់ អតីត ដែល ប្ដូរ ហើយ ប្រើ used to + កិរិយា ស័ព្ទ ដើម។",
+              "hint_km": "អតីត + បច្ចុប្បន្ន ផ្ទុយ គ្នា"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ប្រយោគណាពណ៌នាបច្ចុប្បន្ន?",
+              "options": [
+                {"id": "A", "text": "There used to be a dirt road."},
+                {"id": "B", "text": "Now there is a paved road."},
+                {"id": "C", "text": "People used to walk."},
+                {"id": "D", "text": "Long ago, we had no school."}
+              ],
+              "correct": "B",
+              "explanation_km": "ពាក្យ Now + is បង្ហាញ ស្ថាន ភាព បច្ចុប្បន្ន។",
+              "hint_km": "រកពាក្យ Now"
+            },
+            {
+              "type": "true_false",
+              "text_km": "used to ប្រើសម្រាប់ព្រឹត្តិការណ៍អនាគត",
+              "correct": "false",
+              "explanation_km": "used to សម្រាប់ តែ អតីត ដែល បាន ប្ដូរ ខណៈ អនាគត ប្រើ will ឬ going to។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (ឥឡូវ)៖ The school used to be small. ____ it is very big.",
+              "correct": "now",
+              "explanation_km": "ពាក្យ Now តោង ប្រយោគ បច្ចុប្បន្ន ប្រៀប ធៀប ជាមួយ used to។"
+            }
+          ]
+        },
+        {
+          "title_km": "ពាក្យតភ្ជាប់ and but because so",
+          "summary_km": "សិស្សប្រើ and but because so ដើម្បីតភ្ជាប់ប្រយោគសាមញ្ញទៅជាប្រយោគស្មុគស្មាញ",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ពាក្យ តភ្ជាប់ (conjunctions) ភ្ជាប់ ប្រយោគ ឬ ពាក្យ បញ្ចូល គ្នា។ and (និង) តភ្ជាប់ ព័ត៌មាន ស្រប គ្នា៖ I like maths and English។ but (ប៉ុន្តែ) តភ្ជាប់ ព័ត៌មាន ផ្ទុយ គ្នា៖ She is small but strong។ because (ព្រោះ) ណែនាំ មូល ហេតុ៖ I stayed home because it rained។ so (ដូច្នេះ) ណែនាំ លទ្ធផល៖ It rained, so I stayed home។ ចាំ ថា and និង but ភ្ជាប់ គ្នា ទៅ នឹង គ្នា ចំណែក because និង so បង្ហាញ ទំនាក់ ទំនង មូល ហេតុ និង បញ្ចប់។ កុំ ដាក់ because និង so ព្រម គ្នា ក្នុង ប្រយោគ តែ មួយ ទេ ព្រោះ វា ន័យ ស្ទួន។ ហាត់ បង្រួម ប្រយោគ ពីរ ខ្លី ៗ ចូល គ្នា ជា ប្រយោគ តែ មួយ ដោយ ប្រើ ពាក្យ តភ្ជាប់ ត្រឹម ត្រូវ។</p><h3>២. ឧទាហរណ៍</h3><ul><li>Dara likes football and Chenda likes volleyball. (តារា ចូល ចិត្ត បាល់ ទាត់ និង ច័ន្ទដា ចូល ចិត្ត បាល់ មាត់។)</li><li>The shop was closed, so we went home. (ហាង បិទ ដូច្នេះ យើង ត្រឡប់ ផ្ទះ។)</li><li>I am happy because my family comes home. (ខ្ញុំ រីក រាយ ព្រោះ គ្រួសារ ខ្ញុំ មក ផ្ទះ។)</li><li>He studied hard but he was tired. (គាត់ រៀន ខ្លាំង តែ គាត់ អស់ កម្លាំង។)</li></ul><h3>៣. អនុវត្ត</h3><p>បញ្ចូល ប្រយោគ ពីរ ខ្លី ៗ ជា ប្រយោគ មួយ ដោយ ប្រើ and but because ឬ so ចំនួន ៤ ដង។ ឧទាហរណ៍៖ It was raining. I took my umbrella. បញ្ចូល គ្នា ជា It was raining, so I took my umbrella។ បន្ទាប់ មក សរសេរ រឿង ខ្លី ៤ ប្រយោគ អំពី ថ្ងៃ មួយ របស់ អ្នក ដោយ ប្រើ ពាក្យ តភ្ជាប់ ទាំង បួន ឲ្យ បាន គ្រប់ វិញ ហើយ អាន ឡើង វិញ ដើម្បី ពិនិត្យ អត្ថ ន័យ។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "បំពេញ៖ I wanted to play, ____ it was raining.",
+              "options": [
+                {"id": "A", "text": "and"},
+                {"id": "B", "text": "but"},
+                {"id": "C", "text": "so"},
+                {"id": "D", "text": "because"}
+              ],
+              "correct": "B",
+              "explanation_km": "ប្រយោគ ពីរ ផ្ទុយ គ្នា ចង់ លេង តែ ភ្លៀង ដូច្នេះ ប្រើ but។",
+              "hint_km": "ពាក្យ បង្ហាញ ភាព ផ្ទុយ"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "បំពេញ៖ She was late, ____ the bus was slow.",
+              "options": [
+                {"id": "A", "text": "so"},
+                {"id": "B", "text": "and"},
+                {"id": "C", "text": "because"},
+                {"id": "D", "text": "but"}
+              ],
+              "correct": "C",
+              "explanation_km": "the bus was slow ជា មូល ហេតុ ដូច្នេះ ប្រើ because។",
+              "hint_km": "រក មូល ហេតុ"
+            },
+            {
+              "type": "true_false",
+              "text_km": "យើង អាច ប្រើ because និង so ព្រម គ្នា ក្នុង ប្រយោគ តែ មួយ",
+              "correct": "false",
+              "explanation_km": "because និង so មាន តួ ណា ង់ ពាក់ កណ្ដាល គ្នា ការ ប្រើ ព្រម គ្នា ធ្វើ ឲ្យ ប្រយោគ ខុស។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (និង)៖ My brother likes rice ____ fish for lunch.",
+              "correct": "and",
+              "explanation_km": "តោង ព័ត៌មាន ស្រប គ្នា ប្រើ and មាន ន័យ ថា និង។"
+            }
+          ]
+        },
+        {
+          "title_km": "មិត្តភាព និងការសន្ទនា",
+          "summary_km": "សិស្សសន្ទនាអំពីមិត្តភក្ដិ ការចូលរួម និងការសុំ/នាំអំពើបានសុជីវធម៌",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ពេល និយាយ ពី មិត្ត ភាព (friendship) យើង ប្រើ ពាក្យ ដូចជា friend (មិត្ត ភក្ដិ) kind (ចិត្ត ល្អ) helpful (ដែល ជួយ គេ) share (ចែក រំលាយ) និង trust (ទុក ចិត្ត)។ រចនា ប័ទ្ម សន្ទនា សុភាព រាប់ បញ្ចូល៖ Would you like to...? (តើ អ្នក ចង់ ...ទេ?) Can I ...? (ខ្ញុំ អាច ...ទេ?) Let's ...! (តោះ ...!) Thank you for... (អរគុណ សម្រាប់ ...) Sorry, I cant... (ទោស ខ្ញុំ មិន អាច ...ទេ)។ ការ ឆ្លើយ ត្រឡប់ គួរ រាក់ ទាក់ ទោះ បើ ប្រកែក៖ Id love to, but... ចាំ ថា មិត្ត ភាព ល្អ កើត ពី ការ ជួយ គ្នា ទៅ វិញ ទៅ មក និង ការ និយាយ ពាក្យ សុភាព។ អន្តរាគមន៍ គ្នា ក្នុង ថ្នាក់ ជា ភាសា អង់ គ្លេស ឲ្យ បាន ញឹក ញាប់។</p><h3>២. ឧទាហរណ៍</h3><ul><li>Would you like to play football with us? - Id love to! (តើ អ្នក ចង់ លេង បាល់ ទាត់ ជា មួយ យើង ទេ? - ខ្ញុំ ចង់ ណាស់!)</li><li>Can I borrow your pencil? - Sure, here you are. (ខ្ញុំ អាច ខ្ចី ប៊ិច ស្ពាន់ អ្នក ទេ? - បាន ទេ នេះ អ្នក។)</li><li>Thank you for helping me. - You are welcome. (អរគុណ ដែល ជួយ ខ្ញុំ។ - មិន អី ទេ។)</li><li>Sorry, I cant come today. I must help my mother. (ទោស ខ្ញុំ មិន អាច មក ថ្ងៃ នេះ។ ខ្ញុំ ត្រូវ ជួយ ម្ដាយ។)</li></ul><h3>៣. អនុវត្ត</h3><p>តាំង ខ្លួន ជា អ្នក សន្ទនា ជា មួយ មិត្ត ភក្ដិ ៥ ជុំ៖ អញ្ជើញ លេង ឬ រៀន ជុំ គ្នា សុំ ខ្ចី របស់ អ្វី មួយ ប្រកែក ដោយ សុភាព និង ថា អរគុណ។ សរសេរ សន្ទនា របស់ អ្នក ចូល សៀវភៅ ហើយ ពិនិត្យ ថា មាន Would you like Can I Thank you Sorry ដែរ ឬ អត់។</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "តើ ពាក្យ ណា សួរ ដោយ សុភាព ថា អ្នក ចង់ ធ្វើ អ្វី មួយ?",
+              "options": [
+                {"id": "A", "text": "Do you want or not?"},
+                {"id": "B", "text": "Would you like to join us?"},
+                {"id": "C", "text": "Come here now!"},
+                {"id": "D", "text": "What are you?"}
+              ],
+              "correct": "B",
+              "explanation_km": "Would you like to...? ជា រចនា ប័ទ្ម សុំ/អញ្ជើញ ដោយ សុភាព បំផុត។",
+              "hint_km": "ពាក្យ ពេញ និយម Would"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "ពាក្យ ឆ្លើយ ត្រឡប់ ទៅ Thank you គឺ អ្វី?",
+              "options": [
+                {"id": "A", "text": "Sorry"},
+                {"id": "B", "text": "You are welcome"},
+                {"id": "C", "text": "Goodbye"},
+                {"id": "D", "text": "Yes please"}
+              ],
+              "correct": "B",
+              "explanation_km": "You are welcome ប្រែថា មិន អី ទេ ជា ពាក្យ ឆ្លើយ នឹង ការ ថា អរគុណ។",
+              "hint_km": "មាន ន័យ ថា មិន អី ទេ"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ប្រយោគ Can I borrow your eraser? សុំ ខ្ចី របស់ គេ ដោយ សុភាព",
+              "correct": "true",
+              "explanation_km": "Can I borrow...? ជា ការ សុំ ខ្ចី ដោយ មិន បង្ខំ មាន លក្ខណៈ សុភាព។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (ចែក រំលាយ)៖ Good friends ____ their books and ideas.",
+              "correct": "share",
+              "explanation_km": "share ប្រែថា ចែក រំលាយ មិត្ត ល្អ តែង ចែក រំលាយ របស់ របស់ គ្នា។"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title_km": "ការត្រៀមខ្លួនសម្រាប់ថ្នាក់ទី ៧",
+      "description_km": "ពង្រឹងពាក្យគន្លឹះសាលាមធ្យម និងជំនាញត្រៀមប្រឡងចូលថ្នាក់ ៧",
+      "lessons": [
+        {
+          "title_km": "ពាក្យគន្លឹះសាលាទៅមធ្យម (key school words)",
+          "summary_km": "សិស្សចាំពាក្យគន្លឹះសាលាចំនួន ១៥ ដែលនឹងជួបក្នុងថ្នាក់មធ្យម",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ពេល ឡើង ថ្នាក់ មធ្យម (secondary school) អ្នក នឹង ជួប ពាក្យ សាលា ថ្មី ៗ ជា ច្រើន។ ពាក្យ គន្លឹះ រួម មាន timetable (កាល វិភាគ) classroom (បន្ទប់ សិក្សា) subject (មុខ វិជ្ជា) assignment (កិច្ច ការ ផ្ទះ) examination ្ឬ exam (ប្រឡង) grade (នំទាយ ឬ ថ្នាក់) library (បណ្ណស្ថាន) laboratory (បន្ទប់ សាក ល្បង) uniform (ឯក ស្បែក សាលា) recess (ពេល សម្រាក) scholarship (អា វ កា ស) homework (កិច្ច ការ សាលា) notebook (សៀវ ភៅ លេខ) stationery (សម្ភារៈ សរសេរ) assembly (ការ ជួប ជុំ នៅ វិមាន)។ សិស្ស គួរ សរសេរ ពាក្យ ទាំង នេះ ចូល ក្នុង សៀវ ភៅ តូច មួយ ហើយ ត្រឡប់ មើល រាល់ ថ្ងៃ។ ចាំ ថា ពាក្យ ខ្លះ មាន អក្សរ ខ្លី ដូចជា exam ដែល តាង examination។</p><h3>២. ឧទាហរណ៍</h3><ul><li>Our timetable has six lessons a day. (កាល វិភាគ យើង មាន មេរៀន ប្រាំ មួយ ក្នុង មួយ ថ្ងៃ។)</li><li>We do experiments in the laboratory. (យើង ធ្វើ ការ សាក ល្បង នៅ បន្ទប់ សាក ល្បង។)</li><li>Please read the notice on the board before the exam. (សូម អាន សេចក្ដី ជូន ដំណឹង លើ ក្ដារ មុន ប្រឡង។)</li><li>The library opens at seven o'clock. (បណ្ណស្ថាន បើក ម៉ោង ៧។)</li></ul><h3>៣. អនុវត្ត</h3><p>បង្កើត តារាង ពីរ ជួរ ក្នុង សៀវ ភៅ៖ ជួរ មួយ ជា ភាសា អង់ គ្លេស មួយ ទៀត ជា ខ្មែរ ហើយ ស្រមៃ បិទ ម្ខា ង រី មើល ទាយ ម្ខា ង។ បន្ទាប់ មក សរសេរ ប្រយោគ ៥ ដោយ ប្រើ ពាក្យ timetable library exam homework uniform មួយ ពាក្យ ម្ដង។ ចុង ក្រោយ សួរ គ្នា ទៅ វិញ ទៅ មក ជា មួយ មិត្ត ភក្ដិ៖ What is in your timetable today? (មាន អ្វី ក្នុង កាល វិភាគ អ្នក ថ្ងៃ នេះ?)</p>",
+          "estimated_minutes": 15,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "timetable ប្រែថា អ្វី?",
+              "options": [
+                {"id": "A", "text": "កន្លែង លេង"},
+                {"id": "B", "text": "កាល វិភាគ"},
+                {"id": "C", "text": "សៀវ ភៅ"},
+                {"id": "D", "text": "ម៉ោង ៨"}
+              ],
+              "correct": "B",
+              "explanation_km": "time = ពេល table = តារាង បញ្ចូល គ្នា ជា កាល វិភាគ មេរៀន។",
+              "hint_km": "តារាង មេរៀន ប្រចាំ សប្ដាហ៍"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "កន្លែង ណា ដែល យើង អាន សៀវ ភៅ ជា ច្រើន?",
+              "options": [
+                {"id": "A", "text": "laboratory"},
+                {"id": "B", "text": "library"},
+                {"id": "C", "text": "playground"},
+                {"id": "D", "text": "canteen"}
+              ],
+              "correct": "B",
+              "explanation_km": "library ប្រែថា បណ្ណស្ថាន ទី ដែល មាន សៀវ ភៅ ច្រើន សម្រាប់ អាន។",
+              "hint_km": "បណ្ណ=សៀវភៅ"
+            },
+            {
+              "type": "true_false",
+              "text_km": "exam ជា ពាក្យ ខ្លី នៃ examination មាន ន័យ ថា ការ ប្រឡង",
+              "correct": "true",
+              "explanation_km": "exam ជា ទម្រង់ និយាយ ខ្លី របស់ examination ដែល ប្រែថា ប្រឡង។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (កិច្ច ការ សាលា)៖ I do my ____ every evening at home.",
+              "correct": "homework",
+              "explanation_km": "homework ប្រែថា កិច្ច ការ សាលា ដែល សិស្ស ធ្វើ នៅ ផ្ទះ។"
+            }
+          ]
+        },
+        {
+          "title_km": "ត្រៀមប្រឡងចូលថ្នាក់ ៧",
+          "summary_km": "សិស្សសិក្សា ចំណុច វេយ្យាករណ៍ សំខាន់ៗ និង យុទ្ធសាស្ត្រ ឆ្លើយ ប្រឡង ចូល ថ្នាក់ ទី ៧",
+          "content_html": "<h3>១. ពន្យល់</h3><p>ការ ប្រឡង ចូល ថ្នាក់ ទី ៧ តែង សួរ អំពី៖ ករណី យក be (am is are) ទម្រង់ present continuous ពាក្យ ប្រេ ក្វង់ ស៊ី preposition in on at ពាក្យ ប្រៀប ធៀប -er -est និង រចនា ប័ទ្ម សំណួរ Do/Does/Did...? យុទ្ធសាស្ដ្រ សំខាន់ គឺ អាន សំណួរ ឲ្យ បាន ពីរ ដង គូស វាង ពាក្យ គន្លឹះ ពេល វេលា (now yesterday tomorrow) ដើម្បី ជ្រើស រើស ពេល វេលា វាក្យ ស័ព្ទ ត្រឹម ត្រូវ ហើយ ពិនិត្យ ឲ្យ បាន ម្ដង ទៀត មុន បញ្ចូល។ សម្រាប់ ការ បំពេញ លំហ សូម ប៉ាន់ ស្មាន ថា លំហ នោះ ត្រូវ ការ នាម កិរិយា ស័ព្ទ ឬ ករណី យក ជា មុន។ ចៀស វា ក់ ការ ទាយ ចៃ ដន្យ៖ លុប ជម្រើស ដែល ខុស ច្បាស់ ជា មុន។ ធ្វើ លំហាត់ ឲ្យ បាន ញឹក ញាប់ និង សរសេរ កំហុស ចាស់ ៗ មក កែ ឡើង វិញ។</p><h3>២. ឧទាហរណ៍</h3><ul><li>Now she ____ her homework. (is doing - now = present continuous)</li><li>There ____ five people in my family. (are - ពហុ វចនៈ)</li><li>We went to the pagoda ____ Sunday. (on - ថ្ងៃ = on)</li><li>____ you like English? - Yes, I do. (Do - សំណួរ present simple)</li></ul><h3>៣. អនុវត្ត</h3><p>ធ្វើ លំហាត់ ជំរើស ១០ ក្នុង សៀវ ភៅ ដោយ ខ្លួន ឯង គ្មាន មើល ចម្លើយ បន្ទាប់ មក តៀរ កំហុស ទាំង អស់ ដាក់ ចូល សៀវ ភៅ ខ្នើស ពិសេស មួយ។ សរសេរ ប្រយោគ ខ្លី ៦ អំពី ថ្ងៃ របស់ អ្នក ដោយ ប្រើ រចនា ប័ទ្ម ទាំង អស់ ដែល រៀន ហើយ ក្នុង ថ្នាក់ ទី ៦។ បើ នៅ សង្ស័យ ចំណុច ណា សួរ គ្រូ ឬ ធ្វើ លំ ហាត់ បន្ថែម នៅ ផ្ទះ រាល់ ថ្ងៃ ១០ នាទី។ ជួប ប្រឡង ដោយ ទំនុក ចិត្ត!</p>",
+          "estimated_minutes": 20,
+          "questions": [
+            {
+              "type": "multiple_choice",
+              "text_km": "បំពេញ៖ Now my mother ____ rice in the kitchen.",
+              "options": [
+                {"id": "A", "text": "cook"},
+                {"id": "B", "text": "cooks"},
+                {"id": "C", "text": "is cooking"},
+                {"id": "D", "text": "cooked"}
+              ],
+              "correct": "C",
+              "explanation_km": "ពាក្យ Now បង្ហាញ កាល អវឌ្ឍ នៈ ដូច្នេះ ប្រើ is cooking។",
+              "hint_km": "មើល ពាក្យ Now"
+            },
+            {
+              "type": "multiple_choice",
+              "text_km": "តើ សំណួរ ណា ត្រឹម ត្រូវ?",
+              "options": [
+                {"id": "A", "text": "Does you like Science?"},
+                {"id": "B", "text": "Do you likes Science?"},
+                {"id": "C", "text": "Do you like Science?"},
+                {"id": "D", "text": "You do like Science?"}
+              ],
+              "correct": "C",
+              "explanation_km": "You ប្រើ ជំនួយ កិរិយា Do ហើយ កិរិយា ស័ព្ទ នៅ ដើម៖ Do you like...?"
+            },
+            {
+              "type": "true_false",
+              "text_km": "ពេល ប្រឡង គួរ អាន សំណួរ ឲ្យ បាន ពីរ ដង និង ពិនិត្យ ចម្លើយ ម្ដង ទៀត",
+              "correct": "true",
+              "explanation_km": "ការ អាន ពីរ ដង និង ពិនិត្យ ឡើង វិញ កាត់ បន្ថយ កំហុស តូច តាច។"
+            },
+            {
+              "type": "fill_blank",
+              "text_km": "បំពេញ (ថ្ងៃ ពុធ)៖ We have Art on ____.",
+              "correct": "wednesday",
+              "explanation_km": "ថ្ងៃ ពុធ ជា អង់ គ្លេស គឺ ថ្ងៃ ពុធ ជា អង់ គ្លេស គឺ Wednesday ដែល ត្រូវ ចាំ អក្សរ ឲ្យ បាន ត្រឹម ត្រូវ។"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
