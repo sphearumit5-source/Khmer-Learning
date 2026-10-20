@@ -210,7 +210,7 @@ export const QuizPage: React.FC<QuizPageProps> = ({
         
         {/* Question Header */}
         <div className="space-y-3 border-b border-slate-100 pb-4">
-          <div className="flex items-center justify-between">
+          <div className="flex flex-wrap items-center justify-between gap-2">
             <span className="text-xs font-black px-3.5 py-1.5 bg-blue-50 text-blue-700 rounded-full border border-blue-200 font-khmer shadow-2xs">
               {currentQuestion.question_type === 'multiple_choice' 
                 ? '📝 ពហុជ្រើសរើស (Multiple Choice)' 
@@ -266,13 +266,13 @@ export const QuizPage: React.FC<QuizPageProps> = ({
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-1">
             <button
               onClick={() => handleSelectAnswer(currentQuestion.id, 'true')}
-              className={`p-6 sm:p-8 rounded-3xl border-3 text-center transition-all flex flex-col items-center gap-2.5 ${
+              className={`p-4 sm:p-8 rounded-3xl border-3 text-center transition-all flex flex-col items-center gap-2.5 ${
                 currentAnswer === 'true'
                   ? 'border-emerald-500 bg-emerald-50 shadow-lg scale-105 ring-4 ring-emerald-200'
                   : 'border-slate-200 hover:border-emerald-300 bg-white hover:bg-emerald-50/30'
               }`}
             >
-              <span className="text-5xl drop-shadow-sm">👍</span>
+              <span className="text-4xl sm:text-5xl drop-shadow-sm">👍</span>
               <span className="text-xl font-black text-emerald-800 font-khmer">
                 ត្រូវ (ពិតមែន)
               </span>
@@ -281,13 +281,13 @@ export const QuizPage: React.FC<QuizPageProps> = ({
 
             <button
               onClick={() => handleSelectAnswer(currentQuestion.id, 'false')}
-              className={`p-6 sm:p-8 rounded-3xl border-3 text-center transition-all flex flex-col items-center gap-2.5 ${
+              className={`p-4 sm:p-8 rounded-3xl border-3 text-center transition-all flex flex-col items-center gap-2.5 ${
                 currentAnswer === 'false'
                   ? 'border-rose-500 bg-rose-50 shadow-lg scale-105 ring-4 ring-rose-200'
                   : 'border-slate-200 hover:border-rose-300 bg-white hover:bg-rose-50/30'
               }`}
             >
-              <span className="text-5xl drop-shadow-sm">👎</span>
+              <span className="text-4xl sm:text-5xl drop-shadow-sm">👎</span>
               <span className="text-xl font-black text-rose-800 font-khmer">
                 ខុស (មិនពិតទេ)
               </span>
@@ -356,7 +356,7 @@ export const QuizPage: React.FC<QuizPageProps> = ({
           <button
             onClick={handleSubmit}
             disabled={submitting}
-            className="btn-3d-emerald flex items-center gap-2 px-8 py-3 text-white rounded-2xl text-sm font-black transition-all shadow-lg active:scale-95 disabled:opacity-50 font-khmer"
+            className="btn-3d-emerald flex items-center gap-2 px-5 sm:px-8 py-3 text-white rounded-2xl text-sm font-black transition-all shadow-lg active:scale-95 disabled:opacity-50 font-khmer"
           >
             <Send className="w-4 h-4" />
             <span>{submitting ? 'កំពុងគណនាពិន្ទុ...' : 'បញ្ជូនចម្លើយតេស្ត 🚀'}</span>

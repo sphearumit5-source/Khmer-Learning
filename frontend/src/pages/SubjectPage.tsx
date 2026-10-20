@@ -78,7 +78,7 @@ export const SubjectPage: React.FC<SubjectPageProps> = ({
     <div className="space-y-6 pb-16">
       
       {/* Top Breadcrumb & Navigation */}
-      <div className="flex items-center gap-3">
+      <div className="flex flex-wrap items-center gap-2 sm:gap-3">
         <button
           onClick={() => {
             sounds.playClick();
@@ -100,7 +100,7 @@ export const SubjectPage: React.FC<SubjectPageProps> = ({
       </div>
 
       {/* Subject Header Banner */}
-      <div className={`bg-gradient-to-r ${theme.gradient} rounded-3xl p-7 sm:p-10 text-white shadow-xl relative overflow-hidden`}>
+      <div className={`bg-gradient-to-r ${theme.gradient} rounded-3xl p-5 sm:p-10 text-white shadow-xl relative overflow-hidden`}>
         <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-2xl pointer-events-none" />
 
         <div className="relative z-10 flex flex-wrap items-center justify-between gap-6">
@@ -205,7 +205,7 @@ export const SubjectPage: React.FC<SubjectPageProps> = ({
                       )}
                     </div>
 
-                    <div className="pt-4 flex items-center justify-between border-t border-slate-100 mt-4 text-xs font-khmer">
+                    <div className="pt-4 flex flex-wrap items-center justify-between gap-2 border-t border-slate-100 mt-4 text-xs font-khmer">
                       <div className="flex items-center gap-3">
                         <span className="flex items-center gap-1 text-slate-500 font-bold">
                           <Clock className="w-3.5 h-3.5 text-slate-400" />

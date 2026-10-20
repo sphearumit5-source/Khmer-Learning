@@ -11,13 +11,42 @@ import { ProgressPage } from './pages/ProgressPage';
 import { AITutorPage } from './pages/AITutorPage';
 import { TeacherDashboardPage } from './pages/TeacherDashboardPage';
 import { Subject, QuizSubmissionResult } from './types';
-import { Heart, Sparkles, BookOpen } from 'lucide-react';
+import { Heart, Sparkles, BookOpen, Lock, GraduationCap } from 'lucide-react';
+
+const StaffOnlyNotice: React.FC = () => {
+  const { openAuthModal } = useAuth();
+  return (
+    <div className="max-w-md mx-auto glass-card rounded-3xl p-6 sm:p-8 text-center space-y-4 border border-slate-100 shadow-lg">
+      <div className="w-16 h-16 mx-auto rounded-2xl bg-amber-50 border border-amber-200 flex items-center justify-center">
+        <Lock className="w-8 h-8 text-amber-600" />
+      </div>
+      <h2 className="text-xl sm:text-2xl font-black text-slate-800 font-khmer">
+        ផ្ទាំងគ្រប់គ្រងសម្រាប់តែលោកគ្រូ និងអ្នកគ្រប់គ្រងប៉ុណ្ណោះ
+      </h2>
+      <p className="text-xs sm:text-sm text-slate-500 font-khmer leading-relaxed">
+        សិស្សានុសិស្សអាចរៀនមេរៀន ធ្វើលំហាត់ និងសួរគ្រូឆ្លាត AI បានដូចធម្មតា។ ដើម្បីបើកផ្ទាំងគ្រប់គ្រង
+        សូមចូលគណនីរបស់ <span className="font-black text-emerald-700">លោកគ្រូ</span> ឬ{' '}
+        <span className="font-black text-blue-700">អ្នកគ្រប់គ្រង</span>។
+      </p>
+      <button
+        onClick={openAuthModal}
+        className="btn-3d-blue text-white font-black text-sm px-5 py-3 rounded-2xl inline-flex items-center gap-2 font-khmer"
+      >
+        <GraduationCap className="w-4 h-4" />
+        ចូលគណនីលោកគ្រូ
+      </button>
+    </div>
+  );
+};
 
 const AppContent: React.FC = () => {
+  const { user } = useAuth();
   const [currentTab, setCurrentTab] = useState<string>('home');
   const [selectedSubject, setSelectedSubject] = useState<Subject | null>(null);
   const [selectedLessonId, setSelectedLessonId] = useState<string | null>(null);
   const [quizResult, setQuizResult] = useState<QuizSubmissionResult | null>(null);
+
+  const isStaff = user?.role === 'teacher' || user?.role === 'admin';
 
   const handleSelectSubject = (subject: Subject) => {
     setSelectedSubject(subject);
@@ -40,12 +69,12 @@ const AppContent: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-800 font-khmer">
+    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-800 font-khmer pb-[calc(4.25rem+env(safe-area-inset-bottom))] md:pb-0">
       {/* Navigation Bar */}
       <Navbar currentTab={currentTab} setCurrentTab={setCurrentTab} />
 
       {/* Main Container */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-6 sm:pt-8">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 pt-4 sm:pt-8">
         {currentTab === 'home' && (
           <HomePage
             onSelectSubject={handleSelectSubject}
@@ -90,7 +119,7 @@ const AppContent: React.FC = () => {
 
         {currentTab === 'tutor' && <AITutorPage />}
 
-        {currentTab === 'teacher' && <TeacherDashboardPage />}
+        {currentTab === 'teacher' && (isStaff ? <TeacherDashboardPage /> : <StaffOnlyNotice />)}
       </main>
 
       {/* Authentication Modal */}

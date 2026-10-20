@@ -125,12 +125,12 @@ export const ProgressPage: React.FC = () => {
       {/* Overview Stat Cards Grid */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Completed Lessons */}
-        <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
+        <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
           <div className="w-12 h-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center mb-2 shadow-2xs">
             <BookOpen className="w-6 h-6" />
           </div>
           <p className="text-xs font-black text-slate-400 font-khmer">មេរៀនបានរៀនចប់</p>
-          <p className="text-3xl font-black text-slate-900 font-khmer">
+          <p className="text-2xl sm:text-3xl font-black text-slate-900 font-khmer">
             {progress.completed_lessons} <span className="text-base text-slate-400">/ {progress.total_lessons}</span>
           </p>
           <p className="text-xs text-blue-600 font-black font-khmer">
@@ -139,12 +139,12 @@ export const ProgressPage: React.FC = () => {
         </div>
 
         {/* Average Quiz Score */}
-        <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
+        <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
           <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-2 shadow-2xs">
             <CheckCircle className="w-6 h-6" />
           </div>
           <p className="text-xs font-black text-slate-400 font-khmer">ពិន្ទុមធ្យមតេស្ត</p>
-          <p className="text-3xl font-black text-slate-900 font-khmer">
+          <p className="text-2xl sm:text-3xl font-black text-slate-900 font-khmer">
             {progress.average_quiz_score}%
           </p>
           <p className="text-xs text-emerald-600 font-black font-khmer">
@@ -153,12 +153,12 @@ export const ProgressPage: React.FC = () => {
         </div>
 
         {/* Earned Stars */}
-        <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
+        <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
           <div className="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center mb-2 shadow-2xs">
             <Star className="w-6 h-6 fill-amber-400 text-amber-500" />
           </div>
           <p className="text-xs font-black text-slate-400 font-khmer">ផ្កាយកិត្តិយស</p>
-          <p className="text-3xl font-black text-amber-600 font-khmer">
+          <p className="text-2xl sm:text-3xl font-black text-amber-600 font-khmer">
             {progress.earned_stars} ⭐
           </p>
           <p className="text-xs text-amber-700 font-black font-khmer">
@@ -167,12 +167,12 @@ export const ProgressPage: React.FC = () => {
         </div>
 
         {/* Medals */}
-        <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
+        <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
           <div className="w-12 h-12 rounded-2xl bg-purple-50 text-purple-600 flex items-center justify-center mb-2 shadow-2xs">
             <Trophy className="w-6 h-6" />
           </div>
           <p className="text-xs font-black text-slate-400 font-khmer">មេដាយសម្រេចបាន</p>
-          <p className="text-3xl font-black text-purple-600 font-khmer">
+          <p className="text-2xl sm:text-3xl font-black text-purple-600 font-khmer">
             {progress.badges.filter(b => b.is_unlocked).length} <span className="text-base text-slate-400">/ {progress.badges.length}</span>
           </p>
           <p className="text-xs text-purple-700 font-black font-khmer">
@@ -196,7 +196,7 @@ export const ProgressPage: React.FC = () => {
         <div className="space-y-5">
           {progress.subjects.map((sub) => (
             <div key={sub.subject_id} className="p-5 rounded-2xl bg-slate-50 border border-slate-200/80 space-y-2.5 hover:bg-white hover:shadow-xs transition-all">
-              <div className="flex items-center justify-between">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-1.5 sm:gap-0">
                 <div>
                   <span className="text-base font-black text-slate-900 font-khmer">
                     {sub.name_km}
@@ -286,7 +286,7 @@ export const ProgressPage: React.FC = () => {
           </div>
 
           <div className="overflow-x-auto">
-            <table className="w-full text-left text-xs font-khmer">
+            <table className="w-full min-w-[560px] text-left text-xs font-khmer">
               <thead>
                 <tr className="border-b border-slate-200 text-slate-400">
                   <th className="pb-3.5 font-black">កម្រងសំណួរ</th>

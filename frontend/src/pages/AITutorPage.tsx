@@ -150,7 +150,7 @@ export const AITutorPage: React.FC = () => {
       </div>
 
       {/* Mode & Environment Indicator Alert */}
-      <div className={`p-4 rounded-2xl border text-xs font-black font-khmer flex items-center justify-between gap-3 shadow-2xs ${
+      <div className={`p-3.5 sm:p-4 rounded-2xl border text-xs font-black font-khmer flex flex-wrap items-center justify-between gap-2 sm:gap-3 shadow-2xs ${
         answerSource === 'ai_live'
           ? 'bg-emerald-50 border-emerald-200 text-emerald-900'
           : answerSource === 'lessons'
@@ -175,13 +175,13 @@ export const AITutorPage: React.FC = () => {
       </div>
 
       {/* Controls: Grade and Subject Selectors */}
-      <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-4">
+      <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-4">
         {/* Grade Selector */}
         <div>
           <span className="text-xs font-black text-slate-600 block mb-2 font-khmer">
             ១. ជ្រើសរើសកម្រិតថ្នាក់ដែលកូនចង់សួរ៖
           </span>
-          <div className="grid grid-cols-6 gap-2">
+          <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
             {[1, 2, 3, 4, 5, 6].map((grade) => (
               <button
                 key={grade}
@@ -230,10 +230,10 @@ export const AITutorPage: React.FC = () => {
       </div>
 
       {/* Chat Messages Container */}
-      <div className="bg-white rounded-3xl border border-slate-200/80 shadow-md overflow-hidden flex flex-col min-h-[460px]">
+      <div className="bg-white rounded-3xl border border-slate-200/80 shadow-md overflow-hidden flex flex-col h-[65dvh] min-h-[380px] max-h-[680px]">
         
         {/* Messages List */}
-        <div className="flex-1 p-6 space-y-5 overflow-y-auto max-h-[500px] bg-slate-50/40">
+        <div className="flex-1 min-h-0 p-3.5 sm:p-6 space-y-4 sm:space-y-5 overflow-y-auto bg-slate-50/40">
           {messages.map((msg, index) => {
             const isBot = msg.sender === 'assistant';
             return (
@@ -247,14 +247,14 @@ export const AITutorPage: React.FC = () => {
                   </div>
                 )}
 
-                <div className={`max-w-[85%] rounded-3xl p-5 shadow-sm space-y-2 ${
+                <div className={`max-w-[86%] sm:max-w-[85%] rounded-3xl p-4 sm:p-5 shadow-sm space-y-2 ${
                   isBot
                     ? 'bg-white border-2 border-slate-200/90 text-slate-800'
                     : 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-md'
                 }`}>
-                  <div className="flex items-center justify-between gap-4 border-b border-slate-100/60 pb-1.5">
-                    <span className="text-xs font-black opacity-90 font-khmer flex items-center gap-1.5">
-                      {isBot ? '🦉 លោកគ្រូឆ្លាត សុវណ្ណ' : user ? `👦 ${user.full_name}` : 'សិស្សតូច'}
+                  <div className="flex items-center justify-between gap-3 border-b border-slate-100/60 pb-1.5">
+                    <span className="text-xs font-black opacity-90 font-khmer flex items-center gap-1.5 min-w-0 truncate">
+                      {isBot ? '🦉 លោកគ្រូ ភារុំ' : user ? `👦 ${user.full_name}` : 'សិស្សតូច'}
                     </span>
                     {isBot && (
                       <button
@@ -295,16 +295,16 @@ export const AITutorPage: React.FC = () => {
 
         {/* Suggested Questions Chips */}
         {suggestedQuestions.length > 0 && (
-          <div className="px-6 py-3.5 bg-white border-t border-slate-200/70">
+          <div className="px-4 sm:px-6 py-3 bg-white border-t border-slate-200/70 flex-shrink-0">
             <span className="text-xs font-black text-slate-500 block mb-2 font-khmer">
               💡 សំណួរគំរូដែលកូនអាចសាកល្បងសួរ៖
             </span>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex gap-2 overflow-x-auto sm:flex-wrap sm:overflow-x-visible pb-1">
               {suggestedQuestions.map((q, i) => (
                 <button
                   key={i}
                   onClick={() => handleSendMessage(q)}
-                  className="px-3.5 py-1.5 bg-slate-50 hover:bg-blue-50 border border-slate-200 hover:border-blue-300 text-slate-700 hover:text-blue-700 rounded-xl text-xs font-bold transition-all font-khmer shadow-2xs active:scale-95 text-left"
+                  className="flex-shrink-0 sm:flex-shrink whitespace-nowrap sm:whitespace-normal px-3.5 py-1.5 bg-slate-50 hover:bg-blue-50 border border-slate-200 hover:border-blue-300 text-slate-700 hover:text-blue-700 rounded-xl text-xs font-bold transition-all font-khmer shadow-2xs active:scale-95 text-left"
                 >
                   {q}
                 </button>
@@ -314,7 +314,7 @@ export const AITutorPage: React.FC = () => {
         )}
 
         {/* Chat Input Bar */}
-        <div className="p-4 bg-white border-t border-slate-200/80 flex items-center gap-3">
+        <div className="p-3 sm:p-4 bg-white border-t border-slate-200/80 flex items-center gap-2 sm:gap-3 flex-shrink-0">
           <input
             type="text"
             value={inputMessage}
@@ -323,7 +323,7 @@ export const AITutorPage: React.FC = () => {
               if (e.key === 'Enter') handleSendMessage();
             }}
             placeholder="សរសេរសំណួររបស់កូននៅទីនេះ (ជាភាសាខ្មែរ)..."
-            className="flex-1 px-5 py-3.5 text-sm font-black font-khmer rounded-2xl border-2 border-slate-200 focus:border-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-100 bg-slate-50 focus:bg-white transition-all shadow-2xs"
+            className="flex-1 min-w-0 px-4 sm:px-5 py-3 text-[16px] sm:text-sm font-black font-khmer rounded-2xl border-2 border-slate-200 focus:border-blue-600 focus:outline-none focus:ring-4 focus:ring-blue-100 bg-slate-50 focus:bg-white transition-all shadow-2xs"
           />
 
           <button

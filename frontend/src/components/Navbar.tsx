@@ -21,11 +21,16 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab }) => 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [userDropdownOpen, setUserDropdownOpen] = useState(false);
 
+  // only a teacher or the admin may reach the management area
+  const isStaff = user?.role === 'teacher' || user?.role === 'admin';
+
   const navItems = [
-    { id: 'home', label: 'ទំព័រដើម', icon: BookOpen, color: 'text-blue-600' },
-    { id: 'progress', label: 'វឌ្ឍនភាព', icon: Award, color: 'text-amber-500' },
-    { id: 'tutor', label: 'គ្រូឆ្លាត AI', icon: Bot, color: 'text-indigo-600', badge: 'ឆ្លាតវៃ' },
-    { id: 'teacher', label: 'ផ្នែកគ្រូបង្រៀន', icon: GraduationCap, color: 'text-emerald-600' },
+    { id: 'home', label: 'ទំព័រដើម', short: 'ទំព័រ', icon: BookOpen, color: 'text-blue-600' },
+    { id: 'progress', label: 'វឌ្ឍនភាព', short: 'វឌ្ឍនភាព', icon: Award, color: 'text-amber-500' },
+    { id: 'tutor', label: 'គ្រូឆ្លាត AI', short: 'គ្រូ AI', icon: Bot, color: 'text-indigo-600', badge: 'ឆ្លាតវៃ' },
+    ...(isStaff
+      ? [{ id: 'teacher', label: 'ផ្នែកគ្រូបង្រៀន', short: 'គ្រូបង្រៀន', icon: GraduationCap, color: 'text-emerald-600' }]
+      : []),
   ];
 
   const handleNavClick = (tabId: string) => {
@@ -37,9 +42,10 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab }) => 
   const gradeEmojis = ['🌱', '🌿', '🍀', '🌸', '🌻', '🏆'];
 
   return (
+    <>
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80 shadow-sm transition-all">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16 sm:h-20">
           
           {/* Logo & Brand */}
           <div 
@@ -57,14 +63,14 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab }) => 
 
             <div>
               <div className="flex items-center gap-2">
-                <span className="text-2xl font-black bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-700 bg-clip-text text-transparent font-khmer tracking-tight">
+                <span className="text-lg sm:text-2xl font-black bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-700 bg-clip-text text-transparent font-khmer tracking-tight">
                   Khmer Learning
                 </span>
                 <span className="hidden sm:inline-flex text-[10px] bg-gradient-to-r from-amber-100 to-orange-100 text-amber-900 font-extrabold px-2.5 py-0.5 rounded-full border border-amber-300/80 shadow-2xs font-khmer">
                   បឋមសិក្សា
                 </span>
               </div>
-              <p className="text-[11px] text-slate-500 font-bold font-khmer flex items-center gap-1.5">
+              <p className="hidden sm:flex text-[11px] text-slate-500 font-bold font-khmer items-center gap-1.5">
                 <span>កម្មវិធីស្វ័យសិក្សាថ្នាក់ទី ១ ដល់ ទី ៦</span>
               </p>
             </div>
@@ -112,7 +118,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab }) => 
                   <Icon className={`w-4 h-4 ${isActive ? 'text-blue-600' : 'text-slate-400'}`} />
                   <span>{item.label}</span>
                   {item.badge && (
-                    <span className="bg-indigo-600 text-white text-[9px] font-black px-1.5 py-0.2 rounded-full animate-bounce-short">
+                    <span className="bg-indigo-600 text-white text-[9px] font-black px-1.5 py-0.5 rounded-full animate-bounce-short">
                       {item.badge}
                     </span>
                   )}
@@ -166,7 +172,7 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab }) => 
                       <p className="text-xs font-bold text-slate-800 font-khmer">{user.full_name}</p>
                       <p className="text-[10px] text-slate-500">@{user.username}</p>
                     </div>
-                    {user.role === 'teacher' && (
+                    {isStaff && (
                       <button
                         onClick={() => {
                           handleNavClick('teacher');
@@ -229,49 +235,64 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab }) => 
               <span className="text-xs font-black text-slate-500 block mb-2 px-1">
                 ជ្រើសរើសកម្រិតថ្នាក់៖
               </span>
-              <div className="grid grid-cols-6 gap-1.5">
+              <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
                 {[1, 2, 3, 4, 5, 6].map((grade, idx) => (
                   <button
                     key={grade}
                     onClick={() => setSelectedGrade(grade)}
-                    className={`py-2 rounded-xl text-xs font-black flex flex-col items-center justify-center gap-0.5 transition-all ${
+                    className={`py-2.5 rounded-xl text-xs font-black flex items-center justify-center gap-1.5 transition-all ${
                       selectedGrade === grade
-                        ? 'bg-blue-600 text-white shadow-sm scale-105'
+                        ? 'bg-blue-600 text-white shadow-sm'
                         : 'bg-white text-slate-700 border border-slate-200'
                     }`}
                   >
                     <span>{gradeEmojis[idx]}</span>
-                    <span>ទី {grade}</span>
+                    <span>ថ្នាក់ទី {grade}</span>
                   </button>
                 ))}
               </div>
             </div>
 
-            {/* Navigation links */}
-            <div className="grid grid-cols-2 gap-2 pt-1">
-              {navItems.map((item) => {
-                const Icon = item.icon;
-                const isActive = currentTab === item.id;
-                return (
-                  <button
-                    key={item.id}
-                    onClick={() => handleNavClick(item.id)}
-                    className={`flex items-center gap-2 p-3 rounded-2xl text-xs font-black ${
-                      isActive
-                        ? 'bg-blue-600 text-white shadow-md'
-                        : 'bg-slate-50 text-slate-700 hover:bg-slate-100'
-                    }`}
-                  >
-                    <Icon className="w-4 h-4" />
-                    <span>{item.label}</span>
-                  </button>
-                );
-              })}
-            </div>
+            {!user && (
+              <button
+                onClick={() => {
+                  sounds.playClick();
+                  setMobileMenuOpen(false);
+                  openAuthModal();
+                }}
+                className="w-full flex items-center justify-center gap-2 p-3 rounded-2xl text-xs font-black bg-blue-600 text-white font-khmer"
+              >
+                <UserIcon className="w-4 h-4" />
+                ចូលគណនី ឬបញ្ជីឈ្នោះ
+              </button>
+            )}
           </div>
         )}
 
       </div>
     </header>
+
+    {/* Phone tab bar: large targets that stay under the thumb */}
+    <nav className="md:hidden fixed bottom-0 inset-x-0 z-40 bg-white/97 backdrop-blur-md border-t border-slate-200 shadow-[0_-4px_20px_rgba(15,23,42,0.06)]">
+      <div className="flex items-stretch px-1.5 pt-1.5 pb-[max(0.375rem,env(safe-area-inset-bottom))]">
+        {navItems.map((item) => {
+          const Icon = item.icon;
+          const isActive = currentTab === item.id;
+          return (
+            <button
+              key={item.id}
+              onClick={() => handleNavClick(item.id)}
+              className={`flex-1 flex flex-col items-center justify-center gap-1 rounded-2xl py-2 text-[10px] font-black font-khmer transition-colors ${
+                isActive ? 'bg-blue-50 text-blue-700' : 'text-slate-500'
+              }`}
+            >
+              <Icon className={`w-5 h-5 ${isActive ? item.color : 'text-slate-400'}`} />
+              <span className="leading-tight">{item.short}</span>
+            </button>
+          );
+        })}
+      </div>
+    </nav>
+    </>
   );
 };

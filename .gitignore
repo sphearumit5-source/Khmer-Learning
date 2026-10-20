@@ -49,3 +49,6 @@ yarn-error.log*
 .idea/
 .DS_Store
 Thumbs.db
+
+# Vercel CLI link metadata (project ids only, keep out of the repo)
+.vercel/

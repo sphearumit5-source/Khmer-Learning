@@ -165,7 +165,7 @@ export const LessonDetailPage: React.FC<LessonDetailPageProps> = ({
 
         {/* Lesson Media (Illustrations & Audio transcription) */}
         {lesson.media && lesson.media.length > 0 && (
-          <div className="px-6 sm:px-8 py-4 space-y-4">
+          <div className="px-4 sm:px-8 py-4 space-y-4">
             {lesson.media.map((med) => (
               <div key={med.id} className="rounded-3xl border border-slate-200 overflow-hidden bg-slate-50 shadow-sm">
                 {med.media_type === 'image' && (
@@ -173,7 +173,7 @@ export const LessonDetailPage: React.FC<LessonDetailPageProps> = ({
                     <img
                       src={med.url}
                       alt={med.caption_km || lesson.title_km}
-                      className="max-h-84 w-auto mx-auto rounded-2xl shadow-md object-cover"
+                      className="max-h-56 sm:max-h-84 w-full max-w-full object-contain mx-auto rounded-2xl shadow-md bg-white"
                     />
                     {med.caption_km && (
                       <p className="text-xs font-bold text-slate-600 mt-2.5 font-khmer">
@@ -199,15 +199,15 @@ export const LessonDetailPage: React.FC<LessonDetailPageProps> = ({
         )}
 
         {/* Formatted Lesson Content with Rich Children Typography */}
-        <div className="p-6 sm:p-9 space-y-6">
+        <div className="p-4 sm:p-9 space-y-6">
           <div 
-            className="prose max-w-none text-slate-800 font-khmer leading-loose text-base"
+            className="lesson-body max-w-none text-slate-800 font-khmer leading-relaxed sm:leading-loose text-sm sm:text-base break-words"
             dangerouslySetInnerHTML={{ __html: lesson.content_html }}
           />
         </div>
 
         {/* Lesson Action Footer Bar */}
-        <div className="p-6 sm:p-7 bg-slate-50 border-t border-slate-200/70 flex flex-wrap items-center justify-between gap-4">
+        <div className="p-4 sm:p-7 bg-slate-50 border-t border-slate-200/70 flex flex-wrap items-center justify-between gap-3 sm:gap-4">
           <button
             onClick={handleToggleCompletion}
             disabled={marking}

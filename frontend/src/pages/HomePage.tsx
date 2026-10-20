@@ -117,7 +117,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectSubject, onNavigateT
     <div className="space-y-8 pb-16">
       
       {/* Hero Banner with Welcoming Cambodian Mascot */}
-      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 p-8 sm:p-12 text-white shadow-xl border border-indigo-500/30">
+      <section className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 p-5 sm:p-12 text-white shadow-xl border border-indigo-500/30">
         {/* Decorative background blurs and circles */}
         <div className="absolute top-0 right-0 -mt-16 -mr-16 w-80 h-80 bg-cyan-400/20 rounded-full blur-3xl pointer-events-none" />
         <div className="absolute bottom-0 left-1/3 -mb-20 w-72 h-72 bg-purple-500/20 rounded-full blur-3xl pointer-events-none" />
@@ -171,8 +171,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectSubject, onNavigateT
           {/* Mascot Illustration Box */}
           <div className="lg:col-span-4 flex justify-center">
             <div className="relative">
-              <div className="w-44 h-44 sm:w-52 sm:h-52 rounded-3xl bg-gradient-to-tr from-amber-400/90 to-orange-500/90 p-4 shadow-2xl flex flex-col items-center justify-center text-center border-4 border-white/40 animate-float">
-                <span className="text-6xl sm:text-7xl mb-2 drop-shadow-md">🦉</span>
+              <div className="w-28 h-28 sm:w-52 sm:h-52 rounded-3xl bg-gradient-to-tr from-amber-400/90 to-orange-500/90 p-4 shadow-2xl flex flex-col items-center justify-center text-center border-4 border-white/40 animate-float">
+                <span className="text-4xl sm:text-6xl mb-2 drop-shadow-md">🦉</span>
                 <span className="text-sm font-black text-white font-khmer">គ្រូឆ្លាត សុវណ្ណ</span>
                 <span className="text-[11px] font-bold text-amber-100 font-khmer">AI Tutor កុមារ</span>
               </div>
@@ -213,13 +213,13 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectSubject, onNavigateT
               <button
                 key={g.grade}
                 onClick={() => setSelectedGrade(g.grade)}
-                className={`p-4 rounded-2xl transition-all duration-200 flex flex-col items-center justify-center text-center gap-1.5 border-2 ${
+                className={`p-3 sm:p-4 rounded-2xl transition-all duration-200 flex flex-col items-center justify-center text-center gap-1.5 border-2 ${
                   isSelected
                     ? 'border-blue-600 bg-gradient-to-b from-blue-50 to-indigo-50/70 text-blue-700 shadow-md scale-[1.04] ring-2 ring-blue-400/30'
                     : 'border-slate-200/80 hover:border-slate-300 bg-slate-50/50 hover:bg-white text-slate-700 hover:shadow-sm'
                 }`}
               >
-                <span className="text-3xl mb-0.5 transform transition-transform group-hover:scale-110">
+                <span className="text-2xl sm:text-3xl mb-0.5 transform transition-transform group-hover:scale-110">
                   {g.emoji}
                 </span>
                 <span className="text-sm font-black font-khmer">{g.title}</span>
@@ -347,7 +347,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectSubject, onNavigateT
             sounds.playClick();
             onNavigateTab('tutor');
           }}
-          className="bg-gradient-to-br from-indigo-600 via-indigo-700 to-blue-800 rounded-3xl p-7 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer flex items-center justify-between gap-5 relative overflow-hidden group"
+          className="bg-gradient-to-br from-indigo-600 via-indigo-700 to-blue-800 rounded-3xl p-5 sm:p-7 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer flex items-center justify-between gap-3 sm:gap-5 relative overflow-hidden group"
         >
           <div className="space-y-2.5 z-10">
             <span className="inline-flex items-center gap-1.5 bg-white/20 backdrop-blur-sm text-xs font-black px-3 py-1 rounded-full text-amber-200 border border-white/20 font-khmer">
@@ -355,7 +355,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectSubject, onNavigateT
               <span>ជំនួយការឆ្លាតវៃ AI</span>
             </span>
             <h3 className="text-2xl font-black font-khmer">គ្រូឆ្លាត AI សម្រាប់កុមារ 🤖</h3>
-            <p className="text-xs sm:text-sm text-blue-100 font-khmer max-w-sm leading-relaxed">
+            <p className="text-xs sm:text-sm text-blue-100 font-khmer max-w-full sm:max-w-sm leading-relaxed">
               ឆ្ងល់មេរៀន មិនយល់វិធីគណនា ឬចង់ដឹងអត្ថន័យពាក្យ? សួរគ្រូឆ្លាត AI បានភ្លាមៗជាភាសាខ្មែរ!
             </p>
             <div className="pt-2 text-xs font-black text-amber-300 flex items-center gap-1.5 group-hover:translate-x-1 transition-transform font-khmer">
@@ -375,7 +375,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onSelectSubject, onNavigateT
             sounds.playClick();
             onNavigateTab('progress');
           }}
-          className="bg-gradient-to-br from-amber-500 via-orange-500 to-rose-600 rounded-3xl p-7 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer flex items-center justify-between gap-5 relative overflow-hidden group"
+          className="bg-gradient-to-br from-amber-500 via-orange-500 to-rose-600 rounded-3xl p-5 sm:p-7 text-white shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all cursor-pointer flex items-center justify-between gap-3 sm:gap-5 relative overflow-hidden group"
         >
           <div className="space-y-2.5 z-10">
             <span className="inline-flex items-center gap-1.5 bg-white/20 backdrop-blur-sm text-xs font-black px-3 py-1 rounded-full text-white border border-white/20 font-khmer">

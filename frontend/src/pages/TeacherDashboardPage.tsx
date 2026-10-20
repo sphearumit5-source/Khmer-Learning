@@ -160,7 +160,7 @@ export const TeacherDashboardPage: React.FC = () => {
     <div className="max-w-6xl mx-auto space-y-8 pb-16">
       
       {/* Teacher Dashboard Header */}
-      <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 rounded-3xl p-7 sm:p-10 text-white shadow-xl flex flex-col sm:flex-row items-center justify-between gap-6 relative overflow-hidden border border-white/20">
+      <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 rounded-3xl p-5 sm:p-10 text-white shadow-xl flex flex-col sm:flex-row items-center justify-between gap-6 relative overflow-hidden border border-white/20">
         <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-2xl pointer-events-none" />
 
         <div className="relative z-10 space-y-2.5 text-center sm:text-left">
@@ -195,36 +195,36 @@ export const TeacherDashboardPage: React.FC = () => {
       {/* Statistics Row */}
       {stats && (
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-          <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
+          <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
             <div className="w-12 h-12 rounded-2xl bg-blue-50 text-blue-600 flex items-center justify-center mb-2 shadow-2xs">
               <Users className="w-6 h-6" />
             </div>
             <p className="text-xs font-black text-slate-400 font-khmer">សិស្សសរុប</p>
-            <p className="text-3xl font-black text-slate-900 font-khmer">{stats.total_students} នាក់</p>
+            <p className="text-2xl sm:text-3xl font-black text-slate-900 font-khmer">{stats.total_students} នាក់</p>
           </div>
 
-          <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
+          <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
             <div className="w-12 h-12 rounded-2xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-2 shadow-2xs">
               <BookOpen className="w-6 h-6" />
             </div>
             <p className="text-xs font-black text-slate-400 font-khmer">មេរៀនសរុប</p>
-            <p className="text-3xl font-black text-slate-900 font-khmer">{stats.total_lessons} មេរៀន</p>
+            <p className="text-2xl sm:text-3xl font-black text-slate-900 font-khmer">{stats.total_lessons} មេរៀន</p>
           </div>
 
-          <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
+          <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
             <div className="w-12 h-12 rounded-2xl bg-amber-50 text-amber-600 flex items-center justify-center mb-2 shadow-2xs">
               <HelpCircle className="w-6 h-6" />
             </div>
             <p className="text-xs font-black text-slate-400 font-khmer">កម្រងសំណួរ</p>
-            <p className="text-3xl font-black text-slate-900 font-khmer">{stats.total_quizzes} តេស្ត</p>
+            <p className="text-2xl sm:text-3xl font-black text-slate-900 font-khmer">{stats.total_quizzes} តេស្ត</p>
           </div>
 
-          <div className="bg-white p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
+          <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-1.5 hover:shadow-md transition-shadow">
             <div className="w-12 h-12 rounded-2xl bg-purple-50 text-purple-600 flex items-center justify-center mb-2 shadow-2xs">
               <Sparkles className="w-6 h-6" />
             </div>
             <p className="text-xs font-black text-slate-400 font-khmer">ពិន្ទុមធ្យមសរុប</p>
-            <p className="text-3xl font-black text-purple-600 font-khmer">{stats.average_class_score}%</p>
+            <p className="text-2xl sm:text-3xl font-black text-purple-600 font-khmer">{stats.average_class_score}%</p>
           </div>
         </div>
       )}
@@ -268,7 +268,7 @@ export const TeacherDashboardPage: React.FC = () => {
           </div>
 
           <div className="overflow-x-auto">
-            <table className="w-full text-left text-xs font-khmer">
+            <table className="w-full min-w-[640px] text-left text-xs font-khmer">
               <thead>
                 <tr className="border-b border-slate-200 text-slate-400">
                   <th className="pb-3.5 font-black">ឈ្មោះសិស្ស</th>
@@ -330,7 +330,7 @@ export const TeacherDashboardPage: React.FC = () => {
             </button>
           </div>
 
-          <div className="p-8 bg-slate-50 rounded-3xl border-2 border-slate-200 text-center space-y-2.5">
+          <div className="p-5 sm:p-8 bg-slate-50 rounded-3xl border-2 border-slate-200 text-center space-y-2.5">
             <BookOpen className="w-10 h-10 text-blue-600 mx-auto" />
             <p className="text-base font-black text-slate-800 font-khmer">
               មេរៀនទាំងអស់ត្រូវបានរក្សាទុកដោយស្វ័យប្រវត្តិក្នងប្រព័ន្ធ
@@ -344,8 +344,8 @@ export const TeacherDashboardPage: React.FC = () => {
 
       {/* Modal: Create New Lesson */}
       {isCreateLessonOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-sm animate-fadeIn">
-          <div className="bg-white rounded-3xl max-w-lg w-full shadow-2xl border border-slate-100 overflow-hidden">
+        <div className="fixed inset-0 z-50 flex items-start sm:items-center justify-center p-3 sm:p-4 bg-slate-900/60 backdrop-blur-sm animate-fadeIn overflow-y-auto">
+          <div className="bg-white rounded-3xl max-w-lg w-full shadow-2xl border border-slate-100 overflow-hidden max-h-[92dvh] overflow-y-auto">
             <div className="p-6 border-b border-slate-100 flex items-center justify-between">
               <h3 className="text-lg font-black text-slate-900 font-khmer">
                 ✍️ បន្ថែមមេរៀនថ្មី (Add New Lesson)
