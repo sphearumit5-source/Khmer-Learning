@@ -91,6 +91,34 @@ def test_ai_tutor_fallback():
     assert data["reply"].strip() != ""
     assert len(data["suggested_questions"]) > 0
 
+def test_ai_tutor_only_answers_from_lessons_that_match():
+    # A question naming a lesson that really exists must be answered from it...
+    with TestingSessionLocal() as db:
+        real_title = db.query(Lesson).order_by(Lesson.id).first().title_km
+    token = client.post("/api/auth/login", json={
+        "username": "sothun", "password": "password123"
+    }).json()["access_token"]
+    headers = {"Authorization": f"Bearer {token}"}
+
+    matched = client.post(
+        "/api/tutor/chat", headers=headers, json={"message": real_title}
+    ).json()
+    assert matched["answer_source"] == "lessons"
+    assert matched["is_fallback"] is False
+    assert real_title in matched["reply"]
+
+    # ...and a question the curriculum knows nothing about must be admitted as
+    # unanswered instead of dressing up an unrelated lesson as the answer.
+    off_topic = client.post(
+        "/api/tutor/chat", headers=headers,
+        json={"message": "តើប្រាសាទតាមាន់ស្ថិតនៅខេត្តណា"},
+    ).json()
+    assert off_topic["answer_source"] == "built_in"
+    assert off_topic["is_fallback"] is True
+    # 🙏 = "no lesson covers this yet", 📘 = "here is the lesson that answers it"
+    assert off_topic["reply"].lstrip().startswith("\U0001F64F")
+    assert "\U0001F4D8" not in off_topic["reply"]
+
 def test_quiz_and_progress_flow():
     # 1. Login as student
     login_resp = client.post("/api/auth/login", json={"username": "sothun", "password": "password123"})

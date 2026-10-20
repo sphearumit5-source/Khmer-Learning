@@ -143,23 +143,44 @@ def detect_subject(message: str):
 
 
 def _answer_from_lessons(message, grade_level, subject_key, db, suggested, note=None):
-    """Ground the reply in real stored lessons; None when nothing matches."""
+    """Ground the reply in lessons that really match, or say plainly that none do."""
     if db is None:
         return None
-    from app.services.lesson_search import compose_reply, search_lessons
+    from app.services.lesson_search import (
+        MIN_SCORE,
+        WEAK_SCORE,
+        compose_not_found,
+        compose_reply,
+        search_lessons,
+    )
 
-    # always search across every grade, and every subject when none was detected,
-    # so a grade 3 child asking about grade 5 geography still gets a real lesson
-    results = search_lessons(db, message, subject_key, None)
-    if not results:
-        return None
-    reply = compose_reply(message, grade_level, results)
+    # every grade and every subject is searched: a grade 3 child asking about
+    # grade 5 geography gets the real lesson, and the guessed subject only nudges
+    # the ranking instead of filtering the other subjects away
+    hits = search_lessons(
+        db, message, None, None, limit=5, min_score=WEAK_SCORE, preferred_subject=subject_key
+    )
+    exact = [hit for hit in hits if hit[1] >= MIN_SCORE]
+    if not exact:
+        # nothing clears the bar: admit it instead of listing unrelated lessons
+        reply = compose_not_found(message, hits)
+        if note:
+            reply = note + "\n\n" + reply
+        return (
+            reply,
+            True,
+            "Lesson Search (no exact match)",
+            suggested,
+            "built_in",
+        )
+
+    reply = compose_reply(message, grade_level, exact)
     if note:
         reply = note + "\n\n" + reply
     return (
         reply,
         False,
-        f"មេរៀនក្នុងសៀវភៅ ({len(results)} ត្រូវនឹងសំណួរ)",
+        f"មេរៀនក្នុងសៀវភៅ ({len(exact)} ត្រូវនឹងសំណួរ)",
         suggested,
         "lessons",
     )
