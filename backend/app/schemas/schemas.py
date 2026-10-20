@@ -251,8 +251,8 @@ class ProgressSummaryResponse(BaseModel):
 
 # --- AI TUTOR SCHEMAS ---
 class TutorChatRequest(BaseModel):
-    grade_level: int = Field(default=3, ge=1, le=6)
-    subject_code: Optional[str] = "khmer"
+    grade_level: Optional[int] = Field(default=None, ge=1, le=6)
+    subject_code: Optional[str] = None
     message: str = Field(..., min_length=1)
     conversation_id: Optional[str] = None
 

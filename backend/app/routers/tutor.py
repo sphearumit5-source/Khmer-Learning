@@ -5,7 +5,7 @@ from app.core.database import get_db
 from app.core.deps import get_current_user
 from app.models.models import TutorConversation, TutorMessage, User
 from app.schemas.schemas import TutorChatRequest, TutorChatResponse, TutorMessageItem
-from app.services.tutor_service import generate_tutor_response
+from app.services.tutor_service import SUBJECT_LABELS, detect_subject, generate_tutor_response
 
 router = APIRouter(prefix="/tutor", tags=["គ្រូឆ្លាត AI (AI Tutor)"])
 
@@ -15,6 +15,10 @@ async def chat_with_tutor(
     db: Session = Depends(get_db),
     current_user: User = Depends(get_current_user)
 ):
+    # a child may ask without picking a grade or subject first
+    grade_level = req.grade_level or current_user.grade_level or 3
+    subject_key = (req.subject_code or "").strip().lower() or detect_subject(req.message)
+
     # Find or create conversation
     conv = None
     if req.conversation_id:
@@ -30,9 +34,9 @@ async def chat_with_tutor(
     if not conv:
         conv = TutorConversation(
             user_id=current_user.id,
-            grade_level=req.grade_level,
-            subject_code=req.subject_code or "khmer",
-            title=f"ការសន្ទនាអំពី {req.subject_code or 'ទូទៅ'} ថ្នាក់ទី {req.grade_level}"
+            grade_level=grade_level,
+            subject_code=subject_key,
+            title=f"ការសន្ទនាអំពី {SUBJECT_LABELS.get(subject_key, 'ទូទៅ')} ថ្នាក់ទី {grade_level}"
         )
         db.add(conv)
         db.flush()
@@ -48,8 +52,8 @@ async def chat_with_tutor(
     # Generate response
     reply_text, is_fallback, model_name, suggested, answer_source = await generate_tutor_response(
         message=req.message,
-        grade_level=req.grade_level,
-        subject_code=req.subject_code or "khmer",
+        grade_level=grade_level,
+        subject_code=req.subject_code,
         db=db
     )
 

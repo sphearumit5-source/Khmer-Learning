@@ -1,20 +1,24 @@
+import re
 import time
 
 import httpx
 from typing import Tuple, List
 from app.core.config import settings
 
+LATIN_WORD_RE = re.compile(r"[A-Za-z][A-Za-z']+")
+
 KHMER_SYSTEM_PROMPT = """
 អ្នកគឺជា «គ្រូឆ្លាត» (AI Tutor) ដែលជាគ្រូបង្រៀននិម្មិតប្រកបដោយភាពកក់ក្តៅ រួសរាយ និងឆ្លាតវៃ សម្រាប់បង្រៀនសិស្សានុសិស្សកម្រិតបឋមសិក្សាកម្ពុជា (ថ្នាក់ទី ១ ដល់ ទី ៦)។
 គោលការណ៍ណែនាំ៖
 ១. ភាសា៖ ត្រូវឆ្លើយជាភាសាខ្មែរជានិច្ច ដោយប្រើពាក្យពេចន៍ងាយស្រួលយល់ សមរម្យសម្រាប់កុមារ លើកទឹកចិត្ត និងគួរសម (ប្រើពាក្យ «កូន», «ប្អូន» ឬ «សិស្សតូច»)។ ភាសាអង់គ្លេសប្រើតែពេលពន្យល់មេរៀនភាសាអង់គ្លេសប៉ុណ្ណោះ។
-២. កម្រិតថ្នាក់៖ បន្ស៊ាំការពន្យល់ទៅតាមកម្រិតថ្នាក់ (ថ្នាក់ទី ១-២ ត្រូវពន្យល់ខ្លី ឧទាហរណ៍ជាក់ស្តែង ថ្នាក់ទី ៥-៦ អាចស៊ីជម្រៅជាង)។
-៣. រចនាសម្ព័ន្ធ៖
+២. សំណួរ៖ កូនអាចសួរអ្វីក៏បាន មិនចាំបាច់ជ្រើសរើសមុខវិជ្ជា ឬកម្រិតថ្នាក់ទេ។ ចូរអានអត្ថន័យសំណួររបស់កូនឱ្យច្បាស់ រួចឆ្លើយត្រង់លើសំណួរនោះ (គណិត ភាសាខ្មែរ អង់គ្លេស សិក្សាសង្គម វិទ្យាសាស្ត្រ ឬចំណេះដឹងទូទៅ)។
+៣. កម្រិតភាសា៖ បន្ស៊ាំការពន្យល់ឱ្យសមរម្យសម្រាប់បឋមសិក្សា (ថ្នាក់ទី ១-២ ពន្យល់ខ្លី មានឧទាហរណ៍ជាក់ស្តែង ថ្នាក់ទី ៥-៦ អាចស៊ីជម្រៅជាង)។
+៤. រចនាសម្ព័ន្ធ៖
    - ជំរាបសួរ និងសរសើរ
    - ពន្យល់ខ្លឹមសារសំខាន់ៗដោយខ្លី និងងាយចាំ
    - លើកឧទាហរណ៍ជាក់ស្តែង
    - ផ្តល់លំហាត់អនុវត្តសប្បាយៗ ១ ឬ ២ សំណួរដើម្បីសាកល្បង
-៤. សុវត្ថិភាពកុមារ៖ ហាមនិយាយពីរឿងហិង្សា អាសអាភាស ឬខ្លឹមសារមិនសមរម្យសម្រាប់កុមារ។ ប្រសិនបើសួរក្រៅពីការសិក្សា ត្រូវបង្វែរមកការរៀនសូត្រវិញដោយសុភាព។
+៥. សុវត្ថិភាពកុមារ៖ ហាមនិយាយពីរឿងហិង្សា អាសអាភាស ឬខ្លឹមសារមិនសមរម្យសម្រាប់កុមារ។ ប្រសិនបើសំណួរមិនច្បាស់ ចូរសួរត្រឡប់វិញដោយសុភាព មុននឹងបកស្រាយ។
 """
 
 # Fallback smart knowledge base for when offline or no API key is set
@@ -80,13 +84,73 @@ SUGGESTED_QUESTIONS_MAP = {
     ]
 }
 
+MIXED_SUGGESTED_QUESTIONS = [
+    SUGGESTED_QUESTIONS_MAP["khmer"][0],
+    SUGGESTED_QUESTIONS_MAP["math"][0],
+    SUGGESTED_QUESTIONS_MAP["english"][0],
+    SUGGESTED_QUESTIONS_MAP["social_studies"][0],
+]
+
+# Children type whatever comes to mind, so the subject is guessed from the words
+# instead of being demanded up front. The list with the most keyword hits wins.
+SUBJECT_HINTS = {
+    "math": (
+        "គណិត", "លេខ", "បូក", "ដក", "គុណ", "ចែក", "ភាគ", "ទសភាគ", "ភាគរយ",
+        "សមាមាត្រ", "ផ្ទៃក្រឡា", "បរិមាត្រ", "មាឌ", "ធរណីមាត្រ", "រូបមន្ត",
+        "លំហាត់", "សំនល", "ចំនួន", "ប្រភាគ",
+    ),
+    "english": (
+        "អង់គ្លេស", "english", "translate", "pronounce", "grammar", "vocabulary",
+        "sentence", "តែងប្រយោគអង់គ្លេស",
+    ),
+    "social_studies": (
+        "សង្គម", "ប្រវត្តិ", "ភូមិសាស្ត្រ", "ទង់ជាតិ", "អង្គរវត្ត", "ខេត្ត",
+        "រាជធានី", "ទន្លេ", "បឹងទន្លេសាប", "ច្បាប់ចរាចរណ៍", "សិទ្ធិ", "បរិស្ថាន",
+        "ធនធាន", "វប្បធម៌", "គ្រួសារ", "ជាតិ", "សាសនា", "ភូមិ",
+    ),
+    "khmer": (
+        "ព្យញ្ជនៈ", "ស្រៈ", "អក្សរ", "វណ្ណយុត្តិ", "កំណាព្យ", "បទពាក្យ",
+        "វេយ្យាករណ៍", "នាម", "កិរិយាសព្ទ", "ពាក្យ", "អត្ថបទ", "ប្រយោគ",
+        "ការអាន", "ការសរសេរ", "ខ្មែរ", "សម្ដី", "ន័យ",
+    ),
+}
+
+
+SUBJECT_LABELS = {
+    "khmer": "ភាសាខ្មែរ",
+    "math": "គណិតវិទ្យា",
+    "english": "ភាសាអង់គ្លេស",
+    "social_studies": "សិក្សាសង្គម",
+}
+
+
+def detect_subject(message: str):
+    """Guess which subject a free-text question belongs to, or None when unclear."""
+    text = (message or "").lower()
+    if not text.strip():
+        return None
+
+    scores = {}
+    for code, hints in SUBJECT_HINTS.items():
+        scores[code] = sum(1 for hint in hints if hint.lower() in text)
+
+    # a question written mostly in Latin script is almost always English practice
+    if len(LATIN_WORD_RE.findall(message or "")) >= 3:
+        scores["english"] = scores.get("english", 0) + 2
+
+    best_code, best_score = max(scores.items(), key=lambda item: item[1])
+    return best_code if best_score > 0 else None
+
+
 def _answer_from_lessons(message, grade_level, subject_key, db, suggested, note=None):
     """Ground the reply in real stored lessons; None when nothing matches."""
     if db is None:
         return None
     from app.services.lesson_search import compose_reply, search_lessons
 
-    results = search_lessons(db, message, subject_key, grade_level)
+    # always search across every grade, and every subject when none was detected,
+    # so a grade 3 child asking about grade 5 geography still gets a real lesson
+    results = search_lessons(db, message, subject_key, None)
     if not results:
         return None
     reply = compose_reply(message, grade_level, results)
@@ -103,8 +167,8 @@ def _answer_from_lessons(message, grade_level, subject_key, db, suggested, note=
 
 async def generate_tutor_response(
     message: str,
-    grade_level: int,
-    subject_code: str,
+    grade_level: int = None,
+    subject_code: str = None,
     db=None
 ) -> Tuple[str, bool, str, List[str]]:
     """
@@ -113,8 +177,18 @@ async def generate_tutor_response(
     origin of the answer truthfully.
     """
     api_key = settings.AI_API_KEY.strip()
-    subject_key = subject_code.lower() if subject_code else "khmer"
-    suggested = SUGGESTED_QUESTIONS_MAP.get(subject_key, SUGGESTED_QUESTIONS_MAP["khmer"])
+    # a child should be able to ask anything: only honour a subject when one is
+    # really chosen, otherwise guess it from the question and search everywhere
+    explicit_subject = (subject_code or "").strip().lower()
+    if explicit_subject and explicit_subject != "auto":
+        subject_key = explicit_subject
+    else:
+        subject_key = detect_subject(message)
+
+    if subject_key:
+        suggested = SUGGESTED_QUESTIONS_MAP.get(subject_key, MIXED_SUGGESTED_QUESTIONS)
+    else:
+        suggested = MIXED_SUGGESTED_QUESTIONS
 
     # No API key: answer from the curriculum stored in the database, and only
     # fall back to the static notes when no lesson matches the question.
@@ -123,11 +197,11 @@ async def generate_tutor_response(
         if from_lessons:
             return from_lessons
 
-        subject_data = SAMPLE_RESPONSES.get(subject_key, SAMPLE_RESPONSES["khmer"])
+        subject_data = SAMPLE_RESPONSES.get(subject_key or "khmer", SAMPLE_RESPONSES["khmer"])
         grade_text = subject_data.get(grade_level, subject_data.get(3, ""))
 
         reply = (
-            f"សួស្តីកូនៗសិស្សថ្នាក់ទី {grade_level}! លោកគ្រូឆ្លាតសូមជួយពន្យល់៖\n\n"
+            f"សួស្តីកូន! លោកគ្រូឆ្លាតសូមជួយពន្យល់៖\n\n"
             f"{grade_text}\n\n"
             f"ចំពោះសំណួររបស់កូន «{message}»៖ សូមជ្រើសរើសសំណួរគំរូខាងក្រោម ឬប្រាប់លោកគ្រូឲ្យដឹងមេរៀនណាដែលកូនកំពុងរៀនណា៎កូន!"
         )
@@ -140,18 +214,27 @@ async def generate_tutor_response(
         settings.AI_MODEL.strip() or "gemini-flash-latest",
         settings.AI_MODEL_FALLBACK.strip(),
     ]))
-    
+
+    context_lines = ["- ភាសា៖ សមរម្យសិស្សបឋមសិក្សាកម្ពុជា (ថ្នាក់ទី ១-៦)"]
+    if grade_level:
+        context_lines.append(
+            f"- ថ្នាក់ដែលសិស្សកំពុងរៀន៖ ថ្នាក់ទី {grade_level} (យកជាគំរូភាសាតែប៉ុណ្ណោះ)"
+        )
+    if subject_key:
+        context_lines.append(
+            f"- មុខវិជ្ជាដែលលោកគ្រូទាយបានពីសំណួរ៖ {SUBJECT_LABELS.get(subject_key, subject_key)}"
+        )
+
     prompt = f"""
 {KHMER_SYSTEM_PROMPT}
 
 [បរិបទសិស្ស]
-- កម្រិតថ្នាក់៖ ថ្នាក់ទី {grade_level} (បឋមសិក្សាកម្ពុជា)
-- មុខវិជ្ជា៖ {subject_code}
+{chr(10).join(context_lines)}
 
 [សំណួរពីសិស្ស]
 «{message}»
 
-ចូរបកស្រាយជាភាសាខ្មែរ ដោយភាពទន់ភ្លន់ លើកទឹកចិត្ត និងសមរម្យសម្រាប់កុមារថ្នាក់ទី {grade_level}៖
+ចូរបកស្រាយត្រង់លើសំណួរនេះ ជាភាសាខ្មែរ ដោយភាពទន់ភ្លន់ និងលើកទឹកចិត្ត៖
 """
 
     payload = {
@@ -222,6 +305,8 @@ async def generate_tutor_response(
     err_msg = (
         note
         + "\n\nចម្លើយទូទៅសម្រាប់កម្រិតថ្នាក់នេះ៖\n\n"
-        + SAMPLE_RESPONSES.get(subject_key, {}).get(grade_level, "សូមអភ័យទោស សូមសាកល្បងសួរសារជាថ្មី!")
+        + SAMPLE_RESPONSES.get(subject_key or "khmer", {}).get(
+            grade_level or 3, "សូមអភ័យទោស សូមសាកល្បងសួរសារជាថ្មី!"
+        )
     )
     return err_msg, True, "Offline Fallback Mode", suggested, "built_in"

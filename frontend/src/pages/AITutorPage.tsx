@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { 
-  Bot, Send, Sparkles, Volume2, BookOpen, 
-  Calculator, Globe, Compass, AlertCircle, MessageCircle 
+  Bot, Send, Sparkles, Volume2, 
+  AlertCircle, MessageCircle 
 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../services/api';
@@ -19,13 +19,12 @@ const toPlainText = (text: string) =>
     .trim();
 
 export const AITutorPage: React.FC = () => {
-  const { user, selectedGrade, setSelectedGrade, openAuthModal } = useAuth();
+  const { user, selectedGrade, openAuthModal } = useAuth();
   
-  const [selectedSubject, setSelectedSubject] = useState<string>('khmer');
   const [messages, setMessages] = useState<TutorMessage[]>([
     {
       sender: 'assistant',
-      content: `សួស្តីកូនៗ! លោកគ្រូឈ្មោះ «គ្រូឆ្លាត សុវណ្ណ» គឺជាគ្រូបង្រៀននិម្មិត AI សម្រាប់ជួយបង្រៀនកូនៗថ្នាក់ទី ${selectedGrade}។ តើកូនមានចម្ងល់ ឬចង់ឲ្យលោកគ្រូជួយពន្យល់មេរៀនអ្វីដែរ?`,
+      content: `សួស្តីកូនៗ! លោកគ្រូឈ្មោះ «គ្រូឆ្លាត សុវណ្ណ»។ កូនអាចសួរអ្វីក៏បាន មិនចាំបាច់ជ្រើសរើសមុខវិជ្ជា ឬថ្នាក់ទេ គ្រាន់តែសរសេរសំណួររបស់កូនមកលោកគ្រូ! តើកូនមានចម្ងល់អ្វីដែរ?`,
       created_at: new Date().toISOString()
     }
   ]);
@@ -75,8 +74,7 @@ export const AITutorPage: React.FC = () => {
     try {
       const res = await api.chatWithTutor({
         message: text,
-        grade_level: selectedGrade,
-        subject_code: selectedSubject
+        grade_level: selectedGrade
       });
 
       setAnswerSource(res.answer_source);
@@ -113,13 +111,6 @@ export const AITutorPage: React.FC = () => {
     sounds.playClick();
     sounds.speakText(text);
   };
-
-  const subjects = [
-    { code: 'khmer', label: 'ភាសាខ្មែរ', icon: BookOpen, color: 'text-blue-600', active: 'border-blue-600 bg-blue-50 text-blue-700' },
-    { code: 'math', label: 'គណិតវិទ្យា', icon: Calculator, color: 'text-emerald-600', active: 'border-emerald-600 bg-emerald-50 text-emerald-700' },
-    { code: 'english', label: 'ភាសាអង់គ្លេស', icon: Globe, color: 'text-purple-600', active: 'border-purple-600 bg-purple-50 text-purple-700' },
-    { code: 'social_studies', label: 'សិក្សាសង្គម', icon: Compass, color: 'text-amber-600', active: 'border-amber-600 bg-amber-50 text-amber-700' }
-  ];
 
   return (
     <div className="max-w-4xl mx-auto space-y-6 pb-16">
@@ -174,59 +165,14 @@ export const AITutorPage: React.FC = () => {
         </span>
       </div>
 
-      {/* Controls: Grade and Subject Selectors */}
-      <div className="bg-white p-4 sm:p-6 rounded-3xl border border-slate-200/80 shadow-sm space-y-4">
-        {/* Grade Selector */}
-        <div>
-          <span className="text-xs font-black text-slate-600 block mb-2 font-khmer">
-            ១. ជ្រើសរើសកម្រិតថ្នាក់ដែលកូនចង់សួរ៖
-          </span>
-          <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
-            {[1, 2, 3, 4, 5, 6].map((grade) => (
-              <button
-                key={grade}
-                onClick={() => setSelectedGrade(grade)}
-                className={`py-2 rounded-xl text-xs font-black transition-all font-khmer ${
-                  selectedGrade === grade
-                    ? 'bg-blue-600 text-white shadow-md scale-105'
-                    : 'bg-slate-50 hover:bg-slate-100 text-slate-700 border border-slate-200'
-                }`}
-              >
-                ថ្នាក់ទី {grade}
-              </button>
-            ))}
-          </div>
-        </div>
-
-        {/* Subject Selector */}
-        <div>
-          <span className="text-xs font-black text-slate-600 block mb-2 font-khmer">
-            ២. ជ្រើសរើសមុខវិជ្ជា៖
-          </span>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5">
-            {subjects.map((s) => {
-              const Icon = s.icon;
-              const isSelected = selectedSubject === s.code;
-              return (
-                <button
-                  key={s.code}
-                  onClick={() => {
-                    sounds.playClick();
-                    setSelectedSubject(s.code);
-                  }}
-                  className={`p-3 rounded-2xl border-2 flex items-center justify-center gap-2 text-xs font-black transition-all font-khmer ${
-                    isSelected
-                      ? s.active + ' shadow-sm scale-102'
-                      : 'border-slate-200 bg-white hover:bg-slate-50 text-slate-700'
-                  }`}
-                >
-                  <Icon className={`w-4 h-4 ${s.color}`} />
-                  <span>{s.label}</span>
-                </button>
-              );
-            })}
-          </div>
-        </div>
+      {/* Ask anything: no grade or subject choice is required first */}
+      <div className="bg-white p-3.5 sm:p-4 rounded-2xl border border-slate-200/80 shadow-sm flex flex-wrap items-center gap-x-3 gap-y-1.5">
+        <span className="text-xs font-black text-slate-700 font-khmer">
+          💬 កូនអាចសួរអ្វីក៏បាន គ្មានលក្ខខណ៌
+        </span>
+        <span className="text-[11px] text-slate-500 font-khmer">
+          លោកគ្រូទាយមុខវិជ្ជា រួចរកមេរៀនពីថ្នាក់ទី ១ ដល់ ៦ ដោយខ្លួនឯង
+        </span>
       </div>
 
       {/* Chat Messages Container */}

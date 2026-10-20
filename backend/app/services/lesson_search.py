@@ -42,22 +42,30 @@ def sentences(text: str, limit: int = 3) -> str:
 
 
 def search_lessons(
-    db: Session, query: str, subject_code: str, grade_level: int, limit: int = 3
-) -> List[Tuple[Lesson, float, str]]:
-    """Rank lessons of this subject/grade by similarity to the question."""
+    db: Session, query: str, subject_code: str = None, grade_level: int = None, limit: int = 3
+) -> List[Tuple[Lesson, float, str, str, int]]:
+    """Rank lessons by similarity to the question.
+
+    Passing no subject or grade searches the whole curriculum, so a child can ask
+    about any lesson instead of only the one currently selected.
+    """
     query_features = features(query)
     if not query_features:
         return []
 
-    rows = db.execute(
-        select(Lesson, Chapter.title_km)
+    stmt = (
+        select(Lesson, Subject.code, Subject.name_km, Subject.grade_level)
         .join(Chapter, Lesson.chapter_id == Chapter.id)
         .join(Subject, Chapter.subject_id == Subject.id)
-        .where(Subject.code == subject_code, Subject.grade_level == grade_level)
-    ).all()
+    )
+    if subject_code:
+        stmt = stmt.where(Subject.code == subject_code)
+    if grade_level:
+        stmt = stmt.where(Subject.grade_level == grade_level)
+    rows = db.execute(stmt).all()
 
     scored = []
-    for lesson, _chapter_title in rows:
+    for lesson, code, name_km, level in rows:
         title_features = features(lesson.title_km)
         body_features = features(f"{lesson.summary_km or ''} {strip_html(lesson.content_html)}")
         hits = len(query_features & title_features) * 2 + len(query_features & body_features)
@@ -65,7 +73,7 @@ def search_lessons(
         if score < MIN_SCORE:
             continue
         snippet = sentences(lesson.summary_km or strip_html(lesson.content_html), 2)
-        scored.append((lesson, score, snippet))
+        scored.append((lesson, score, snippet, name_km, level))
 
     scored.sort(key=lambda item: item[1], reverse=True)
     return scored[:limit]
@@ -79,14 +87,21 @@ def khmer_number(value: int) -> str:
 
 
 def compose_reply(message: str, grade_level: int, results) -> str:
+    header = "📘 ចម្លើយចេញពីមេរៀនពិតក្នុងសៀវភៅ"
+    if grade_level:
+        header += f" (ថ្នាក់ទី {khmer_number(grade_level)})"
+
     lines = [
-        f"📘 ចម្លើយចេញពីមេរៀនពិតក្នុងសៀវភៅ (ថ្នាក់ទី {khmer_number(grade_level)})",
+        header,
         "",
         f"សួស្ដីកូន! លោកគ្រូរកឃើញមេរៀនដែលពាក់ព័ន្ធនឹងសំណួរ «{message}» ដូចខាងក្រោម៖",
         "",
     ]
-    for index, (lesson, _score, snippet) in enumerate(results, start=1):
+    for index, (lesson, _score, snippet, subject_name, subject_grade) in enumerate(results, start=1):
         lines.append(f"{khmer_number(index)}. {lesson.title_km}")
+        lines.append(
+            f"   មុខវិជ្ជា {subject_name} · ថ្នាក់ទី {khmer_number(subject_grade)}"
+        )
         if snippet:
             lines.append(f"   {snippet}")
         lines.append("")

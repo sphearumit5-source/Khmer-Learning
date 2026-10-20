@@ -111,8 +111,8 @@ class ApiService {
   // --- AI TUTOR ---
   async chatWithTutor(data: {
     message: string;
-    grade_level: number;
-    subject_code: string;
+    grade_level?: number;
+    subject_code?: string;
     conversation_id?: string;
   }): Promise<TutorChatResponse> {
     return this.request<TutorChatResponse>('/tutor/chat', {
