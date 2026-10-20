@@ -1,3 +1,5 @@
+import time
+
 import httpx
 from typing import Tuple, List
 from app.core.config import settings
@@ -131,9 +133,13 @@ async def generate_tutor_response(
         )
         return reply, True, "Khmer Learning Smart Rule-Based Engine", suggested, "built_in"
 
-    # Live call to Gemini via Google AI Studio REST endpoint
-    model = settings.AI_MODEL.strip() or "gemini-flash-latest"
-    gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+    # Live call to Gemini via Google AI Studio REST endpoint. The free-tier daily
+    # quota runs out on the main model, so try a cheaper one before losing the
+    # live answer entirely.
+    models = list(dict.fromkeys([
+        settings.AI_MODEL.strip() or "gemini-flash-latest",
+        settings.AI_MODEL_FALLBACK.strip(),
+    ]))
     
     prompt = f"""
 {KHMER_SYSTEM_PROMPT}
@@ -160,57 +166,62 @@ async def generate_tutor_response(
         }
     }
 
-    try:
-        # a Khmer answer for a child easily exceeds 20s over a slow link
-        async with httpx.AsyncClient(timeout=httpx.Timeout(90.0, connect=15.0)) as client:
-            resp = await client.post(gemini_url, json=payload)
-            if resp.status_code == 200:
-                data = resp.json()
-                candidates = data.get("candidates", [])
-                if candidates:
-                    parts = candidates[0].get("content", {}).get("parts", [])
-                    # Gemini splits a long answer across several parts
-                    ai_text = "".join(p.get("text", "") for p in parts).strip()
-                    if ai_text:
-                        return ai_text, False, f"Google {model} (ផ្សាយផ្ទាល់)", suggested, "ai_live"
-                    # no text: surface why (safety block / empty model reply) instead of silence
-                    why = (
-                        candidates[0].get("finishReason")
-                        or data.get("promptFeedback", {}).get("blockReason")
-                        or "no text in response"
-                    )
-                    raise RuntimeError(f"AI មិនបានផ្ដល់ចម្លើយ ({why})")
-            
-            hint = {
-                400: "AI_API_KEY ខុស ឬម៉ូដែល AI_MODEL មិនត្រឹមត្រូវ",
-                403: "AI_API_KEY ត្រូវបានបដិសេធ (សូមពិនិត្យ key របស់អ្នក)",
-                404: f"ម៉ូដែល «{model}» មិនមាន (សូមកំណត់ AI_MODEL ថ្មីក្នុង .env)",
-                429: "សំណើច្រើនពេក (quota) — សូមរង់ចាំបន្តិចរួចសាកម្តងទៀត",
-            }.get(resp.status_code, "")
-            note = f"⚠️ [AI Provider ឆ្លើយ Status {resp.status_code}] {hint}"
-            from_lessons = _answer_from_lessons(
-                message, grade_level, subject_key, db, suggested, note=note
-            )
-            if from_lessons:
-                return from_lessons
-            err_msg = (
-                note
-                + "\n\nលោកគ្រូសូមឆ្លើយតបពីមេរៀនមានវិញ៖\n\n"
-                + SAMPLE_RESPONSES.get(subject_key, {}).get(grade_level, "សូមព្យាយាមម្តងទៀតនៅពេលបន្តិចទៀត!")
-            )
-            return err_msg, True, "Offline Fallback Mode", suggested, "built_in"
-    except Exception as e:
-        # some httpx/SSL exceptions stringify to "" — the type name is the only clue
-        reason = str(e)[:60] or type(e).__name__
-        note = f"⚠️ [ពុំអាចទាក់ទង AI Server បាន: {reason}]"
-        from_lessons = _answer_from_lessons(
-            message, grade_level, subject_key, db, suggested, note=note
-        )
-        if from_lessons:
-            return from_lessons
-        err_msg = (
-            note
-            + "\n\n"
-            + SAMPLE_RESPONSES.get(subject_key, {}).get(grade_level, "សូមអភ័យទោស សូមសាកល្បងសួរសារជាថ្មី!")
-        )
-        return err_msg, True, "Offline Fallback Mode", suggested, "built_in"
+    note = ""
+    # one ceiling for all attempts: past it the platform (Vercel) would kill the
+    # request, and the child is better served by an instant lesson-based answer
+    deadline = time.perf_counter() + max(2.0, float(settings.AI_BUDGET_SECONDS))
+    for model in models:
+        remaining = deadline - time.perf_counter()
+        if remaining <= 1.0:
+            note = f"⚠️ [AI យឺតពេលលើសពី {int(settings.AI_BUDGET_SECONDS)} វិនាទី]"
+            break
+        timeout = min(float(settings.AI_TIMEOUT_SECONDS), remaining)
+        gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+        try:
+            async with httpx.AsyncClient(timeout=httpx.Timeout(timeout, connect=10.0)) as client:
+                resp = await client.post(gemini_url, json=payload)
+        except Exception as e:
+            # some httpx/SSL exceptions stringify to "" — the type name is the only clue
+            reason = str(e)[:60] or type(e).__name__
+            note = f"⚠️ [ពុំអាចទាក់ទង AI Server បាន: {reason}]"
+            continue
+
+        if resp.status_code == 200:
+            data = resp.json()
+            candidates = data.get("candidates", [])
+            if candidates:
+                parts = candidates[0].get("content", {}).get("parts", [])
+                # Gemini splits a long answer across several parts
+                ai_text = "".join(p.get("text", "") for p in parts).strip()
+                if ai_text:
+                    return ai_text, False, f"Google {model} (ផ្សាយផ្ទាល់)", suggested, "ai_live"
+                # no text: surface why (safety block / empty model reply) instead of silence
+                why = (
+                    candidates[0].get("finishReason")
+                    or data.get("promptFeedback", {}).get("blockReason")
+                    or "no text in response"
+                )
+                note = f"⚠️ [AI មិនបានផ្ដល់ចម្លើយ: {why}]"
+                continue
+
+        hint = {
+            400: "AI_API_KEY ខុស ឬម៉ូដែល AI_MODEL មិនត្រឹមត្រូវ",
+            403: "AI_API_KEY ត្រូវបានបដិសេធ (សូមពិនិត្យ key របស់អ្នក)",
+            404: f"ម៉ូដែល «{model}» មិនមាន (សូមកំណត់ AI_MODEL ថ្មីក្នុង .env)",
+            429: "អស់កម្រិតប្រើប្រចាំថ្ងៃរបស់ AI (quota) — សូមប្តូរម៉ូដែល ឬសាកថ្ងៃស្អែក",
+        }.get(resp.status_code, "")
+        note = f"⚠️ [AI Provider ឆ្លើយ Status {resp.status_code}] {hint}"
+
+    # no live answer from any model: keep it real by using the stored lessons
+    from_lessons = _answer_from_lessons(
+        message, grade_level, subject_key, db, suggested, note=note
+    )
+    if from_lessons:
+        return from_lessons
+
+    err_msg = (
+        note
+        + "\n\nចម្លើយទូទៅសម្រាប់កម្រិតថ្នាក់នេះ៖\n\n"
+        + SAMPLE_RESPONSES.get(subject_key, {}).get(grade_level, "សូមអភ័យទោស សូមសាកល្បងសួរសារជាថ្មី!")
+    )
+    return err_msg, True, "Offline Fallback Mode", suggested, "built_in"

@@ -19,6 +19,13 @@ class Settings(BaseSettings):
     AI_API_KEY: str = os.getenv("AI_API_KEY", os.getenv("GEMINI_API_KEY", ""))
     # gemini-1.5-flash was retired upstream; override in .env when needed
     AI_MODEL: str = os.getenv("AI_MODEL", "gemini-flash-latest")
+    # free-tier Gemini keys run out of daily quota on the main model; a cheaper
+    # model keeps the tutor answering live instead of dropping to offline text
+    AI_MODEL_FALLBACK: str = os.getenv("AI_MODEL_FALLBACK", "gemini-flash-lite-latest")
+    AI_TIMEOUT_SECONDS: float = float(os.getenv("AI_TIMEOUT_SECONDS", "45"))
+    # hard ceiling for every AI attempt together, so a serverless request (Vercel)
+    # answers from stored lessons instead of being killed at its maxDuration limit
+    AI_BUDGET_SECONDS: float = float(os.getenv("AI_BUDGET_SECONDS", "20"))
     
     # CORS
     CORS_ORIGINS: List[str] = [
